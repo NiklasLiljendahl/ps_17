@@ -72,6 +72,7 @@ class Ps_ImageSlider extends Module implements WidgetInterface
         /* Adds Module */
         if (parent::install() &&
             $this->registerHook('displayHeader') &&
+            $this->registerHook('displaySliderFull') &&
             $this->registerHook('displayHome') &&
             $this->registerHook('actionShopDataDuplication')
         ) {

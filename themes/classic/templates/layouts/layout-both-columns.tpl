@@ -53,6 +53,7 @@
       {/block}
 
       <section id="wrapper">
+        {hook h="displaySliderFull"}
         {hook h="displayWrapperTop"}
         <div class="container">
           {block name='breadcrumb'}
@@ -68,7 +69,7 @@
               {/if}
             </div>
           {/block}
-
+          
           {block name="content_wrapper"}
             <div id="content-wrapper" class="left-column right-column col-sm-4 col-md-6">
               {hook h="displayContentWrapperTop"}

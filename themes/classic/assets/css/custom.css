@@ -26,3 +26,15 @@
 .thumbnail-container {
 	box-shadow: none !important;
 }
+
+#header .header-nav {
+    margin-bottom: 20px;
+}
+
+#top-menu {
+	margin-top: 10px;
+}
+
+.carousel {
+	margin-top: -24px;
+}
