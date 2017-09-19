@@ -10,3 +10,19 @@
  .yabs-orange {
  	color: #d75e27;
  }
+
+.product-miniature .highlighted-informations {
+	display: none !important;
+}
+
+.product-description:after {
+	border-top: 0px !important;
+}
+
+.product-miniature {
+	box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+}
+
+.thumbnail-container {
+	box-shadow: none !important;
+}

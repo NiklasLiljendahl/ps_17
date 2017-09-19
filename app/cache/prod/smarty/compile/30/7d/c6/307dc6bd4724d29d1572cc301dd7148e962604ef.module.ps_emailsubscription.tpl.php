@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 14:35:56
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 16:03:45
          compiled from "module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:809559c10f2c7ecfa6-09079007%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1149559c123c1920167-76718125%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl',
-      1 => 1503921076,
+      1 => 1505824971,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '809559c10f2c7ecfa6-09079007',
+  'nocache_hash' => '1149559c123c1920167-76718125',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c10f2c845c39_81757155',
+  'unifunc' => 'content_59c123c1981e48_77058138',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c10f2c845c39_81757155')) {function content_59c10f2c845c39_81757155($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c123c1981e48_77058138')) {function content_59c123c1981e48_77058138($_smarty_tpl) {?>
 
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12">
   <div class="row">
@@ -67,10 +67,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="clearfix"></div>
           </div>
           <div class="col-xs-12">
-              <?php if ($_smarty_tpl->tpl_vars['conditions']->value) {?>
+              <!-- <?php if ($_smarty_tpl->tpl_vars['conditions']->value) {?>
                 <p><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['conditions']->value, ENT_QUOTES, 'UTF-8');?>
 </p>
-              <?php }?>
+              <?php }?> -->
               <?php if ($_smarty_tpl->tpl_vars['msg']->value) {?>
                 <p class="alert <?php if ($_smarty_tpl->tpl_vars['nw_error']->value) {?>alert-danger<?php } else { ?>alert-success<?php }?>">
                   <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['msg']->value, ENT_QUOTES, 'UTF-8');?>

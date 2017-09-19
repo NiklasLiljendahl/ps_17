@@ -55,9 +55,9 @@
             <div class="clearfix"></div>
           </div>
           <div class="col-xs-12">
-              {if $conditions}
+              <!-- {if $conditions}
                 <p>{$conditions}</p>
-              {/if}
+              {/if} -->
               {if $msg}
                 <p class="alert {if $nw_error}alert-danger{else}alert-success{/if}">
                   {$msg}

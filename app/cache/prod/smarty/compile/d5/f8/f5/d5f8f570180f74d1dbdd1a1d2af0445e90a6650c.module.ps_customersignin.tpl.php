@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 14:35:56
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 16:03:45
          compiled from "module:ps_customersignin/ps_customersignin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:877159c10f2c2e5529-11939299%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2740359c123c1457886-65550651%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '877159c10f2c2e5529-11939299',
+  'nocache_hash' => '2740359c123c1457886-65550651',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c10f2c334973_20368096',
+  'unifunc' => 'content_59c123c149b026_79206674',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c10f2c334973_20368096')) {function content_59c10f2c334973_20368096($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c123c149b026_79206674')) {function content_59c123c149b026_79206674($_smarty_tpl) {?>
 <div id="_desktop_user_info">
   <div class="user-info">
     <?php if ($_smarty_tpl->tpl_vars['logged']->value) {?>
