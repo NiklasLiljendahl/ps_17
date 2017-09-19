@@ -46,7 +46,7 @@
         <p class="text-sm-center">
           {block name='copyright_link'}
             <a class="_blank" href="#">
-              &copy; 2017 - YABS AB
+              &copy; 2017 - YABS AB, All Rights Reserved
             </a>
           {/block}
         </p>
