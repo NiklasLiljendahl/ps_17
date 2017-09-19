@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 16:48:40
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 16:54:55
          compiled from "C:\wamp64\www\modules\ps_imageslider\views\templates\hook\list.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1748859c12e4880f2d0-99504151%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2277759c12fbfdb1e42-64017086%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1748859c12e4880f2d0-99504151',
+  'nocache_hash' => '2277759c12fbfdb1e42-64017086',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c12e488af8f5_40142666',
+  'unifunc' => 'content_59c12fbfe5a770_41997452',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c12e488af8f5_40142666')) {function content_59c12e488af8f5_40142666($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c12fbfe5a770_41997452')) {function content_59c12fbfe5a770_41997452($_smarty_tpl) {?>
 <div class="panel"><h3><i class="icon-list-ul"></i> <?php echo smartyTranslate(array('s'=>'Slides list','d'=>'Modules.Imageslider.Admin'),$_smarty_tpl);?>
 
 	<span class="panel-heading-action">
