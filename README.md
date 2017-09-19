@@ -13,4 +13,6 @@ Edit parameters.php:
     'database_password' => '',
     'database_prefix' => 'ps_',
     
+Login:                niklas.liljendahl@yabs.se
+Password (temporary): asd12345 
     
