@@ -3,13 +3,17 @@
  * A template should always ship with an empty custom.css
  */
 
- .yabs-link {
- 	margin-right: 20px;
- }
+.yabs-link {
+    margin-right: 20px;
+    padding: 10px;
+    background: #353535;
+    color: #FFF !important;
+    border-radius: 4px;
+}
 
- .yabs-orange {
- 	color: #d75e27;
- }
+.yabs-orange {
+	color: #d75e27;
+}
 
 .product-miniature .highlighted-informations {
 	display: none !important;
@@ -31,10 +35,28 @@
     margin-bottom: 20px;
 }
 
+#header .header-nav #contact-link {
+    margin-top: 0.9rem;
+}
+
 #top-menu {
 	margin-top: 10px;
 }
 
 .carousel {
 	margin-top: -24px;
+}
+
+/* Koda specifikt för resolution (media query?) */
+.carousel .carousel-inner {
+    height: 740px;
+}
+
+@media (min-width: 768px) {
+	.carousel .carousel-item .caption {
+	    top: 41%;
+	    left: 41%;
+	    width: 20%;
+	    text-align: center;
+	}
 }
