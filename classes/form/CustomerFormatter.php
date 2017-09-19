@@ -91,6 +91,7 @@ class CustomerFormatterCore implements FormFormatterInterface
             ->setType('hidden')
         ;
 
+        /* 
         $genderField = (new FormField)
             ->setName('id_gender')
             ->setType('radio-buttons')
@@ -99,11 +100,12 @@ class CustomerFormatterCore implements FormFormatterInterface
                     'Social title', [], 'Shop.Forms.Labels'
                 )
             )
-        ;
+        ; 
         foreach (Gender::getGenders($this->language->id) as $gender) {
             $genderField->addAvailableValue($gender->id, $gender->name);
         }
         $format[$genderField->getName()] = $genderField;
+        */
 
         $format['firstname'] = (new FormField)
             ->setName('firstname')

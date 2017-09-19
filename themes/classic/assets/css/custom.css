@@ -2,3 +2,11 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+
+ .yabs-link {
+ 	margin-right: 20px;
+ }
+
+ .yabs-orange {
+ 	color: #d75e27;
+ }

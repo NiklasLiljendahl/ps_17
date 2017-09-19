@@ -1548,8 +1548,8 @@ class FrontControllerCore extends Controller
 
         $cust['is_logged'] = $this->context->customer->isLogged(true);
 
-        $cust['gender'] = $this->objectPresenter->present(new Gender($cust['id_gender']));
-        unset($cust['id_gender']);
+        // $cust['gender'] = $this->objectPresenter->present(new Gender($cust['id_gender']));
+        // unset($cust['id_gender']);
 
         $cust['risk'] = $this->objectPresenter->present(new Risk($cust['id_risk']));
         unset($cust['id_risk']);

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 12:20:16
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 14:35:56
          compiled from "module:ps_contactinfo/nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:85359c0ef60d00c43-00956895%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:895759c10f2c057596-08689351%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0eb2119957cbc13b240126b3ccd8fac8f109f1e2' => 
     array (
       0 => 'module:ps_contactinfo/nav.tpl',
-      1 => 1503921076,
+      1 => 1505821185,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '85359c0ef60d00c43-00956895',
+  'nocache_hash' => '895759c10f2c057596-08689351',
   'function' => 
   array (
   ),
@@ -22,11 +22,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c0ef60d3dc95_00406285',
+  'unifunc' => 'content_59c10f2c0ae616_89009771',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c0ef60d3dc95_00406285')) {function content_59c0ef60d3dc95_00406285($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c10f2c0ae616_89009771')) {function content_59c10f2c0ae616_89009771($_smarty_tpl) {?>
 <div id="_desktop_contact_link">
   <div id="contact-link">
+    <a href="https://yabs.se" class="yabs-link">
+      <?php echo smartyTranslate(array('s'=>'Back to [1]%website%[/1]','sprintf'=>array('[1]'=>'<span class="yabs-orange">','[/1]'=>'</span>','%website%'=>'yabs.se'),'d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
+
+    </a>
     <?php if ($_smarty_tpl->tpl_vars['contact_infos']->value['phone']) {?>
       
       <?php echo smartyTranslate(array('s'=>'Call us: [1]%phone%[/1]','sprintf'=>array('[1]'=>'<span>','[/1]'=>'</span>','%phone%'=>$_smarty_tpl->tpl_vars['contact_infos']->value['phone']),'d'=>'Shop.Theme.Global'),$_smarty_tpl);?>

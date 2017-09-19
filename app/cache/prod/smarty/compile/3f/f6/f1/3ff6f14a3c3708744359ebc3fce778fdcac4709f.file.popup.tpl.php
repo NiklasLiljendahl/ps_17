@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 11:29:42
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 14:14:26
          compiled from "C:\wamp64\www\modules\welcome\views\templates\popup.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2405559c0e3860297c5-68896536%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2294159c10a2271cc46-70017734%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2405559c0e3860297c5-68896536',
+  'nocache_hash' => '2294159c10a2271cc46-70017734',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c0e38602d1f8_77687979',
+  'unifunc' => 'content_59c10a2271ff82_55617568',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c0e38602d1f8_77687979')) {function content_59c0e38602d1f8_77687979($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c10a2271ff82_55617568')) {function content_59c10a2271ff82_55617568($_smarty_tpl) {?>
 
 <div class="onboarding-popup bootstrap">
   <div class="content"></div>

@@ -24,6 +24,17 @@
  *}
 <div id="_desktop_contact_link">
   <div id="contact-link">
+    <a href="https://yabs.se" class="yabs-link">
+      {l 
+        s='Back to [1]%website%[/1]' 
+        sprintf=[
+        '[1]' => '<span class="yabs-orange">',
+        '[/1]' => '</span>',
+        '%website%' => 'yabs.se'
+        ] 
+        d='Shop.Theme.Global'
+      }
+    </a>
     {if $contact_infos.phone}
       {* [1][/1] is for a HTML tag. *}
       {l
