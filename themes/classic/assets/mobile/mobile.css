@@ -50,3 +50,17 @@
 .card {
 	margin-top: 1rem;
 }
+
+body#checkout #header .header-nav .logo {
+    max-height: 30px;
+    width: auto;
+}
+
+.checkout_carrier_image {
+	width: 100%;
+}
+
+.checkout_carrier_box {
+	width: 70%;
+    margin-top: -2%;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>statsstock</name>
+    <displayName><![CDATA[Tillg&auml;nglig kvantitet]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[L&auml;gger till en flik som visar antalet tillg&auml;ngliga produkter till f&ouml;rs&auml;ljning p&aring; kontrollpanelen f&ouml;r Statistik.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_socialfollow</name>
+    <displayName><![CDATA[L&auml;nkar till sociala medier]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[L&aring;ter dig l&auml;gga till information om ditt varum&auml;rkes sociala n&auml;tverks-konton.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

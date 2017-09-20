@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>statsforecast</name>
+    <displayName><![CDATA[Anslagstavla f&ouml;r statistik]]></displayName>
+    <version><![CDATA[2.0.1]]></version>
+    <description><![CDATA[Det h&auml;r &auml;r huvudmodulen f&ouml;r Statistik. Den visar en sammanfattning &ouml;ver all aktuell statistik.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

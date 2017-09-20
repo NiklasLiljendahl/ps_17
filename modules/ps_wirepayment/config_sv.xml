@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_wirepayment</name>
+    <displayName><![CDATA[Bank&ouml;verf&ouml;ring]]></displayName>
+    <version><![CDATA[2.0.4]]></version>
+    <description><![CDATA[Godk&auml;nn betalningar via bank&ouml;verf&ouml;ring.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Är du säker på att du vill ta bort dina uppgifter?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

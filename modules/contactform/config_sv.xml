@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>contactform</name>
+    <displayName><![CDATA[Kontakt]]></displayName>
+    <version><![CDATA[3.0.0]]></version>
+    <description><![CDATA[L&auml;gger till ett kontaktformul&auml;r p&aring; sidan &quot;Kontakta oss&quot;.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

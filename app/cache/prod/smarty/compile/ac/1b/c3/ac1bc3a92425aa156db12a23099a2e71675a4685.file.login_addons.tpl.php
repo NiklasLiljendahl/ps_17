@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 13:07:20
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 14:52:59
          compiled from "C:\wamp64\www\admin_yabs\themes\new-theme\template\controllers\modules\login_addons.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:174059c24be82b8061-27729560%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:650959c264ab4ae1a4-86963437%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '174059c24be82b8061-27729560',
+  'nocache_hash' => '650959c264ab4ae1a4-86963437',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c24be8375736_30419424',
+  'unifunc' => 'content_59c264ab5657c0_01345720',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c24be8375736_30419424')) {function content_59c24be8375736_30419424($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c264ab5657c0_01345720')) {function content_59c264ab5657c0_01345720($_smarty_tpl) {?>
 
 <div class="modal-body">
 <?php if ($_smarty_tpl->tpl_vars['add_permission']->value=='1') {?>

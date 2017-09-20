@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 13:08:46
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 14:28:06
          compiled from "module:ps_wirepayment/views/templates/hook/ps_wirepayment_intro.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:177959c24c3eb62e90-95952415%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2424859c25ed6023507-38107141%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '177959c24c3eb62e90-95952415',
+  'nocache_hash' => '2424859c25ed6023507-38107141',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c24c3ebaa2c0_93481285',
+  'unifunc' => 'content_59c25ed606b946_62393394',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c24c3ebaa2c0_93481285')) {function content_59c24c3ebaa2c0_93481285($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c25ed606b946_62393394')) {function content_59c25ed606b946_62393394($_smarty_tpl) {?>
 
 <section>
   <p>

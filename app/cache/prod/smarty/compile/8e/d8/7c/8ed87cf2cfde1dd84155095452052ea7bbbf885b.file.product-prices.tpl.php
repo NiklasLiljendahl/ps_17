@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 13:08:05
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 15:13:53
          compiled from "C:\wamp64\www\themes\classic\templates\catalog\_partials\product-prices.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2712559c24c15a56c78-79821426%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1818159c2699101a7e5-04255255%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2712559c24c15a56c78-79821426',
+  'nocache_hash' => '1818159c2699101a7e5-04255255',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c24c15c2f525_89284083',
+  'unifunc' => 'content_59c2699120a768_41364498',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c24c15c2f525_89284083')) {function content_59c24c15c2f525_89284083($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c2699120a768_41364498')) {function content_59c2699120a768_41364498($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['product']->value['show_price']) {?>
   <div class="product-prices">
     

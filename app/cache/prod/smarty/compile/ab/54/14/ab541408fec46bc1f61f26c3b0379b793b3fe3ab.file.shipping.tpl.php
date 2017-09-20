@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 13:08:46
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 13:42:13
          compiled from "C:\wamp64\www\themes\classic\templates\checkout\_partials\steps\shipping.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2769359c24c3e76f5c0-00634755%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:901759c25415239f46-41995056%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ab541408fec46bc1f61f26c3b0379b793b3fe3ab' => 
     array (
       0 => 'C:\\wamp64\\www\\themes\\classic\\templates\\checkout\\_partials\\steps\\shipping.tpl',
-      1 => 1503921076,
+      1 => 1505907125,
       2 => 'file',
     ),
     '28c71aab55ad832ec5b02742fd5b27240aea1fe9' => 
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2769359c24c3e76f5c0-00634755',
+  'nocache_hash' => '901759c25415239f46-41995056',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c24c3e977306_28297692',
+  'unifunc' => 'content_59c25415440072_99144987',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c24c3e977306_28297692')) {function content_59c24c3e977306_28297692($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c25415440072_99144987')) {function content_59c25415440072_99144987($_smarty_tpl) {?>
 
   <section  id    = "<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['identifier']->value, ENT_QUOTES, 'UTF-8');?>
 "
@@ -78,7 +78,7 @@ $_smarty_tpl->tpl_vars['carrier']->_loop = true;
  $_smarty_tpl->tpl_vars['carrier_id']->value = $_smarty_tpl->tpl_vars['carrier']->key;
 ?>
                   <div class="row delivery-option">
-                    <div class="col-sm-1">
+                    <div class="col-sm-1 checkout_top_fix">
                       <span class="custom-radio float-xs-left">
                         <input type="radio" name="delivery_option[<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['id_address']->value, ENT_QUOTES, 'UTF-8');?>
 ]" id="delivery_option_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['carrier']->value['id'], ENT_QUOTES, 'UTF-8');?>
@@ -93,10 +93,10 @@ $_smarty_tpl->tpl_vars['carrier']->_loop = true;
                         <div class="col-sm-5 col-xs-12">
                           <div class="row">
                             <?php if ($_smarty_tpl->tpl_vars['carrier']->value['logo']) {?>
-                            <div class="col-xs-3">
+                            <div class="col-xs-3 checkout_carrier_box">
                                 <img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['carrier']->value['logo'], ENT_QUOTES, 'UTF-8');?>
 " alt="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['carrier']->value['name'], ENT_QUOTES, 'UTF-8');?>
-" />
+" class="checkout_carrier_image" />
                             </div>
                             <?php }?>
                             <div class="<?php if ($_smarty_tpl->tpl_vars['carrier']->value['logo']) {?>col-xs-9<?php } else { ?>col-xs-12<?php }?>">
@@ -105,11 +105,11 @@ $_smarty_tpl->tpl_vars['carrier']->_loop = true;
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-4 col-xs-12">
+                        <div class="col-sm-4 col-xs-12 checkout_top_fix">
                           <span class="carrier-delay"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['carrier']->value['delay'], ENT_QUOTES, 'UTF-8');?>
 </span>
                         </div>
-                        <div class="col-sm-3 col-xs-12">
+                        <div class="col-sm-3 col-xs-12 checkout_top_fix">
                           <span class="carrier-price"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['carrier']->value['price'], ENT_QUOTES, 'UTF-8');?>
 </span>
                         </div>

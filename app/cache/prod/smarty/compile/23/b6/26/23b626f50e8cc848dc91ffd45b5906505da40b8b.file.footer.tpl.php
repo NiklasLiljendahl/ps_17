@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 13:06:38
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 14:58:41
          compiled from "C:\wamp64\www\admin_yabs\themes\default\template\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1686859c24bbeeefe93-80130199%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2875059c26601bb54c1-91091579%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1686859c24bbeeefe93-80130199',
+  'nocache_hash' => '2875059c26601bb54c1-91091579',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c24bbf0b28f5_59351593',
+  'unifunc' => 'content_59c26601cb81c2_59596827',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c24bbf0b28f5_59351593')) {function content_59c24bbf0b28f5_59351593($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c26601cb81c2_59596827')) {function content_59c26601cb81c2_59596827($_smarty_tpl) {?>
 
 	</div>
 </div>

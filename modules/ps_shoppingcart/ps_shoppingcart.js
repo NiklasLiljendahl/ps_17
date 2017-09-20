@@ -29,6 +29,16 @@ $(document).ready(function () {
     });
   };
 
+  function hideModal() {
+    $("#blockcart-modal").hide(1000);
+  }
+
+  function removeModal() {
+    $("#blockcart-modal").remove();
+    $(".modal-backdrop").remove();
+    $(".modal-backdrop").hide();
+  }
+
   $(document).ready(function () {
     prestashop.on(
       'updateCart',
@@ -49,6 +59,8 @@ $(document).ready(function () {
           if (resp.modal) {
             showModal(resp.modal);
           }
+          setTimeout(hideModal, 1000);
+          setTimeout(removeModal, 2000);
         }).fail(function (resp) {
           prestashop.emit('handleError', {eventType: 'updateShoppingCart', resp: resp});
         });

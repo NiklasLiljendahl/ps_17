@@ -42,7 +42,7 @@
             <div class="delivery-options">
               {foreach from=$delivery_options item=carrier key=carrier_id}
                   <div class="row delivery-option">
-                    <div class="col-sm-1">
+                    <div class="col-sm-1 checkout_top_fix">
                       <span class="custom-radio float-xs-left">
                         <input type="radio" name="delivery_option[{$id_address}]" id="delivery_option_{$carrier.id}" value="{$carrier_id}"{if $delivery_option == $carrier_id} checked{/if}>
                         <span></span>
@@ -53,8 +53,8 @@
                         <div class="col-sm-5 col-xs-12">
                           <div class="row">
                             {if $carrier.logo}
-                            <div class="col-xs-3">
-                                <img src="{$carrier.logo}" alt="{$carrier.name}" />
+                            <div class="col-xs-3 checkout_carrier_box">
+                                <img src="{$carrier.logo}" alt="{$carrier.name}" class="checkout_carrier_image" />
                             </div>
                             {/if}
                             <div class="{if $carrier.logo}col-xs-9{else}col-xs-12{/if}">
@@ -62,10 +62,10 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-4 col-xs-12">
+                        <div class="col-sm-4 col-xs-12 checkout_top_fix">
                           <span class="carrier-delay">{$carrier.delay}</span>
                         </div>
-                        <div class="col-sm-3 col-xs-12">
+                        <div class="col-sm-3 col-xs-12 checkout_top_fix">
                           <span class="carrier-price">{$carrier.price}</span>
                         </div>
                       </div>
