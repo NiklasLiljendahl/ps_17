@@ -56,6 +56,14 @@
     background: none;
 }
 
+#custom-text h3 {
+	color: #FFF;
+}
+
+#custom-text p {
+	color: #FFF;
+}
+
 #wrapper .banner {
     position: relative;
     background-attachment: fixed;
@@ -63,11 +71,30 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 60px 0;
+	margin-bottom: 0px;
 }
 
 #wrapper .banner img {
     width: 100%;
     box-shadow: none;
+}
+
+.block_newsletter form {
+    margin-top: 0.5rem;
+}
+
+#wrapper {
+    background: #f9f9f9;
+}
+
+#header .header-nav {
+    background: #FFF;
+    margin-bottom: 0px;
+}
+
+#header .header-top {
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 /* Koda specifikt för resolution (media query?) */
