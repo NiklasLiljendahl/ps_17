@@ -51,6 +51,25 @@
 	width: 100%;
 }
 
+#custom-text {
+    position: relative;
+    background: none;
+}
+
+#wrapper .banner {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 0;
+}
+
+#wrapper .banner img {
+    width: 100%;
+    box-shadow: none;
+}
+
 /* Koda specifikt för resolution (media query?) */
 .carousel .carousel-inner {
     height: 740px;

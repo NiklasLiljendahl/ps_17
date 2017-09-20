@@ -59,7 +59,7 @@ class Ps_Customtext extends Module implements WidgetInterface
     {
         return  parent::install() &&
             $this->installDB() &&
-            $this->registerHook('displayHome') &&
+            $this->registerHook('displayBannerDescription') &&
             $this->installFixtures();
     }
 

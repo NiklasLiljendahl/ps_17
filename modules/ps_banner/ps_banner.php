@@ -55,7 +55,6 @@ class Ps_Banner extends Module implements WidgetInterface
     public function install()
     {
         return (parent::install() &&
-            $this->registerHook('displayHome') &&
             $this->registerHook('displayWrapperBottom') &&
             $this->registerHook('actionObjectLanguageAddAfter') &&
             $this->installFixtures() &&

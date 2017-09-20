@@ -1,33 +1,33 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 08:21:48
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 08:42:18
          compiled from "module:ps_imageslider/views/templates/hook/slider.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1255259c208fc9e24f1-01633638%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2634659c20dca865e55-89526631%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6c2108a17c7103b6e203f4f0621d4645b56b0114' => 
     array (
       0 => 'module:ps_imageslider/views/templates/hook/slider.tpl',
-      1 => 1505888007,
+      1 => 1505888551,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '1255259c208fc9e24f1-01633638',
+  'nocache_hash' => '2634659c20dca865e55-89526631',
   'function' => 
   array (
   ),
   'variables' => 
   array (
-    'urls' => 0,
+    'page' => 0,
     'homeslider' => 0,
     'slide' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c208fcab2467_57311482',
+  'unifunc' => 'content_59c20dca918327_26699188',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c208fcab2467_57311482')) {function content_59c208fcab2467_57311482($_smarty_tpl) {?>
- 
-<?php if ($_smarty_tpl->tpl_vars['urls']->value['current_url']==$_smarty_tpl->tpl_vars['urls']->value['pages']['index']) {?>
+<?php if ($_valid && !is_callable('content_59c20dca918327_26699188')) {function content_59c20dca918327_26699188($_smarty_tpl) {?>
+
+<?php if ($_smarty_tpl->tpl_vars['page']->value['page_name']=="index") {?>
 	<?php if ($_smarty_tpl->tpl_vars['homeslider']->value['slides']) {?>
 	  <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['homeslider']->value['speed'], ENT_QUOTES, 'UTF-8');?>
 " data-wrap="<?php echo htmlspecialchars((string)$_smarty_tpl->tpl_vars['homeslider']->value['wrap'], ENT_QUOTES, 'UTF-8');?>
