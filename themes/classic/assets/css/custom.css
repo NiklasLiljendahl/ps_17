@@ -97,6 +97,10 @@
     padding-top: 1.25rem;
 }
 
+#header .header-nav .top-logo a img {
+	max-height: 30px;
+}
+
 /* Koda specifikt för resolution (media query?) */
 .carousel .carousel-inner {
     height: 740px;

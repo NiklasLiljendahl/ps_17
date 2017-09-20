@@ -52,6 +52,9 @@
 
 {block name='stylesheets'}
   {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
+  {if $getDevice == 4}
+    <link rel="stylesheet" href="{$urls.shop_domain_url}/themes/classic/assets/mobile/mobile.css" type="text/css" media="all">
+  {/if}
 {/block}
 
 {block name='javascript_head'}

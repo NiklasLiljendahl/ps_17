@@ -112,6 +112,11 @@ abstract class ControllerCore
             define('_PS_BASE_URL_SSL_', Tools::getShopDomainSsl(true));
         }
         $this->container = $this->buildContainer();
+
+        // 1 = Computer
+        // 2 = Tablet
+        // 4 = Mobile
+        $this->context->smarty->assign('getDevice', Context::getDevice());
     }
 
     /**
