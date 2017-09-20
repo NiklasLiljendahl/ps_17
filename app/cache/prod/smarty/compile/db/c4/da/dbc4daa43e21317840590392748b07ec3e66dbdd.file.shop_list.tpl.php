@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-19 16:54:42
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-20 08:23:48
          compiled from "C:\wamp64\www\admin_yabs\themes\new-theme\template\components\layout\shop_list.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:100359c12fb26e5b16-54596080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:598859c209741edd85-98533071%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '100359c12fb26e5b16-54596080',
+  'nocache_hash' => '598859c209741edd85-98533071',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c12fb2779966_35418838',
+  'unifunc' => 'content_59c2097426b9f6_60350986',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c12fb2779966_35418838')) {function content_59c12fb2779966_35418838($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c2097426b9f6_60350986')) {function content_59c2097426b9f6_60350986($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['is_multishop']->value)&&$_smarty_tpl->tpl_vars['is_multishop']->value&&$_smarty_tpl->tpl_vars['shop_list']->value&&(isset($_smarty_tpl->tpl_vars['multishop_context']->value)&&$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_GROUP||$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_SHOP||$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_ALL)) {?>
   <div id="shop-list" class="shop-list dropdown ps-dropdown stores">
     <span class="link" data-toggle="dropdown">

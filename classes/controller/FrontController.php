@@ -211,6 +211,8 @@ class FrontControllerCore extends Controller
             new ConfigurationAdapter(),
             new Filesystem()
         );
+
+        $this->context->smarty->assign('isMobile', $this->context->getMobileDevice());
     }
 
     /**

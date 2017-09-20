@@ -47,6 +47,10 @@
 	margin-top: -24px;
 }
 
+.banner img {
+	width: 100%;
+}
+
 /* Koda specifikt för resolution (media query?) */
 .carousel .carousel-inner {
     height: 740px;
