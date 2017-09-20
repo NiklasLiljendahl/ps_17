@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 20, 2017 at 07:53 AM
+-- Generation Time: Sep 20, 2017 at 01:28 PM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -1122,17 +1122,17 @@ CREATE TABLE IF NOT EXISTS `ps_advice` (
   `stop_day` int(11) NOT NULL DEFAULT '0',
   `weight` int(11) DEFAULT '1',
   PRIMARY KEY (`id_advice`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_advice`
 --
 
 INSERT INTO `ps_advice` (`id_advice`, `id_ps_advice`, `id_tab`, `ids_tab`, `validated`, `hide`, `location`, `selector`, `start_day`, `stop_day`, `weight`) VALUES
-(5, 353, 72, NULL, 1, 0, 'before', '#typeTranslationForm', 0, 0, 1),
-(6, 378, 57, NULL, 1, 0, 'before', 'div.leadin', 0, 0, 1),
-(7, 379, 79, NULL, 0, 0, 'before', 'form.form-horizontal:first, form.toolbar-placeholder', 0, 0, 1),
-(8, 389, 0, NULL, 1, 0, 'before', '#upgradeButtonBlock', 0, 0, 1);
+(9, 353, 72, NULL, 1, 0, 'before', '#typeTranslationForm', 0, 0, 1),
+(10, 378, 57, NULL, 1, 0, 'before', 'div.leadin', 0, 0, 1),
+(11, 379, 79, NULL, 0, 0, 'before', 'form.form-horizontal:first, form.toolbar-placeholder', 0, 0, 1),
+(12, 389, 0, NULL, 1, 0, 'before', '#upgradeButtonBlock', 0, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -1153,13 +1153,13 @@ CREATE TABLE IF NOT EXISTS `ps_advice_lang` (
 --
 
 INSERT INTO `ps_advice_lang` (`id_advice`, `id_lang`, `html`) VALUES
-(5, 1, '<div id=\"wrap_id_advice_353\" ><style>\r\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:170px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:370px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\r\n</style>\r\n<hr class=\"clear\"/>\r\n<div id=\"advice-16\">\r\n<div class=\"gamification-tip\">\r\n	<div class=\"gamification-tip-title\">Advice</div>\r\n	<span class=\"gamification-tip-cta\"><a class=\"\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">Join</a><a class=\"gamification_close\" style=\"display:none\"  id=\"353\" href=\"#advice_content_353\">close</a></span>\r\n	<div class=\"gamification-tip-description-container\">\r\n		<span class=\"gamification-tip-description\">\r\n			Help us translate PrestaShop 1.6 into your language by <a href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">joining us on Crowdin</a>!\r\n		</span>\r\n<div style=\"display:none\"><img src=\"https://gamification.prestashop.com/api/getAdviceImg/353.png\" /></div>\r\n	</div>\r\n</div>\r\n</div>\r\n</div>'),
-(5, 2, '<div id=\"wrap_id_advice_353\" ><style>\r\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:170px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:370px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\r\n</style>\r\n<hr class=\"clear\"/>\r\n<div id=\"advice-16\">\r\n<div class=\"gamification-tip\">\r\n	<div class=\"gamification-tip-title\">Advice</div>\r\n	<span class=\"gamification-tip-cta\"><a class=\"\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">Join</a><a class=\"gamification_close\" style=\"display:none\"  id=\"353\" href=\"#advice_content_353\">close</a></span>\r\n	<div class=\"gamification-tip-description-container\">\r\n		<span class=\"gamification-tip-description\">\r\n			Help us translate PrestaShop 1.6 into your language by <a href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">joining us on Crowdin</a>!\r\n		</span>\r\n<div style=\"display:none\"><img src=\"https://gamification.prestashop.com/api/getAdviceImg/353.png\" /></div>\r\n	</div>\r\n</div>\r\n</div>\r\n</div>'),
-(6, 1, '<div id=\"wrap_id_advice_378\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"378\" href=\"#advice_content_378\">Read</a><a class=\"gamification_close\" style=\"display:none\"  id=\"378\" href=\"#advice_content_378\">Close</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n					</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_378\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Advice</span>\n							</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/378.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n										<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=paypal&module_name=paypal\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 378;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>'),
-(6, 2, '<div id=\"wrap_id_advice_378\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"378\" href=\"#advice_content_378\">Read</a><a class=\"gamification_close\" style=\"display:none\"  id=\"378\" href=\"#advice_content_378\">Close</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n					</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_378\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Advice</span>\n							</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/378.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n										<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=paypal&module_name=paypal\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 378;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>'),
-(7, 2, '<div id=\"wrap_id_advice_379\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"379\" href=\"#advice_content_379\">Read</a><a class=\"gamification_close\" style=\"display:none\"  id=\"379\" href=\"#advice_content_379\">Close</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n					</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_379\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Advice</span>\n							</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/379.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n										<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=paypal&module_name=paypal\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 379;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>'),
-(8, 1, '<div id=\"wrap_id_advice_389\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdviceImg/389.png\" />\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"389\" href=\"http://www.prestashop.com/club/?utm_source=back-office&utm_medium=gamification\" target=\"_blank\">Learn more</a><a class=\"gamification_close\" style=\"display:none\"  id=\"389\" href=\"#advice_content_389\">Close</a></span>\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			About to upgrade? How about giving your opinion on future releases before anyone else?		</span>\n	</div>\n</div>\n</div></div>'),
-(8, 2, '<div id=\"wrap_id_advice_389\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdviceImg/389.png\" />\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"389\" href=\"http://www.prestashop.com/club/?utm_source=back-office&utm_medium=gamification\" target=\"_blank\">Learn more</a><a class=\"gamification_close\" style=\"display:none\"  id=\"389\" href=\"#advice_content_389\">Close</a></span>\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			About to upgrade? How about giving your opinion on future releases before anyone else?		</span>\n	</div>\n</div>\n</div></div>');
+(9, 1, '<div id=\"wrap_id_advice_353\" ><style>\r\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:170px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:370px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\r\n</style>\r\n<hr class=\"clear\"/>\r\n<div id=\"advice-16\">\r\n<div class=\"gamification-tip\">\r\n	<div class=\"gamification-tip-title\">Advice</div>\r\n	<span class=\"gamification-tip-cta\"><a class=\"\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">Join</a><a class=\"gamification_close\" style=\"display:none\"  id=\"353\" href=\"#advice_content_353\">close</a></span>\r\n	<div class=\"gamification-tip-description-container\">\r\n		<span class=\"gamification-tip-description\">\r\n			Help us translate PrestaShop 1.6 into your language by <a href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">joining us on Crowdin</a>!\r\n		</span>\r\n<div style=\"display:none\"><img src=\"https://gamification.prestashop.com/api/getAdviceImg/353.png\" /></div>\r\n	</div>\r\n</div>\r\n</div>\r\n</div>'),
+(9, 2, '<div id=\"wrap_id_advice_353\" ><style>\r\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:170px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:370px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\r\n</style>\r\n<hr class=\"clear\"/>\r\n<div id=\"advice-16\">\r\n<div class=\"gamification-tip\">\r\n	<div class=\"gamification-tip-title\">Advice</div>\r\n	<span class=\"gamification-tip-cta\"><a class=\"\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">Join</a><a class=\"gamification_close\" style=\"display:none\"  id=\"353\" href=\"#advice_content_353\">close</a></span>\r\n	<div class=\"gamification-tip-description-container\">\r\n		<span class=\"gamification-tip-description\">\r\n			Help us translate PrestaShop 1.6 into your language by <a href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">joining us on Crowdin</a>!\r\n		</span>\r\n<div style=\"display:none\"><img src=\"https://gamification.prestashop.com/api/getAdviceImg/353.png\" /></div>\r\n	</div>\r\n</div>\r\n</div>\r\n</div>'),
+(10, 1, '<div id=\"wrap_id_advice_378\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"378\" href=\"#advice_content_378\">Read</a><a class=\"gamification_close\" style=\"display:none\"  id=\"378\" href=\"#advice_content_378\">Close</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n					</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_378\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Advice</span>\n							</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/378.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n										<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=paypal&module_name=paypal\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 378;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>'),
+(10, 2, '<div id=\"wrap_id_advice_378\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"378\" href=\"#advice_content_378\">Read</a><a class=\"gamification_close\" style=\"display:none\"  id=\"378\" href=\"#advice_content_378\">Close</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n					</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_378\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Advice</span>\n							</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/378.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n										<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=paypal&module_name=paypal\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 378;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>'),
+(11, 2, '<div id=\"wrap_id_advice_379\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"379\" href=\"#advice_content_379\">Read</a><a class=\"gamification_close\" style=\"display:none\"  id=\"379\" href=\"#advice_content_379\">Close</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n					</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_379\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Advice</span>\n							</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/379.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n										<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=paypal&module_name=paypal\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 379;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>'),
+(12, 1, '<div id=\"wrap_id_advice_389\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdviceImg/389.png\" />\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"389\" href=\"http://www.prestashop.com/club/?utm_source=back-office&utm_medium=gamification\" target=\"_blank\">Learn more</a><a class=\"gamification_close\" style=\"display:none\"  id=\"389\" href=\"#advice_content_389\">Close</a></span>\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			About to upgrade? How about giving your opinion on future releases before anyone else?		</span>\n	</div>\n</div>\n</div></div>'),
+(12, 2, '<div id=\"wrap_id_advice_389\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdviceImg/389.png\" />\n	<div class=\"gamification-tip-title\">Advice</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"389\" href=\"http://www.prestashop.com/club/?utm_source=back-office&utm_medium=gamification\" target=\"_blank\">Learn more</a><a class=\"gamification_close\" style=\"display:none\"  id=\"389\" href=\"#advice_content_389\">Close</a></span>\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			About to upgrade? How about giving your opinion on future releases before anyone else?		</span>\n	</div>\n</div>\n</div></div>');
 
 -- --------------------------------------------------------
 
@@ -1230,7 +1230,7 @@ CREATE TABLE IF NOT EXISTS `ps_attribute` (
   `position` int(11) NOT NULL,
   PRIMARY KEY (`id_attribute`),
   KEY `attribute_group` (`id_attribute_group`)
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `ps_attribute`
@@ -1260,7 +1260,15 @@ INSERT INTO `ps_attribute` (`id_attribute`, `id_attribute_group`, `color`, `posi
 (21, 2, '', 3),
 (22, 2, '', 4),
 (23, 2, '', 5),
-(24, 3, '#FCCACD', 13);
+(24, 3, '#FCCACD', 13),
+(25, 1, '', 4),
+(26, 1, '', 5),
+(27, 1, '', 6),
+(28, 1, '', 7),
+(29, 1, '', 8),
+(30, 1, '', 9),
+(31, 1, '', 10),
+(32, 1, '', 11);
 
 -- --------------------------------------------------------
 
@@ -1422,7 +1430,23 @@ INSERT INTO `ps_attribute_lang` (`id_attribute`, `id_lang`, `name`) VALUES
 (23, 1, '40'),
 (23, 2, '40'),
 (24, 1, 'Pink'),
-(24, 2, 'Rosa');
+(24, 2, 'Rosa'),
+(25, 1, '8 GB'),
+(25, 2, '8 GB'),
+(26, 1, '16 GB'),
+(26, 2, '16 GB'),
+(27, 1, '32 GB'),
+(27, 2, '32 GB'),
+(28, 1, '64 GB'),
+(28, 2, '64 GB'),
+(29, 1, '128 GB'),
+(29, 2, '128 GB'),
+(30, 1, '256 GB'),
+(30, 2, '256 GB'),
+(31, 1, '512 GB'),
+(31, 2, '512 GB'),
+(32, 1, '1024 GB'),
+(32, 2, '1024 GB');
 
 -- --------------------------------------------------------
 
@@ -1467,7 +1491,15 @@ INSERT INTO `ps_attribute_shop` (`id_attribute`, `id_shop`) VALUES
 (21, 1),
 (22, 1),
 (23, 1),
-(24, 1);
+(24, 1),
+(25, 1),
+(26, 1),
+(27, 1),
+(28, 1),
+(29, 1),
+(30, 1),
+(31, 1),
+(32, 1);
 
 -- --------------------------------------------------------
 
@@ -2321,7 +2353,7 @@ INSERT INTO `ps_badge` (`id_badge`, `id_ps_badge`, `type`, `id_group`, `group_po
 (134, 5, 'feature', 3, 2, 15, 0, 0),
 (135, 6, 'feature', 4, 1, 15, 0, 0),
 (136, 7, 'feature', 4, 2, 15, 0, 0),
-(137, 8, 'feature', 5, 1, 5, 0, 0),
+(137, 8, 'feature', 5, 1, 5, 0, 1),
 (138, 9, 'feature', 5, 2, 10, 0, 0),
 (139, 10, 'feature', 6, 1, 15, 0, 0),
 (140, 11, 'feature', 6, 2, 10, 0, 0),
@@ -2399,7 +2431,7 @@ INSERT INTO `ps_badge` (`id_badge`, `id_ps_badge`, `type`, `id_group`, `group_po
 (212, 91, 'feature', 35, 4, 10, 0, 0),
 (213, 92, 'feature', 35, 5, 10, 0, 0),
 (214, 93, 'feature', 35, 6, 10, 0, 0),
-(215, 94, 'feature', 36, 1, 5, 0, 0),
+(215, 94, 'feature', 36, 1, 5, 0, 1),
 (216, 95, 'feature', 36, 2, 5, 0, 0),
 (217, 96, 'feature', 36, 3, 10, 0, 0),
 (218, 97, 'feature', 36, 4, 10, 0, 0),
@@ -2970,15 +3002,21 @@ CREATE TABLE IF NOT EXISTS `ps_carrier` (
   KEY `deleted` (`deleted`,`active`),
   KEY `id_tax_rules_group` (`id_tax_rules_group`),
   KEY `reference` (`id_reference`,`deleted`,`active`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_carrier`
 --
 
 INSERT INTO `ps_carrier` (`id_carrier`, `id_reference`, `id_tax_rules_group`, `name`, `url`, `active`, `deleted`, `shipping_handling`, `range_behavior`, `is_module`, `is_free`, `shipping_external`, `need_range`, `external_module_name`, `shipping_method`, `position`, `max_width`, `max_height`, `max_depth`, `max_weight`, `grade`) VALUES
-(1, 1, 0, '0', '', 1, 0, 0, 0, 0, 1, 0, 0, '', 0, 0, 0, 0, 0, '0.000000', 0),
-(2, 2, 0, 'My carrier', '', 1, 0, 1, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 0, '0.000000', 0);
+(1, 1, 0, 'YABS butik', '', 1, 1, 0, 0, 0, 1, 0, 0, '', 1, 1, 0, 0, 0, '0.000000', 0),
+(2, 2, 0, 'My carrier', '', 1, 1, 1, 0, 0, 0, 0, 0, '', 1, 0, 0, 0, 0, '0.000000', 0),
+(3, 2, 0, 'Postnord', '', 1, 1, 0, 0, 0, 0, 0, 0, '', 1, 0, 0, 0, 0, '0.000000', 0),
+(4, 1, 0, 'YABS butik', '', 1, 1, 0, 0, 0, 1, 0, 0, '', 1, 1, 0, 0, 0, '0.000000', 0),
+(5, 1, 0, 'YABS butik', '', 1, 0, 0, 0, 0, 1, 0, 0, '', 1, 1, 0, 0, 0, '0.000000', 0),
+(6, 2, 0, 'Postnord', '', 1, 1, 0, 0, 0, 0, 0, 0, '', 1, 0, 0, 0, 0, '0.000000', 0),
+(7, 2, 0, 'Postnord', '', 1, 1, 0, 0, 0, 0, 0, 0, '', 1, 0, 0, 0, 0, '0.000000', 0),
+(8, 2, 0, 'Postnord', '', 1, 0, 0, 0, 0, 0, 0, 0, '', 1, 0, 0, 0, 0, '0.000000', 0);
 
 -- --------------------------------------------------------
 
@@ -3003,7 +3041,25 @@ INSERT INTO `ps_carrier_group` (`id_carrier`, `id_group`) VALUES
 (1, 3),
 (2, 1),
 (2, 2),
-(2, 3);
+(2, 3),
+(3, 1),
+(3, 2),
+(3, 3),
+(4, 1),
+(4, 2),
+(4, 3),
+(5, 1),
+(5, 2),
+(5, 3),
+(6, 1),
+(6, 2),
+(6, 3),
+(7, 1),
+(7, 2),
+(7, 3),
+(8, 1),
+(8, 2),
+(8, 3);
 
 -- --------------------------------------------------------
 
@@ -3027,8 +3083,20 @@ CREATE TABLE IF NOT EXISTS `ps_carrier_lang` (
 INSERT INTO `ps_carrier_lang` (`id_carrier`, `id_shop`, `id_lang`, `delay`) VALUES
 (1, 1, 1, 'Pick up in-store'),
 (2, 1, 1, 'Delivery next day!'),
+(3, 1, 1, 'Delivery next day!'),
+(4, 1, 1, 'Pick up in-store'),
+(5, 1, 1, 'Pick up in-store'),
+(6, 1, 1, 'Delivery next day!'),
+(7, 1, 1, 'Delivery next day!'),
+(8, 1, 1, 'Delivery next day!'),
 (1, 1, 2, 'Hämtas i butik'),
-(2, 1, 2, 'Leverans nästa dag!');
+(2, 1, 2, 'Leverans nästa dag!'),
+(3, 1, 2, 'Leverans nästa dag!'),
+(4, 1, 2, 'Hämtas på YABS kontor'),
+(5, 1, 2, 'Hämtas på YABS kontor'),
+(6, 1, 2, 'Leverans nästa dag!'),
+(7, 1, 2, 'Leverans nästa dag!'),
+(8, 1, 2, 'Leverans nästa dag!');
 
 -- --------------------------------------------------------
 
@@ -3050,7 +3118,13 @@ CREATE TABLE IF NOT EXISTS `ps_carrier_shop` (
 
 INSERT INTO `ps_carrier_shop` (`id_carrier`, `id_shop`) VALUES
 (1, 1),
-(2, 1);
+(2, 1),
+(3, 1),
+(4, 1),
+(5, 1),
+(6, 1),
+(7, 1),
+(8, 1);
 
 -- --------------------------------------------------------
 
@@ -3072,7 +3146,13 @@ CREATE TABLE IF NOT EXISTS `ps_carrier_tax_rules_group_shop` (
 
 INSERT INTO `ps_carrier_tax_rules_group_shop` (`id_carrier`, `id_tax_rules_group`, `id_shop`) VALUES
 (1, 1, 1),
-(2, 1, 1);
+(2, 1, 1),
+(3, 1, 1),
+(4, 1, 1),
+(5, 1, 1),
+(6, 1, 1),
+(7, 1, 1),
+(8, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -3094,7 +3174,17 @@ CREATE TABLE IF NOT EXISTS `ps_carrier_zone` (
 INSERT INTO `ps_carrier_zone` (`id_carrier`, `id_zone`) VALUES
 (1, 1),
 (2, 1),
-(2, 2);
+(2, 2),
+(3, 1),
+(3, 2),
+(4, 1),
+(5, 1),
+(6, 1),
+(6, 2),
+(7, 1),
+(7, 2),
+(8, 1),
+(8, 2);
 
 -- --------------------------------------------------------
 
@@ -3135,7 +3225,7 @@ CREATE TABLE IF NOT EXISTS `ps_cart` (
   KEY `id_shop_group` (`id_shop_group`),
   KEY `id_shop_2` (`id_shop`,`date_upd`),
   KEY `id_shop` (`id_shop`,`date_add`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_cart`
@@ -3149,7 +3239,8 @@ INSERT INTO `ps_cart` (`id_cart`, `id_shop_group`, `id_shop`, `id_carrier`, `del
 (5, 1, 1, 2, 'a:1:{i:3;s:2:\"2,\";}', 1, 4, 4, 1, 1, 1, 'b44a6d9efd7a0076a0fbce6b15eaf3b1', 0, 0, '', 0, 0, '2017-09-19 11:08:00', '2017-09-19 11:08:00', NULL),
 (6, 1, 1, 1, 'a:1:{i:5;s:2:\"1,\";}', 2, 5, 5, 1, 2, 2, 'c141cfb187ef1f767ea020b482e317ef', 0, 0, '', 0, 0, '2017-09-19 13:42:20', '2017-09-19 13:50:04', '{\"checkout-personal-information-step\":{\"step_is_reachable\":true,\"step_is_complete\":true},\"checkout-addresses-step\":{\"step_is_reachable\":true,\"step_is_complete\":true,\"use_same_address\":true},\"checkout-delivery-step\":{\"step_is_reachable\":true,\"step_is_complete\":true},\"checkout-payment-step\":{\"step_is_reachable\":true,\"step_is_complete\":false},\"checksum\":\"3cf30e51c95f442ffd3b1ae0b141fb9cf9eb8a34\"}'),
 (7, 1, 1, 0, '', 2, 5, 5, 1, 2, 2, 'c141cfb187ef1f767ea020b482e317ef', 0, 0, '', 0, 0, '2017-09-19 13:59:13', '2017-09-19 14:17:59', '{\"checkout-personal-information-step\":{\"step_is_reachable\":true,\"step_is_complete\":true},\"checkout-addresses-step\":{\"step_is_reachable\":true,\"step_is_complete\":true,\"use_same_address\":true},\"checkout-delivery-step\":{\"step_is_reachable\":true,\"step_is_complete\":true},\"checkout-payment-step\":{\"step_is_reachable\":true,\"step_is_complete\":false},\"checksum\":\"f1a4a978ccd79c5d8b36f07baf8d548d5e65d6b6\"}'),
-(8, 1, 1, 0, '', 2, 5, 5, 1, 2, 3, 'c141cfb187ef1f767ea020b482e317ef', 0, 0, '', 0, 0, '2017-09-19 14:22:10', '2017-09-19 14:41:42', '{\"checkout-personal-information-step\":{\"step_is_reachable\":true,\"step_is_complete\":false},\"checkout-addresses-step\":{\"step_is_reachable\":false,\"step_is_complete\":false,\"use_same_address\":true},\"checkout-delivery-step\":{\"step_is_reachable\":false,\"step_is_complete\":false},\"checkout-payment-step\":{\"step_is_reachable\":false,\"step_is_complete\":false},\"checksum\":\"64fdef1c849d8ce2369907a8e188640a374a9ba5\"}');
+(8, 1, 1, 5, 'a:1:{i:5;s:2:\"5,\";}', 2, 5, 5, 1, 2, 3, 'c141cfb187ef1f767ea020b482e317ef', 0, 0, '', 0, 0, '2017-09-19 14:22:10', '2017-09-20 13:35:58', '{\"checkout-personal-information-step\":{\"step_is_reachable\":true,\"step_is_complete\":true},\"checkout-addresses-step\":{\"step_is_reachable\":true,\"step_is_complete\":true,\"use_same_address\":true},\"checkout-delivery-step\":{\"step_is_reachable\":true,\"step_is_complete\":true},\"checkout-payment-step\":{\"step_is_reachable\":true,\"step_is_complete\":false},\"checksum\":\"ea75f42681a9dba30fdc7bd9af3d060a591dcfe1\"}'),
+(9, 1, 1, 5, 'a:1:{i:5;s:2:\"5,\";}', 2, 5, 5, 1, 2, 2, 'c141cfb187ef1f767ea020b482e317ef', 0, 0, '', 0, 0, '2017-09-20 13:37:04', '2017-09-20 15:17:57', '{\"checkout-personal-information-step\":{\"step_is_reachable\":true,\"step_is_complete\":true},\"checkout-addresses-step\":{\"step_is_reachable\":true,\"step_is_complete\":false,\"use_same_address\":true},\"checkout-delivery-step\":{\"step_is_reachable\":false,\"step_is_complete\":false},\"checkout-payment-step\":{\"step_is_reachable\":false,\"step_is_complete\":false},\"checksum\":\"224e5a8885682f5eaae5427325b48545cfd1b610\"}');
 
 -- --------------------------------------------------------
 
@@ -3185,6 +3276,16 @@ CREATE TABLE IF NOT EXISTS `ps_cart_product` (
   KEY `id_product_attribute` (`id_product_attribute`),
   KEY `id_cart_order` (`id_cart`,`date_add`,`id_product`,`id_product_attribute`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `ps_cart_product`
+--
+
+INSERT INTO `ps_cart_product` (`id_cart`, `id_product`, `id_address_delivery`, `id_shop`, `id_product_attribute`, `id_customization`, `quantity`, `date_add`) VALUES
+(8, 7, 5, 1, 51, 0, 1, '2017-09-20 13:08:11'),
+(9, 7, 5, 1, 47, 0, 2, '2017-09-20 13:37:05'),
+(9, 8, 5, 1, 55, 0, 7, '2017-09-20 14:59:06'),
+(9, 8, 5, 1, 57, 0, 4, '2017-09-20 15:13:51');
 
 -- --------------------------------------------------------
 
@@ -3382,18 +3483,19 @@ CREATE TABLE IF NOT EXISTS `ps_category` (
   KEY `nright` (`nright`),
   KEY `activenleft` (`active`,`nleft`),
   KEY `activenright` (`active`,`nright`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_category`
 --
 
 INSERT INTO `ps_category` (`id_category`, `id_parent`, `id_shop_default`, `level_depth`, `nleft`, `nright`, `active`, `date_add`, `date_upd`, `position`, `is_root_category`) VALUES
-(1, 0, 1, 0, 1, 10, 1, '2017-09-19 11:07:26', '2017-09-19 11:07:26', 0, 0),
-(2, 1, 1, 1, 2, 9, 1, '2017-09-19 11:07:27', '2017-09-19 11:07:27', 0, 1),
+(1, 0, 1, 0, 1, 12, 1, '2017-09-19 11:07:26', '2017-09-19 11:07:26', 0, 0),
+(2, 1, 1, 1, 2, 11, 1, '2017-09-19 11:07:27', '2017-09-20 12:51:17', 0, 1),
 (3, 2, 1, 2, 3, 8, 1, '2017-09-19 11:08:00', '2017-09-20 09:23:13', 0, 0),
-(4, 3, 1, 3, 4, 5, 1, '2017-09-19 11:08:01', '2017-09-19 15:38:38', 0, 0),
-(8, 3, 1, 3, 6, 7, 1, '2017-09-19 11:08:03', '2017-09-19 16:01:16', 1, 0);
+(4, 3, 1, 3, 4, 5, 1, '2017-09-19 11:08:01', '2017-09-20 14:58:47', 1, 0),
+(8, 3, 1, 3, 6, 7, 1, '2017-09-19 11:08:03', '2017-09-20 14:58:47', 0, 0),
+(12, 2, 1, 2, 9, 10, 1, '2017-09-20 12:49:11', '2017-09-20 12:49:11', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -3415,7 +3517,6 @@ CREATE TABLE IF NOT EXISTS `ps_category_group` (
 --
 
 INSERT INTO `ps_category_group` (`id_category`, `id_group`) VALUES
-(2, 0),
 (2, 1),
 (2, 2),
 (2, 3),
@@ -3427,7 +3528,10 @@ INSERT INTO `ps_category_group` (`id_category`, `id_group`) VALUES
 (4, 3),
 (8, 1),
 (8, 2),
-(8, 3);
+(8, 3),
+(12, 1),
+(12, 2),
+(12, 3);
 
 -- --------------------------------------------------------
 
@@ -3457,14 +3561,16 @@ CREATE TABLE IF NOT EXISTS `ps_category_lang` (
 INSERT INTO `ps_category_lang` (`id_category`, `id_shop`, `id_lang`, `name`, `description`, `link_rewrite`, `meta_title`, `meta_keywords`, `meta_description`) VALUES
 (1, 1, 1, 'Root', '', 'root', '', '', ''),
 (1, 1, 2, 'Rot', '', 'rot', '', '', ''),
-(2, 1, 1, 'Home', '', 'home', '', '', ''),
-(2, 1, 2, 'Hem', '', 'hem', '', '', ''),
+(2, 1, 1, 'Home', '<p>All the popular products here at YABS store!</p>', 'home', '', '', ''),
+(2, 1, 2, 'Hem', '<p>Nedan följer populära produkter i YABS butik!</p>', 'hem', '', '', ''),
 (3, 1, 1, 'Hoodies', '<p><strong>On this page you will find all the hoodies we got here at YABS shop.</strong></p>\r\n<p>We have several different hoodies in all different sizes and styles.</p>', 'hoodies', '', '', ''),
 (3, 1, 2, 'Hoodies', '<p><b>Här hittar du våra hoodies!</b></p>\r\n<p>Vi har olika hoodies i alla möjliga storlekar och färgval!</p>\r\n<p>Bli en YABS:are!</p>', 'hoodies', '', '', ''),
 (4, 1, 1, 'Sylog Hoodies', '<p>Choose between all the hoodies from Sylog.</p>', 'sylog-hoodies', '', '', ''),
 (4, 1, 2, 'Sylog Hoodies', '<p>Välj bland alla hoodies ifrån Sylog!</p>', 'sylog-hoodies', '', '', ''),
 (8, 1, 1, 'YABS Hoodies', '<p>Here you will find all the YABS hoodies in different colors and combinations.</p>\r\n<p>Find your favourite YABS hoodie!</p>', 'yabs-hoodies', '', '', ''),
-(8, 1, 2, 'YABS Hoodies', '<p>Här hittar du alla YABS hoodies i olika storlekar och färger!</p>', 'yabs-hoodies', '', '', '');
+(8, 1, 2, 'YABS Hoodies', '<p>Här hittar du alla YABS hoodies i olika storlekar och färger!</p>', 'yabs-hoodies', '', '', ''),
+(12, 1, 1, 'USB-sticks', '<p>USB-sticks with YABS logo!</p>', 'usb-sticks', '', '', ''),
+(12, 1, 2, 'USB-minnen', '<p>USB-minnen med YABS-logga!</p>', 'usb-minnen', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -3488,8 +3594,10 @@ CREATE TABLE IF NOT EXISTS `ps_category_product` (
 
 INSERT INTO `ps_category_product` (`id_category`, `id_product`, `position`) VALUES
 (2, 7, 0),
+(2, 8, 1),
 (3, 7, 0),
-(8, 7, 0);
+(8, 7, 0),
+(12, 8, 0);
 
 -- --------------------------------------------------------
 
@@ -3513,8 +3621,9 @@ INSERT INTO `ps_category_shop` (`id_category`, `id_shop`, `position`) VALUES
 (1, 1, 0),
 (2, 1, 0),
 (3, 1, 0),
-(4, 1, 0),
-(8, 1, 1);
+(4, 1, 1),
+(8, 1, 0),
+(12, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -3745,256 +3854,256 @@ CREATE TABLE IF NOT EXISTS `ps_condition` (
 --
 
 INSERT INTO `ps_condition` (`id_condition`, `id_ps_condition`, `type`, `request`, `operator`, `value`, `result`, `calculation_type`, `calculation_detail`, `validated`, `date_add`, `date_upd`) VALUES
-(1, 19, 'install', '', '>', '0', '1', 'time', '1', 1, '2017-09-19 11:24:26', '2017-09-19 11:24:26'),
-(2, 40, 'install', '', '>=', '730', '', 'time', '2', 0, '2017-09-19 11:24:26', '2017-09-19 11:24:26'),
-(3, 121, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%moneybookers%\"', '==', '0', '0', 'time', '1', 1, '2017-09-19 11:24:26', '2017-09-19 11:24:26'),
-(4, 147, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%hipay%\"', '==', '0', '0', 'time', '1', 1, '2017-09-19 11:24:26', '2017-09-19 11:24:26'),
-(5, 152, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypal%\"', '==', '0', '0', 'time', '1', 1, '2017-09-19 11:24:26', '2017-09-19 11:24:26'),
-(6, 155, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%trustly%\"', '==', '0', '0', 'time', '1', 1, '2017-09-19 11:24:27', '2017-09-19 11:24:27'),
-(7, 142, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypal%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:27', '2017-09-20 08:30:17'),
-(8, 6, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '0', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:27', '2017-09-20 08:30:17'),
-(9, 1, 'configuration', 'PS_REWRITING_SETTINGS', '==', '1', '1', 'hook', 'actionAdminMetaControllerUpdate_optionsAfter', 1, '2017-09-19 11:24:27', '2017-09-19 11:24:27'),
-(10, 2, 'configuration', 'PS_SMARTY_FORCE_COMPILE', '!=', '2', '1', 'hook', 'actionAdminPerformanceControllerSaveAfter', 1, '2017-09-19 11:24:27', '2017-09-19 11:24:27'),
-(11, 3, 'configuration', 'PS_CSS_THEME_CACHE', '==', '1', '', 'hook', 'actionAdminPerformanceControllerSaveAfter', 0, '2017-09-19 11:24:27', '2017-09-19 11:29:34'),
-(12, 4, 'configuration', 'PS_CIPHER_ALGORITHM', '==', '1', '1', 'hook', 'actionAdminPerformanceControllerSaveAfter', 1, '2017-09-19 11:24:27', '2017-09-19 11:24:27'),
-(13, 5, 'configuration', 'PS_MEDIA_SERVERS', '==', '1', '', 'hook', 'actionAdminPerformanceControllerSaveAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:29:35'),
-(14, 7, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:28', '2017-09-20 08:30:17'),
-(15, 8, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '0', '0', 'hook', 'actionObjectCarrierAddAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(16, 9, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '1', '0', 'hook', 'actionObjectCarrierAddAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(17, 10, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '0', '0', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(18, 11, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '9', '0', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(19, 16, 'configuration', 'PS_SHOP_PHONE', '!=', '0', '', 'hook', 'actionAdminStoresControllerUpdate_optionsAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(20, 17, 'sql', 'SELECT COUNT(*) FROM PREFIX_contact', '>', '2', '2', 'hook', 'actionObjectContactAddAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(21, 18, 'sql', 'SELECT COUNT(*) FROM PREFIX_contact', '>', '4', '2', 'hook', 'actionObjectContactAddAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(22, 12, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '99', '0', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(23, 13, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '999', '0', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-19 11:24:28', '2017-09-19 11:24:28'),
-(24, 14, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '9999', '0', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-19 11:24:29', '2017-09-19 11:24:29'),
-(25, 15, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '99999', '0', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-19 11:24:29', '2017-09-19 11:24:29'),
-(26, 20, 'install', '', '>=', '7', '', 'time', '1', 0, '2017-09-19 11:24:29', '2017-09-20 08:03:35'),
-(27, 21, 'configuration', 'PS_LOGO', '!=', 'logo.jpg', '1', 'hook', 'actionAdminThemesControllerUpdate_optionsAfter', 1, '2017-09-19 11:24:29', '2017-09-19 11:24:29'),
-(28, 22, 'sql', 'SELECT COUNT(*) FROM PREFIX_theme WHERE directory != \"default\" AND directory != \"prestashop\" AND directory ! \"default-bootstrap\"', '>', '0', '0', 'hook', 'actionObjectShopUpdateAfter', 0, '2017-09-19 11:24:29', '2017-09-19 11:24:29'),
-(29, 23, 'configuration', 'PS_LOGGED_ON_ADDONS', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:29', '2017-09-20 08:03:35'),
-(30, 24, 'configuration', 'PS_MULTISHOP_FEATURE_ACTIVE', '==', '1', '', 'hook', 'actionAdminPreferencesControllerUpdate_optionsAfter', 0, '2017-09-19 11:24:29', '2017-09-19 11:24:29'),
-(31, 25, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop', '>', '1', '1', 'hook', 'actionObjectShopAddAfter', 0, '2017-09-19 11:24:29', '2017-09-19 11:24:29'),
-(32, 28, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop_group', '>', '1', '1', 'hook', 'actionObjectShopGroupAddAfter', 0, '2017-09-19 11:24:30', '2017-09-19 11:24:30'),
-(33, 26, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop', '>', '4', '1', 'hook', 'actionObjectShopAddAfter', 0, '2017-09-19 11:24:30', '2017-09-19 11:24:30'),
-(34, 27, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop_group', '>', '5', '1', 'hook', 'actionObjectShopGroupAddAfter 	', 0, '2017-09-19 11:24:30', '2017-09-19 11:24:30'),
-(35, 30, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '2', '0', 'hook', 'actionObjectCarrierAddAfter', 0, '2017-09-19 11:24:30', '2017-09-19 11:24:30'),
-(36, 29, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '2', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:30', '2017-09-20 08:30:17'),
-(37, 31, 'sql', 'SELECT SUM(total_paid_tax_excl / c.conversion_rate)\r\nFROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '900', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:30', '2017-09-19 13:50:30'),
-(38, 32, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '9000', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:30', '2017-09-19 13:50:30'),
-(39, 33, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '90000', '0', 'time', '1', 0, '2017-09-19 11:24:31', '2017-09-20 08:03:35'),
-(40, 34, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '900000', '0', 'time', '7', 0, '2017-09-19 11:24:31', '2017-09-19 11:24:31'),
-(41, 35, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '9000000', '0', 'time', '7', 0, '2017-09-19 11:24:32', '2017-09-19 11:24:32'),
-(42, 36, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '90000000', '0', 'time', '7', 0, '2017-09-19 11:24:32', '2017-09-19 11:24:32'),
-(43, 37, 'install', '', '>=', '30', '', 'time', '1', 0, '2017-09-19 11:24:32', '2017-09-20 08:03:35'),
-(44, 38, 'install', '', '>=', '182', '', 'time', '2', 0, '2017-09-19 11:24:32', '2017-09-19 11:24:32'),
-(45, 39, 'install', '', '>=', '365', '', 'time', '2', 0, '2017-09-19 11:24:32', '2017-09-19 11:24:32'),
-(46, 41, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '10', '2', 'time', '1', 0, '2017-09-19 11:24:33', '2017-09-20 08:03:35'),
-(47, 42, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100', '2', 'time', '1', 0, '2017-09-19 11:24:33', '2017-09-20 08:03:35'),
-(48, 43, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '1000', '2', 'time', '1', 0, '2017-09-19 11:24:33', '2017-09-20 08:03:35'),
-(49, 44, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '10000', '1', 'time', '2', 0, '2017-09-19 11:24:33', '2017-09-19 11:24:33'),
-(50, 45, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100000', '1', 'time', '3', 0, '2017-09-19 11:24:33', '2017-09-19 11:24:33'),
-(51, 46, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '1000000', '1', 'time', '4', 0, '2017-09-19 11:24:33', '2017-09-19 11:24:33'),
-(52, 47, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '2', '2', 'hook', 'actionObjectCartAddAfter', 1, '2017-09-19 11:24:33', '2017-09-19 13:59:13'),
-(53, 48, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '10', '3', 'hook', 'actionObjectCartAddAfter', 0, '2017-09-19 11:24:33', '2017-09-19 14:22:10'),
-(54, 49, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '100', '3', 'hook', 'actionObjectCartAddAfter', 0, '2017-09-19 11:24:33', '2017-09-19 14:22:10'),
-(55, 50, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '1000', '3', 'time', '1', 0, '2017-09-19 11:24:33', '2017-09-20 08:03:36'),
-(56, 51, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '10000', '2', 'time', '4', 0, '2017-09-19 11:24:33', '2017-09-19 14:04:47'),
-(57, 52, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '100000', '2', 'time', '8', 0, '2017-09-19 11:24:33', '2017-09-19 14:04:47'),
-(58, 53, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '1', '1', 'hook', 'actionObjectOrderAddAfter', 1, '2017-09-19 11:24:33', '2017-09-19 13:50:29'),
-(59, 54, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '10', '1', 'hook', 'actionObjectOrderAddAfter', 0, '2017-09-19 11:24:34', '2017-09-19 13:51:19'),
-(60, 55, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '100', '1', 'hook', 'actionObjectOrderAddAfter', 0, '2017-09-19 11:24:34', '2017-09-19 13:51:20'),
-(61, 56, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '1000', '1', 'time', '2', 0, '2017-09-19 11:24:34', '2017-09-19 13:51:20'),
-(62, 57, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '10000', '1', 'time', '4', 0, '2017-09-19 11:24:34', '2017-09-19 13:51:20'),
-(63, 58, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '100000', '1', 'time', '8', 0, '2017-09-19 11:24:34', '2017-09-19 13:51:20'),
-(64, 65, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '1', '0', 'hook', 'actionObjectCustomerThreadAddAfter', 0, '2017-09-19 11:24:34', '2017-09-19 11:24:34'),
-(65, 66, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '10', '0', 'hook', 'actionObjectCustomerThreadAddAfter', 0, '2017-09-19 11:24:34', '2017-09-19 11:24:34'),
-(66, 67, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '100', '0', 'hook', 'actionObjectCustomerThreadAddAfter', 0, '2017-09-19 11:24:34', '2017-09-19 11:24:34'),
-(67, 68, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '1000', '0', 'time', '2', 0, '2017-09-19 11:24:35', '2017-09-19 11:24:35'),
-(68, 69, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '10000', '0', 'time', '4', 0, '2017-09-19 11:24:35', '2017-09-19 11:24:35'),
-(69, 70, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '100000', '0', 'time', '8', 0, '2017-09-19 11:24:35', '2017-09-19 11:24:35'),
-(70, 59, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '1', '1', 'hook', 'actionObjectCustomerAddAfter', 1, '2017-09-19 11:24:35', '2017-09-19 13:49:11'),
-(71, 60, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '10', '1', 'hook', 'actionObjectCustomerAddAfter', 0, '2017-09-19 11:24:35', '2017-09-19 13:51:20'),
-(72, 61, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '100', '1', 'hook', 'actionObjectCustomerAddAfter', 0, '2017-09-19 11:24:35', '2017-09-19 13:51:20'),
-(73, 62, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '1000', '1', 'time', '1', 0, '2017-09-19 11:24:35', '2017-09-20 08:03:36'),
-(74, 63, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '10000', '1', 'time', '2', 0, '2017-09-19 11:24:36', '2017-09-19 13:51:21'),
-(75, 64, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '100000', '1', 'time', '4', 0, '2017-09-19 11:24:36', '2017-09-19 13:51:21'),
-(76, 71, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\"BE\",\"DE\",\"FR\",\"FX\",\"GB\",\"IE\",\"LU\",\"MC\",\"NL\")', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:36', '2017-09-19 13:50:30'),
-(77, 72, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\"IT\",\r\n\"MT\",\r\n\"SM\",\r\n\"VA\",\r\n\"AD\",\r\n\"ES\",\r\n\"GI\",\r\n\"PT\")', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:36', '2017-09-19 13:50:31'),
-(78, 73, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BY\",\r\n\"EE\",\r\n\"LT\",\r\n\"LV\",\r\n\"MD\",\r\n\"PL\",\r\n\"UA\",\r\n\"AL\",\r\n\"BA\",\r\n\"BG\",\r\n\"GR\",\r\n\"HR\",\r\n\"MK\",\r\n\"RO\",\r\n\"SI\",\r\n\"YU\",\r\n\"RU\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:36', '2017-09-19 13:50:31'),
-(79, 74, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"AT\",\r\n\"CH\",\r\n\"CZ\",\r\n\"HU\",\r\n\"LI\",\r\n\"SK\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:36', '2017-09-19 13:50:31'),
-(80, 75, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"DK\",\r\n\"FI\",\r\n\"FO\",\r\n\"IS\",\r\n\"NO\",\r\n\"SE\",\r\n\"SJ\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:36', '2017-09-19 13:50:31'),
-(81, 76, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"CA\",\r\n\"GL\",\r\n\"PM\",\r\n\"US\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:36', '2017-09-19 13:50:31'),
-(82, 79, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"UM\",\r\n\"AS\",\r\n\"AU\",\r\n\"CK\",\r\n\"FJ\",\r\n\"FM\",\r\n\"GU\",\r\n\"KI\",\r\n\"MH,\"\r\n\"MP\",\r\n\"NC\",\r\n\"NF\",\r\n\"NR\",\r\n\"NU\",\r\n\"NZ\",\r\n\"PF\",\r\n\"PG\",\r\n\"PN\",\r\n\"PW\",\r\n\"SB\",\r\n\"TK\",\r\n\"TO\",\r\n\"TV\",\r\n\"VU\",\r\n\"WF\",\r\n\"WS\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:36', '2017-09-19 13:50:31'),
-(83, 85, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"KG\",\r\n\"KZ\",\r\n\"TJ\",\r\n\"TM\",\r\n\"UZ\",\r\n\"AE\",\r\n\"AM\",\r\n\"AZ\",\r\n\"BH\",\r\n\"CY\",\r\n\"GE\",\r\n\"IL\",\r\n\"IQ\",\r\n\"IR\",\r\n\"JO\",\r\n\"KW\",\r\n\"LB\",\r\n\"OM\",\r\n\"QA\",\r\n\"SA\",\r\n\"SY\",\r\n\"TR\",\r\n\"YE\",\r\n\"AF\",\r\n\"BD\",\r\n\"BT\",\r\n\"IN\",\r\n\"IO\",\r\n\"LK\",\r\n\"MV\",\r\n\"NP\",\r\n\"PK\",\r\n\"CN\",\r\n\"HK\",\r\n\"JP\",\r\n\"KP\",\r\n\"KR\",\r\n\"MO\",\r\n\"TW\",\r\n\"MN\",\r\n\"BN\",\r\n\"CC\",\r\n\"CX\",\r\n\"ID\",\r\n\"KH\",\r\n\"LA\",\r\n\"MM\",\r\n\"MY\",\r\n\"PH\",\r\n\"SG\",\r\n\"TH\",\r\n\"TP\",\r\n\"VN\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:37', '2017-09-19 13:50:31'),
-(84, 86, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BZ\",\r\n\"CR\",\r\n\"GT\",\r\n\"HN\",\r\n\"MX\",\r\n\"NI\",\r\n\"PA\",\r\n\"SV\",\r\n\"AG\",\r\n\"AI\",\r\n\"AN\",\r\n\"AW\",\r\n\"BB\",\r\n\"BM\",\r\n\"BS\",\r\n\"CU\",\r\n\"DM\",\r\n\"DO\",\r\n\"GD\",\r\n\"GP\",\r\n\"HT\",\r\n\"JM\",\r\n\"KN\",\r\n\"KY\",\r\n\"LC\",\r\n\"MQ\",\r\n\"MS\",\r\n\"PR\",\r\n\"TC\",\r\n\"TT\",\r\n\"VC\",\r\n\"VG\",\r\n\"VI\",\r\n\"AR\",\r\n\"BO\",\r\n\"BR\",\r\n\"CL\",\r\n\"CO\",\r\n\"EC\",\r\n\"FK\",\r\n\"GF\",\r\n\"GY\",\r\n\"PE\",\r\n\"PY\",\r\n\"SR\",\r\n\"UY\",\r\n\"VE\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:37', '2017-09-19 13:50:31'),
-(85, 88, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BI\",\r\n\"CF\",\r\n\"CG\",\r\n\"RW\",\r\n\"TD\",\r\n\"ZR\",\r\n\"DJ\",\r\n\"ER\",\r\n\"ET\",\r\n\"KE\",\r\n\"SO\",\r\n\"TZ\",\r\n\"UG\",\r\n\"KM\",\r\n\"MG\",\r\n\"MU\",\r\n\"RE\",\r\n\"SC\",\r\n\"YT\",\r\n\"AO\",\r\n\"BW\",\r\n\"LS\",\r\n\"MW\",\r\n\"MZ\",\r\n\"NA\",\r\n\"SZ\",\r\n\"ZA\",\r\n\"ZM\",\r\n\"ZW\",\r\n\"BF\",\r\n\"BJ\",\r\n\"CI\",\r\n\"CM\",\r\n\"CV\",\r\n\"GA\",\r\n\"GH\",\r\n\"GM\",\r\n\"GN\",\r\n\"GQ\",\r\n\"GW\",\r\n\"LR\",\r\n\"ML\",\r\n\"MR\",\r\n\"NE\",\r\n\"NG\",\r\n\"SL\",\r\n\"SN\",\r\n\"ST\",\r\n\"TG\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:37', '2017-09-19 13:50:31'),
-(86, 89, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"DZ\",\r\n\"EG\",\r\n\"EH\",\r\n\"LY\",\r\n\"MA\",\r\n\"SD\",\r\n\"TN\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:37', '2017-09-19 13:50:31'),
-(87, 90, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '2', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-19 11:24:37', '2017-09-19 11:24:37'),
-(88, 91, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '3', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-19 11:24:37', '2017-09-19 11:24:37'),
-(89, 92, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '5', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-19 11:24:37', '2017-09-19 11:24:37'),
-(90, 93, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '10', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-19 11:24:37', '2017-09-19 11:24:37'),
-(91, 94, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '20', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-19 11:24:37', '2017-09-19 11:24:37'),
-(92, 95, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '40', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-19 11:24:37', '2017-09-19 11:24:37'),
-(93, 96, 'sql', 'SELECT id_image FROM PREFIX_image WHERE id_image > 26', '>', '0', '0', 'hook', 'actionObjectImageAddAfter', 0, '2017-09-19 11:24:37', '2017-09-20 09:35:11'),
-(94, 97, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '50', '2', 'hook', 'actionObjectImageAddAfter', 0, '2017-09-19 11:24:38', '2017-09-20 09:35:11'),
-(95, 98, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '100', '2', 'hook', 'actionObjectImageAddAfter', 0, '2017-09-19 11:24:38', '2017-09-20 09:35:11'),
-(96, 99, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '1000', '23', 'time', '2', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(97, 100, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '10000', '23', 'time', '4', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(98, 101, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '50000', '23', 'time', '8', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(99, 102, 'sql', 'SELECT id_cms FROM PREFIX_cms WHERE id_cms > 5', '>', '0', '0', 'hook', 'actionObjectCMSAddAfter', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(100, 103, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '1', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(101, 104, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '10', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(102, 105, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '100', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(103, 107, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '500', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(104, 106, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '1000', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(105, 108, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '5000', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-19 11:24:38', '2017-09-19 11:24:38'),
-(106, 109, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '1', '0', 'hook', 'newOrder', 0, '2017-09-19 11:24:39', '2017-09-19 11:24:39'),
-(107, 110, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '10', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:39', '2017-09-19 13:50:31'),
-(108, 111, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '100', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:40', '2017-09-19 13:50:31'),
-(109, 113, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '1000', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:40', '2017-09-19 13:50:31'),
-(110, 114, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '5000', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:40', '2017-09-19 13:50:31'),
-(111, 112, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '10000', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-19 11:24:40', '2017-09-19 13:50:31'),
-(112, 165, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '0', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-19 11:24:40', '2017-09-19 11:24:40'),
-(113, 166, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '1', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-19 11:24:40', '2017-09-19 11:24:40'),
-(114, 167, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '4', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-19 11:24:40', '2017-09-19 11:24:40'),
-(115, 168, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '9', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-19 11:24:40', '2017-09-19 11:24:40'),
-(116, 169, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '19', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-19 11:24:41', '2017-09-19 11:24:41'),
-(117, 170, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '49', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-19 11:24:41', '2017-09-19 11:24:41'),
-(118, 171, 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '1', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', 0, '2017-09-19 11:24:41', '2017-09-19 11:24:41'),
-(119, 172, 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '2', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', 0, '2017-09-19 11:24:41', '2017-09-19 11:24:41'),
-(120, 173, 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '3', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', 0, '2017-09-19 11:24:41', '2017-09-19 11:24:41'),
-(121, 174, 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '4', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', 0, '2017-09-19 11:24:41', '2017-09-19 11:24:41'),
-(122, 141, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%ogone%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:41', '2017-09-20 08:30:17'),
-(123, 291, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'OGONE_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'OGONE_MODE\') AND ( value = \'live\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:41', '2017-09-20 08:03:36'),
-(124, 369, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ogone%\" AND os.logable = 1', '>=', '1', '0', 'time', '1', 0, '2017-09-19 11:24:41', '2017-09-20 08:03:36'),
-(125, 391, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ogone%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-19 11:24:41', '2017-09-20 08:03:38'),
-(126, 301, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYPAL_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYPAL_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:41', '2017-09-20 08:03:38'),
-(127, 371, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypal%\" AND os.logable = 1', '>=', '1', '0', 'time', '1', 0, '2017-09-19 11:24:41', '2017-09-20 08:03:38'),
-(128, 372, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypal%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-19 11:24:41', '2017-09-20 08:03:38'),
-(129, 320, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%shopgate%\" ', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:41', '2017-09-20 08:30:17'),
-(130, 322, 'configuration', 'SHOPGATE_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:42', '2017-09-20 08:03:38'),
-(131, 375, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%shopgate%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '1', '0', 'time', '1', 0, '2017-09-19 11:24:42', '2017-09-20 08:03:38'),
-(132, 376, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%shopgate%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-19 11:24:42', '2017-09-20 08:03:38'),
-(133, 140, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%moneybookers%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:42', '2017-09-20 08:30:17'),
-(134, 326, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'MONEYBOOKERS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'MB_PAY_TO_EMAIL \') AND ( value != \'testaccount2@moneybookers.com \'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:42', '2017-09-20 08:03:38'),
-(135, 377, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%moneybookers%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '1', '0', 'time', '1', 0, '2017-09-19 11:24:43', '2017-09-20 08:03:38'),
-(136, 394, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%sofortbanking%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-19 11:24:43', '2017-09-20 08:03:38'),
-(137, 332, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%textmaster%\" ', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:43', '2017-09-20 08:30:17'),
-(138, 334, 'configuration', 'TEXTMASTER_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:43', '2017-09-20 08:03:38'),
-(139, 381, 'sql', 'SELECT COUNT(*) FROM PREFIX_textmaster_project WHERE status = \"completed\"', '>=', '1', '0', 'time', '1', 0, '2017-09-19 11:24:44', '2017-09-20 08:03:39'),
-(140, 396, 'sql', 'SELECT COUNT(*) FROM PREFIX_textmaster_project WHERE status = \"completed\"', '>=', '10', '0', 'time', '1', 0, '2017-09-19 11:24:44', '2017-09-20 08:03:39'),
-(141, 416, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%pigmbhpaymill%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:44', '2017-09-20 08:30:17'),
-(142, 418, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pigmbhpaymill%\" AND os.logable = 1', '>=', '1', '0', 'time', '7', 0, '2017-09-19 11:24:44', '2017-09-19 11:24:44'),
-(143, 419, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pigmbhpaymill%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:44', '2017-09-19 11:24:44'),
-(144, 428, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%authorizeaim%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:44', '2017-09-20 08:30:17'),
-(145, 429, 'configuration', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'AUTHORIZEAIM_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'AUTHORIZE_AIM_SANDBOX\') AND ( value = \'0\'))', '==', '2', '', 'time', '2', 0, '2017-09-19 11:24:44', '2017-09-19 11:24:44'),
-(146, 430, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%authorizeaim%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:44', '2017-09-19 11:24:44'),
-(147, 431, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%authorizeaim%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:45', '2017-09-19 11:24:45'),
-(148, 136, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%ebay%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:45', '2017-09-20 08:30:17'),
-(149, 209, 'configuration', 'EBAY_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:45', '2017-09-20 08:03:39'),
-(150, 358, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ebay%\" AND os.logable = 1', '>=', '1', '0', 'time', '1', 0, '2017-09-19 11:24:45', '2017-09-20 08:03:39'),
-(151, 359, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ebay%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-19 11:24:46', '2017-09-20 08:03:39'),
-(152, 438, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%payplug%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:46', '2017-09-20 08:30:18'),
-(153, 439, 'configuration', 'PAYPLUG_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:46', '2017-09-20 08:03:39'),
-(154, 440, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payplug%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:46', '2017-09-19 11:24:46'),
-(155, 441, 'sql', 'SELECT SUM(o.total_paid) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payplug%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '10000', '0', 'time', '7', 0, '2017-09-19 11:24:46', '2017-09-19 11:24:46'),
-(156, 442, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%affinityitems%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:46', '2017-09-20 08:30:18'),
-(157, 443, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE name LIKE \'AFFINITYITEMS_CONFIGURATION_OK\' AND value = \'1\'', '==', '1', '0', 'time', '1', 0, '2017-09-19 11:24:46', '2017-09-20 08:03:39'),
-(158, 446, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%dpdpoland%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:47', '2017-09-20 08:30:18'),
-(159, 447, 'configuration', 'DPDPOLAND_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:47', '2017-09-20 08:03:39'),
-(160, 448, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%dpdpoland%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:47', '2017-09-19 11:24:47'),
-(161, 449, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%dpdpoland%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', 0, '2017-09-19 11:24:47', '2017-09-19 11:24:47'),
-(162, 450, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%envoimoinscher%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:47', '2017-09-20 08:30:18'),
-(163, 451, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'ENVOIMOINSCHER_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'EMC_ENV \') AND ( value != \'TEST\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:47', '2017-09-20 08:03:39'),
-(164, 452, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%envoimoinscher%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:47', '2017-09-19 11:24:47'),
-(165, 453, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%envoimoinscher%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', 0, '2017-09-19 11:24:47', '2017-09-19 11:24:47'),
-(166, 454, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%klikandpay%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:47', '2017-09-20 08:30:18'),
-(167, 455, 'configuration', 'KLIKANDPAY_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:47', '2017-09-20 08:03:39'),
-(168, 456, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%klikandpay%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:47', '2017-09-19 11:24:47'),
-(169, 457, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%klikandpay%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:47', '2017-09-19 11:24:47'),
-(170, 458, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%clickline%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:48', '2017-09-20 08:30:18'),
-(171, 459, 'configuration', 'CLICKLINE_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:48', '2017-09-20 08:03:39'),
-(172, 460, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%clickline%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:48', '2017-09-19 11:24:48'),
-(173, 461, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%clickline%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', 0, '2017-09-19 11:24:48', '2017-09-19 11:24:48'),
-(174, 462, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%cdiscount%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:48', '2017-09-20 08:30:18'),
-(175, 463, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-19 11:24:48', '2017-09-19 11:24:48'),
-(176, 464, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%cdiscount%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:48', '2017-09-19 11:24:48'),
-(177, 465, 'sql', 'SELECT SUM(o.total_paid) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%cdiscount%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 365 DAY)', '>=', '500', '0', 'time', '7', 0, '2017-09-19 11:24:48', '2017-09-19 11:24:48'),
-(178, 467, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%erpillicopresta%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:48', '2017-09-20 08:30:18'),
-(179, 468, 'configuration', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'ERPILLICOPRESTA_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'ERP_LICENCE_VALIDITY \') AND ( value == \'1\')) OR (( name LIKE \'ERP_MONTH_FREE_ACTIVE \') AND ( value == \'0\'))', '==', '3', '', 'time', '1', 0, '2017-09-19 11:24:48', '2017-09-20 08:03:39'),
-(180, 469, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-19 11:24:48', '2017-09-19 11:24:48'),
-(181, 470, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-19 11:24:49', '2017-09-19 11:24:49'),
-(182, 471, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%netreviews%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:49', '2017-09-20 08:30:18'),
-(183, 472, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'NETREVIEWS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'AVISVERIFIES_URLCERTIFICAT \') AND ( value IS NOT LIKE \'%preprod%\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:49', '2017-09-20 08:03:39'),
-(184, 473, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-19 11:24:49', '2017-09-19 11:24:49'),
-(185, 474, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-19 11:24:49', '2017-09-19 11:24:49'),
-(186, 475, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%bluesnap%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:49', '2017-09-20 08:30:18'),
-(187, 476, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'BLUESNAP_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'BLUESNAP_SANDBOX \') AND ( value NOT LIKE \'%sandbox%\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:49', '2017-09-20 08:03:39'),
-(188, 477, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%bluesnap%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:49', '2017-09-19 11:24:49'),
-(189, 478, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%bluesnap%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:49', '2017-09-19 11:24:49'),
-(190, 479, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%desjardins%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:49', '2017-09-20 08:30:18'),
-(191, 480, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'DESJARDINS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'DESJARDINS_MODE \') AND ( value NOT LIKE \'%test%\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:49', '2017-09-20 08:03:39'),
-(192, 481, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%desjardins%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:49', '2017-09-19 11:24:49'),
-(193, 482, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%desjardins%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:50', '2017-09-19 11:24:50'),
-(194, 483, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%firstdata%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:50', '2017-09-20 08:30:18'),
-(195, 484, 'configuration', 'FIRSTDATA_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:50', '2017-09-20 08:03:39'),
-(196, 485, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%firstdata%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:50', '2017-09-19 11:24:50'),
-(197, 486, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%firstdata%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:50', '2017-09-19 11:24:50'),
-(198, 487, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%giveit%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:50', '2017-09-20 08:30:18'),
-(199, 488, 'sql', 'GIVEIT_CONFIGURATION_OK', '>=', '1', '0', 'time', '1', 0, '2017-09-19 11:24:50', '2017-09-20 08:03:39'),
-(200, 489, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:50', '2017-09-19 11:24:50'),
-(201, 490, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:50', '2017-09-19 11:24:50'),
-(202, 491, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%ganalytics%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:50', '2017-09-20 08:30:18'),
-(203, 492, 'configuration', 'GANALYTICS_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:50', '2017-09-20 08:03:39'),
-(204, 493, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '1', 0, '2017-09-19 11:24:51', '2017-09-20 08:03:40'),
-(205, 494, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:51', '2017-09-19 11:24:51'),
-(206, 496, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%pagseguro%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:51', '2017-09-20 08:30:18'),
-(207, 497, 'configuration', 'PAGSEGURO_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:51', '2017-09-20 08:03:40'),
-(208, 498, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pagseguro%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:51', '2017-09-19 11:24:51');
+(1, 19, 'install', '', '>', '0', '1', 'time', '1', 1, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(2, 40, 'install', '', '>=', '730', '', 'time', '2', 0, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(3, 121, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%moneybookers%\"', '==', '0', '0', 'time', '1', 1, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(4, 147, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%hipay%\"', '==', '0', '0', 'time', '1', 1, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(5, 152, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypal%\"', '==', '0', '0', 'time', '1', 1, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(6, 155, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%trustly%\"', '==', '0', '0', 'time', '1', 1, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(7, 142, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypal%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(8, 6, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '0', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(9, 1, 'configuration', 'PS_REWRITING_SETTINGS', '==', '1', '1', 'hook', 'actionAdminMetaControllerUpdate_optionsAfter', 1, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(10, 2, 'configuration', 'PS_SMARTY_FORCE_COMPILE', '!=', '2', '1', 'hook', 'actionAdminPerformanceControllerSaveAfter', 1, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(11, 3, 'configuration', 'PS_CSS_THEME_CACHE', '==', '1', '', 'hook', 'actionAdminPerformanceControllerSaveAfter', 0, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(12, 4, 'configuration', 'PS_CIPHER_ALGORITHM', '==', '1', '1', 'hook', 'actionAdminPerformanceControllerSaveAfter', 1, '2017-09-20 12:47:44', '2017-09-20 12:47:44'),
+(13, 5, 'configuration', 'PS_MEDIA_SERVERS', '==', '1', '', 'hook', 'actionAdminPerformanceControllerSaveAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(14, 7, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(15, 8, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '0', '0', 'hook', 'actionObjectCarrierAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(16, 9, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '1', '0', 'hook', 'actionObjectCarrierAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(17, 10, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '0', '1', 'hook', 'actionObjectProductAddAfter', 1, '2017-09-20 12:47:45', '2017-09-20 14:46:13'),
+(18, 11, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '9', '1', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 14:46:32'),
+(19, 16, 'configuration', 'PS_SHOP_PHONE', '!=', '0', '', 'hook', 'actionAdminStoresControllerUpdate_optionsAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(20, 17, 'sql', 'SELECT COUNT(*) FROM PREFIX_contact', '>', '2', '2', 'hook', 'actionObjectContactAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(21, 18, 'sql', 'SELECT COUNT(*) FROM PREFIX_contact', '>', '4', '2', 'hook', 'actionObjectContactAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(22, 12, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '99', '1', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 14:46:32'),
+(23, 13, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '999', '1', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 14:46:33'),
+(24, 14, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '9999', '1', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 14:46:33'),
+(25, 15, 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '99999', '1', 'hook', 'actionObjectProductAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 14:46:33'),
+(26, 20, 'install', '', '>=', '7', '', 'time', '1', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(27, 21, 'configuration', 'PS_LOGO', '!=', 'logo.jpg', '1', 'hook', 'actionAdminThemesControllerUpdate_optionsAfter', 1, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(28, 22, 'sql', 'SELECT COUNT(*) FROM PREFIX_theme WHERE directory != \"default\" AND directory != \"prestashop\" AND directory ! \"default-bootstrap\"', '>', '0', '0', 'hook', 'actionObjectShopUpdateAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(29, 23, 'configuration', 'PS_LOGGED_ON_ADDONS', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(30, 24, 'configuration', 'PS_MULTISHOP_FEATURE_ACTIVE', '==', '1', '', 'hook', 'actionAdminPreferencesControllerUpdate_optionsAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(31, 25, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop', '>', '1', '1', 'hook', 'actionObjectShopAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(32, 28, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop_group', '>', '1', '1', 'hook', 'actionObjectShopGroupAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(33, 26, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop', '>', '4', '1', 'hook', 'actionObjectShopAddAfter', 0, '2017-09-20 12:47:45', '2017-09-20 12:47:45'),
+(34, 27, 'sql', 'SELECT COUNT(*) FROM PREFIX_shop_group', '>', '5', '1', 'hook', 'actionObjectShopGroupAddAfter 	', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(35, 30, 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '2', '0', 'hook', 'actionObjectCarrierAddAfter', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(36, 29, 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '2', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(37, 31, 'sql', 'SELECT SUM(total_paid_tax_excl / c.conversion_rate)\r\nFROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '900', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:46', '2017-09-20 13:36:14'),
+(38, 32, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '9000', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:46', '2017-09-20 13:36:14'),
+(39, 33, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '90000', '0', 'time', '1', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(40, 34, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '900000', '0', 'time', '7', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(41, 35, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '9000000', '0', 'time', '7', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(42, 36, 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '90000000', '0', 'time', '7', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(43, 37, 'install', '', '>=', '30', '', 'time', '1', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(44, 38, 'install', '', '>=', '182', '', 'time', '2', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(45, 39, 'install', '', '>=', '365', '', 'time', '2', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(46, 41, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '10', '2', 'time', '1', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(47, 42, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100', '2', 'time', '1', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(48, 43, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '1000', '2', 'time', '1', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(49, 44, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '10000', '1', 'time', '2', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(50, 45, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100000', '1', 'time', '3', 0, '2017-09-20 12:47:46', '2017-09-20 12:47:46'),
+(51, 46, 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '1000000', '1', 'time', '4', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(52, 47, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '2', '2', 'hook', 'actionObjectCartAddAfter', 1, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(53, 48, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '10', '4', 'hook', 'actionObjectCartAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 13:37:05'),
+(54, 49, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '100', '4', 'hook', 'actionObjectCartAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 13:37:05'),
+(55, 50, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '1000', '3', 'time', '1', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(56, 51, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '10000', '2', 'time', '4', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(57, 52, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '100000', '2', 'time', '8', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(58, 53, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '1', '1', 'hook', 'actionObjectOrderAddAfter', 1, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(59, 54, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '10', '2', 'hook', 'actionObjectOrderAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 13:36:13'),
+(60, 55, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '100', '2', 'hook', 'actionObjectOrderAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 13:36:13'),
+(61, 56, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '1000', '1', 'time', '2', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(62, 57, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '10000', '1', 'time', '4', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(63, 58, 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '100000', '1', 'time', '8', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(64, 65, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '1', '0', 'hook', 'actionObjectCustomerThreadAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(65, 66, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '10', '0', 'hook', 'actionObjectCustomerThreadAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(66, 67, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '100', '0', 'hook', 'actionObjectCustomerThreadAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(67, 68, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '1000', '0', 'time', '2', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(68, 69, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '10000', '0', 'time', '4', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(69, 70, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '100000', '0', 'time', '8', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(70, 59, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '1', '1', 'hook', 'actionObjectCustomerAddAfter', 1, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(71, 60, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '10', '1', 'hook', 'actionObjectCustomerAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(72, 61, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '100', '1', 'hook', 'actionObjectCustomerAddAfter', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(73, 62, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '1000', '1', 'time', '1', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(74, 63, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '10000', '1', 'time', '2', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(75, 64, 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '100000', '1', 'time', '4', 0, '2017-09-20 12:47:47', '2017-09-20 12:47:47'),
+(76, 71, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\"BE\",\"DE\",\"FR\",\"FX\",\"GB\",\"IE\",\"LU\",\"MC\",\"NL\")', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:47', '2017-09-20 13:36:15'),
+(77, 72, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\"IT\",\r\n\"MT\",\r\n\"SM\",\r\n\"VA\",\r\n\"AD\",\r\n\"ES\",\r\n\"GI\",\r\n\"PT\")', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:47', '2017-09-20 13:36:15'),
+(78, 73, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BY\",\r\n\"EE\",\r\n\"LT\",\r\n\"LV\",\r\n\"MD\",\r\n\"PL\",\r\n\"UA\",\r\n\"AL\",\r\n\"BA\",\r\n\"BG\",\r\n\"GR\",\r\n\"HR\",\r\n\"MK\",\r\n\"RO\",\r\n\"SI\",\r\n\"YU\",\r\n\"RU\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:47', '2017-09-20 13:36:15'),
+(79, 74, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"AT\",\r\n\"CH\",\r\n\"CZ\",\r\n\"HU\",\r\n\"LI\",\r\n\"SK\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:47', '2017-09-20 13:36:15'),
+(80, 75, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"DK\",\r\n\"FI\",\r\n\"FO\",\r\n\"IS\",\r\n\"NO\",\r\n\"SE\",\r\n\"SJ\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(81, 76, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"CA\",\r\n\"GL\",\r\n\"PM\",\r\n\"US\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(82, 79, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"UM\",\r\n\"AS\",\r\n\"AU\",\r\n\"CK\",\r\n\"FJ\",\r\n\"FM\",\r\n\"GU\",\r\n\"KI\",\r\n\"MH,\"\r\n\"MP\",\r\n\"NC\",\r\n\"NF\",\r\n\"NR\",\r\n\"NU\",\r\n\"NZ\",\r\n\"PF\",\r\n\"PG\",\r\n\"PN\",\r\n\"PW\",\r\n\"SB\",\r\n\"TK\",\r\n\"TO\",\r\n\"TV\",\r\n\"VU\",\r\n\"WF\",\r\n\"WS\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(83, 85, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"KG\",\r\n\"KZ\",\r\n\"TJ\",\r\n\"TM\",\r\n\"UZ\",\r\n\"AE\",\r\n\"AM\",\r\n\"AZ\",\r\n\"BH\",\r\n\"CY\",\r\n\"GE\",\r\n\"IL\",\r\n\"IQ\",\r\n\"IR\",\r\n\"JO\",\r\n\"KW\",\r\n\"LB\",\r\n\"OM\",\r\n\"QA\",\r\n\"SA\",\r\n\"SY\",\r\n\"TR\",\r\n\"YE\",\r\n\"AF\",\r\n\"BD\",\r\n\"BT\",\r\n\"IN\",\r\n\"IO\",\r\n\"LK\",\r\n\"MV\",\r\n\"NP\",\r\n\"PK\",\r\n\"CN\",\r\n\"HK\",\r\n\"JP\",\r\n\"KP\",\r\n\"KR\",\r\n\"MO\",\r\n\"TW\",\r\n\"MN\",\r\n\"BN\",\r\n\"CC\",\r\n\"CX\",\r\n\"ID\",\r\n\"KH\",\r\n\"LA\",\r\n\"MM\",\r\n\"MY\",\r\n\"PH\",\r\n\"SG\",\r\n\"TH\",\r\n\"TP\",\r\n\"VN\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(84, 86, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BZ\",\r\n\"CR\",\r\n\"GT\",\r\n\"HN\",\r\n\"MX\",\r\n\"NI\",\r\n\"PA\",\r\n\"SV\",\r\n\"AG\",\r\n\"AI\",\r\n\"AN\",\r\n\"AW\",\r\n\"BB\",\r\n\"BM\",\r\n\"BS\",\r\n\"CU\",\r\n\"DM\",\r\n\"DO\",\r\n\"GD\",\r\n\"GP\",\r\n\"HT\",\r\n\"JM\",\r\n\"KN\",\r\n\"KY\",\r\n\"LC\",\r\n\"MQ\",\r\n\"MS\",\r\n\"PR\",\r\n\"TC\",\r\n\"TT\",\r\n\"VC\",\r\n\"VG\",\r\n\"VI\",\r\n\"AR\",\r\n\"BO\",\r\n\"BR\",\r\n\"CL\",\r\n\"CO\",\r\n\"EC\",\r\n\"FK\",\r\n\"GF\",\r\n\"GY\",\r\n\"PE\",\r\n\"PY\",\r\n\"SR\",\r\n\"UY\",\r\n\"VE\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(85, 88, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BI\",\r\n\"CF\",\r\n\"CG\",\r\n\"RW\",\r\n\"TD\",\r\n\"ZR\",\r\n\"DJ\",\r\n\"ER\",\r\n\"ET\",\r\n\"KE\",\r\n\"SO\",\r\n\"TZ\",\r\n\"UG\",\r\n\"KM\",\r\n\"MG\",\r\n\"MU\",\r\n\"RE\",\r\n\"SC\",\r\n\"YT\",\r\n\"AO\",\r\n\"BW\",\r\n\"LS\",\r\n\"MW\",\r\n\"MZ\",\r\n\"NA\",\r\n\"SZ\",\r\n\"ZA\",\r\n\"ZM\",\r\n\"ZW\",\r\n\"BF\",\r\n\"BJ\",\r\n\"CI\",\r\n\"CM\",\r\n\"CV\",\r\n\"GA\",\r\n\"GH\",\r\n\"GM\",\r\n\"GN\",\r\n\"GQ\",\r\n\"GW\",\r\n\"LR\",\r\n\"ML\",\r\n\"MR\",\r\n\"NE\",\r\n\"NG\",\r\n\"SL\",\r\n\"SN\",\r\n\"ST\",\r\n\"TG\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(86, 89, 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"DZ\",\r\n\"EG\",\r\n\"EH\",\r\n\"LY\",\r\n\"MA\",\r\n\"SD\",\r\n\"TN\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(87, 90, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '2', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(88, 91, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '3', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(89, 92, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '5', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(90, 93, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '10', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(91, 94, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '20', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(92, 95, 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '40', '1', 'hook', 'actionObjectEmployeeAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(93, 96, 'sql', 'SELECT id_image FROM PREFIX_image WHERE id_image > 26', '>', '0', '27', 'hook', 'actionObjectImageAddAfter', 1, '2017-09-20 12:47:48', '2017-09-20 14:46:44'),
+(94, 97, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '50', '4', 'hook', 'actionObjectImageAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 14:49:12'),
+(95, 98, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '100', '4', 'hook', 'actionObjectImageAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 14:49:12'),
+(96, 99, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '1000', '4', 'time', '2', 0, '2017-09-20 12:47:48', '2017-09-20 14:49:12'),
+(97, 100, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '10000', '4', 'time', '4', 0, '2017-09-20 12:47:48', '2017-09-20 14:49:12'),
+(98, 101, 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '50000', '4', 'time', '8', 0, '2017-09-20 12:47:48', '2017-09-20 14:49:12'),
+(99, 102, 'sql', 'SELECT id_cms FROM PREFIX_cms WHERE id_cms > 5', '>', '0', '0', 'hook', 'actionObjectCMSAddAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(100, 103, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '1', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(101, 104, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '10', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(102, 105, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '100', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(103, 107, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '500', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(104, 106, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '1000', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(105, 108, 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '5000', '0', 'hook', 'actionObjectCartRuleAddAfter 	', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(106, 109, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '1', '0', 'hook', 'newOrder', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(107, 110, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '10', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(108, 111, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '100', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(109, 113, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '1000', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(110, 114, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '5000', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(111, 112, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '10000', '0', 'hook', 'actionOrderStatusUpdate', 0, '2017-09-20 12:47:48', '2017-09-20 13:36:15'),
+(112, 165, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '0', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(113, 166, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '1', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(114, 167, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '4', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(115, 168, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '9', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(116, 169, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '19', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(117, 170, 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '49', '0', 'hook', 'actionAdminStoresControllerSaveAfter', 0, '2017-09-20 12:47:48', '2017-09-20 12:47:48'),
+(118, 171, 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '1', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(119, 172, 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '2', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(120, 173, 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '3', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(121, 174, 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '4', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(122, 141, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%ogone%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(123, 291, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'OGONE_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'OGONE_MODE\') AND ( value = \'live\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(124, 369, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ogone%\" AND os.logable = 1', '>=', '1', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(125, 391, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ogone%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(126, 301, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYPAL_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYPAL_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(127, 371, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypal%\" AND os.logable = 1', '>=', '1', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(128, 372, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypal%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(129, 320, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%shopgate%\" ', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(130, 322, 'configuration', 'SHOPGATE_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(131, 375, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%shopgate%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '1', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(132, 376, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%shopgate%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(133, 140, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%moneybookers%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(134, 326, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'MONEYBOOKERS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'MB_PAY_TO_EMAIL \') AND ( value != \'testaccount2@moneybookers.com \'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(135, 377, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%moneybookers%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '1', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(136, 394, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%sofortbanking%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(137, 332, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%textmaster%\" ', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(138, 334, 'configuration', 'TEXTMASTER_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(139, 381, 'sql', 'SELECT COUNT(*) FROM PREFIX_textmaster_project WHERE status = \"completed\"', '>=', '1', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(140, 396, 'sql', 'SELECT COUNT(*) FROM PREFIX_textmaster_project WHERE status = \"completed\"', '>=', '10', '0', 'time', '1', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(141, 416, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%pigmbhpaymill%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(142, 418, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pigmbhpaymill%\" AND os.logable = 1', '>=', '1', '0', 'time', '7', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(143, 419, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pigmbhpaymill%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(144, 428, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%authorizeaim%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(145, 429, 'configuration', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'AUTHORIZEAIM_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'AUTHORIZE_AIM_SANDBOX\') AND ( value = \'0\'))', '==', '2', '', 'time', '2', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(146, 430, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%authorizeaim%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(147, 431, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%authorizeaim%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(148, 136, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%ebay%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:49', '2017-09-20 12:47:49'),
+(149, 209, 'configuration', 'EBAY_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(150, 358, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ebay%\" AND os.logable = 1', '>=', '1', '0', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(151, 359, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ebay%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(152, 438, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%payplug%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(153, 439, 'configuration', 'PAYPLUG_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(154, 440, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payplug%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(155, 441, 'sql', 'SELECT SUM(o.total_paid) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payplug%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '10000', '0', 'time', '7', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(156, 442, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%affinityitems%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(157, 443, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE name LIKE \'AFFINITYITEMS_CONFIGURATION_OK\' AND value = \'1\'', '==', '1', '0', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(158, 446, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%dpdpoland%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(159, 447, 'configuration', 'DPDPOLAND_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(160, 448, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%dpdpoland%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(161, 449, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%dpdpoland%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(162, 450, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%envoimoinscher%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(163, 451, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'ENVOIMOINSCHER_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'EMC_ENV \') AND ( value != \'TEST\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(164, 452, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%envoimoinscher%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(165, 453, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%envoimoinscher%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(166, 454, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%klikandpay%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(167, 455, 'configuration', 'KLIKANDPAY_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(168, 456, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%klikandpay%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(169, 457, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%klikandpay%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(170, 458, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%clickline%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(171, 459, 'configuration', 'CLICKLINE_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(172, 460, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%clickline%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(173, 461, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%clickline%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(174, 462, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%cdiscount%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(175, 463, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(176, 464, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%cdiscount%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:50', '2017-09-20 12:47:50'),
+(177, 465, 'sql', 'SELECT SUM(o.total_paid) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%cdiscount%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 365 DAY)', '>=', '500', '0', 'time', '7', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(178, 467, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%erpillicopresta%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(179, 468, 'configuration', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'ERPILLICOPRESTA_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'ERP_LICENCE_VALIDITY \') AND ( value == \'1\')) OR (( name LIKE \'ERP_MONTH_FREE_ACTIVE \') AND ( value == \'0\'))', '==', '3', '', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(180, 469, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(181, 470, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(182, 471, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%netreviews%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(183, 472, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'NETREVIEWS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'AVISVERIFIES_URLCERTIFICAT \') AND ( value IS NOT LIKE \'%preprod%\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(184, 473, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(185, 474, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(186, 475, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%bluesnap%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(187, 476, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'BLUESNAP_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'BLUESNAP_SANDBOX \') AND ( value NOT LIKE \'%sandbox%\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(188, 477, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%bluesnap%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(189, 478, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%bluesnap%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(190, 479, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%desjardins%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(191, 480, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'DESJARDINS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'DESJARDINS_MODE \') AND ( value NOT LIKE \'%test%\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(192, 481, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%desjardins%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(193, 482, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%desjardins%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(194, 483, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%firstdata%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(195, 484, 'configuration', 'FIRSTDATA_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(196, 485, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%firstdata%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(197, 486, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%firstdata%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(198, 487, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%giveit%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(199, 488, 'sql', 'GIVEIT_CONFIGURATION_OK', '>=', '1', '0', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(200, 489, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(201, 490, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(202, 491, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%ganalytics%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(203, 492, 'configuration', 'GANALYTICS_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(204, 493, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(205, 494, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(206, 496, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%pagseguro%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(207, 497, 'configuration', 'PAGSEGURO_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(208, 498, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pagseguro%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51');
 INSERT INTO `ps_condition` (`id_condition`, `id_ps_condition`, `type`, `request`, `operator`, `value`, `result`, `calculation_type`, `calculation_detail`, `validated`, `date_add`, `date_upd`) VALUES
-(209, 499, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pagseguro%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:51', '2017-09-19 11:24:51'),
-(210, 500, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypalmx%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:51', '2017-09-20 08:30:18'),
-(211, 501, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYPALMX_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYPAL_MX_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:51', '2017-09-20 08:03:40'),
-(212, 502, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:51', '2017-09-19 11:24:51'),
-(213, 503, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:51', '2017-09-19 11:24:51'),
-(214, 505, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypalusa%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:51', '2017-09-20 08:30:18'),
-(215, 506, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYPALUSA_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYPAL_USA_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:52', '2017-09-20 08:03:40'),
-(216, 507, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalusa%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:52', '2017-09-19 11:24:52'),
-(217, 508, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:52', '2017-09-19 11:24:52'),
-(218, 509, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%payulatam%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:52', '2017-09-20 08:30:18'),
-(219, 510, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYULATAM_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYU_LATAM_TEST\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:52', '2017-09-20 08:03:40'),
-(220, 511, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payulatam%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:52', '2017-09-19 11:24:52'),
-(221, 512, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payulatam%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:53', '2017-09-19 11:24:53'),
-(222, 513, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%prestastats%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:53', '2017-09-20 08:30:18'),
-(223, 514, 'configuration', 'PRESTASTATS_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:53', '2017-09-20 08:03:40'),
-(224, 515, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:53', '2017-09-19 11:24:53'),
-(225, 516, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:53', '2017-09-19 11:24:53'),
-(226, 517, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%riskified%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:53', '2017-09-20 08:30:18'),
-(227, 518, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'RISKIFIED_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'RISKIFIED_MODE\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:53', '2017-09-20 08:03:40'),
-(228, 519, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%riskified%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:53', '2017-09-19 11:24:53'),
-(229, 520, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%riskified%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:53', '2017-09-19 11:24:53'),
-(230, 521, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%simplifycommerce%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:53', '2017-09-20 08:30:18'),
-(231, 522, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'SIMPLIFY_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'SIMPLIFY_MODE\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:53', '2017-09-20 08:03:40'),
-(232, 523, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%simplifycommerce%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:53', '2017-09-19 11:24:53'),
-(233, 524, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%simplifycommerce%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:54', '2017-09-19 11:24:54'),
-(234, 525, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%vtpayment%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:54', '2017-09-20 08:30:18'),
-(235, 526, 'configuration', 'VTPAYMENT_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:54', '2017-09-20 08:03:40'),
-(236, 527, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%vtpayment%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-19 11:24:54', '2017-09-19 11:24:54'),
-(237, 528, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%vtpayment%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-19 11:24:54', '2017-09-19 11:24:54'),
-(238, 529, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%yotpo%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:54', '2017-09-20 08:30:18'),
-(239, 530, 'configuration', 'YOTPO_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:54', '2017-09-20 08:03:40'),
-(240, 531, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:54', '2017-09-19 11:24:54'),
-(241, 532, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:54', '2017-09-19 11:24:54'),
-(242, 533, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%yotpo%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:54', '2017-09-20 08:30:19'),
-(243, 534, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'YOUSTICERESOLUTIONSYSTEM_CONF_OK\') AND ( value = \'1\')) OR (( name LIKE \'YRS_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', 0, '2017-09-19 11:24:54', '2017-09-20 08:03:41'),
-(244, 535, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:55', '2017-09-19 11:24:55'),
-(245, 536, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:55', '2017-09-19 11:24:55'),
-(246, 537, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%loyaltylion%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-19 11:24:56', '2017-09-20 08:30:19'),
-(247, 538, 'configuration', 'LOYALTYLION_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-19 11:24:56', '2017-09-20 08:03:41'),
-(248, 539, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:56', '2017-09-19 11:24:56'),
-(249, 540, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-19 11:24:56', '2017-09-19 11:24:56');
+(209, 499, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pagseguro%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(210, 500, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypalmx%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(211, 501, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYPALMX_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYPAL_MX_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(212, 502, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(213, 503, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(214, 505, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypalusa%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(215, 506, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYPALUSA_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYPAL_USA_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(216, 507, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalusa%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(217, 508, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(218, 509, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%payulatam%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(219, 510, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYULATAM_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYU_LATAM_TEST\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(220, 511, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payulatam%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(221, 512, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payulatam%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(222, 513, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%prestastats%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(223, 514, 'configuration', 'PRESTASTATS_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(224, 515, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(225, 516, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(226, 517, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%riskified%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(227, 518, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'RISKIFIED_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'RISKIFIED_MODE\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:51', '2017-09-20 12:47:51'),
+(228, 519, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%riskified%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(229, 520, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%riskified%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(230, 521, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%simplifycommerce%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(231, 522, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'SIMPLIFY_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'SIMPLIFY_MODE\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(232, 523, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%simplifycommerce%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(233, 524, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%simplifycommerce%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(234, 525, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%vtpayment%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(235, 526, 'configuration', 'VTPAYMENT_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(236, 527, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%vtpayment%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(237, 528, 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%vtpayment%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(238, 529, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%yotpo%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(239, 530, 'configuration', 'YOTPO_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(240, 531, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(241, 532, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(242, 533, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%yotpo%\"', '==', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(243, 534, 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'YOUSTICERESOLUTIONSYSTEM_CONF_OK\') AND ( value = \'1\')) OR (( name LIKE \'YRS_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(244, 535, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(245, 536, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(246, 537, 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%loyaltylion%\"', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(247, 538, 'configuration', 'LOYALTYLION_CONFIGURATION_OK', '==', '1', '', 'time', '1', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(248, 539, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52'),
+(249, 540, 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', 0, '2017-09-20 12:47:52', '2017-09-20 12:47:52');
 
 -- --------------------------------------------------------
 
@@ -4021,24 +4130,36 @@ INSERT INTO `ps_condition_advice` (`id_condition`, `id_advice`, `display`) VALUE
 (1, 5, 1),
 (1, 6, 1),
 (1, 8, 1),
+(1, 9, 1),
+(1, 10, 1),
+(1, 12, 1),
 (2, 1, 0),
 (2, 5, 0),
+(2, 9, 0),
 (3, 2, 1),
 (3, 6, 1),
+(3, 10, 1),
 (4, 2, 1),
 (4, 6, 1),
+(4, 10, 1),
 (5, 2, 1),
 (5, 3, 1),
 (5, 6, 1),
 (5, 7, 1),
+(5, 10, 1),
+(5, 11, 1),
 (6, 2, 1),
 (6, 6, 1),
+(6, 10, 1),
 (7, 2, 0),
 (7, 3, 0),
 (7, 6, 0),
 (7, 7, 0),
+(7, 10, 0),
+(7, 11, 0),
 (8, 3, 1),
-(8, 7, 1);
+(8, 7, 1),
+(8, 11, 1);
 
 -- --------------------------------------------------------
 
@@ -4323,7 +4444,7 @@ CREATE TABLE IF NOT EXISTS `ps_configuration` (
   KEY `name` (`name`),
   KEY `id_shop` (`id_shop`),
   KEY `id_shop_group` (`id_shop_group`)
-) ENGINE=InnoDB AUTO_INCREMENT=344 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=348 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_configuration`
@@ -4333,7 +4454,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (1, NULL, NULL, 'PS_LANG_DEFAULT', '2', '2017-09-19 11:07:14', '2017-09-19 11:24:22'),
 (2, NULL, NULL, 'PS_VERSION_DB', '1.7.2.2', '2017-09-19 11:07:14', '2017-09-19 11:07:14'),
 (3, NULL, NULL, 'PS_INSTALL_VERSION', '1.7.2.2', '2017-09-19 11:07:14', '2017-09-19 11:07:14'),
-(4, NULL, NULL, 'PS_CARRIER_DEFAULT', '1', '2017-09-19 11:07:25', '2017-09-19 11:07:25'),
+(4, NULL, NULL, 'PS_CARRIER_DEFAULT', '8', '2017-09-19 11:07:25', '2017-09-20 13:41:48'),
 (5, NULL, NULL, 'PS_GROUP_FEATURE_ACTIVE', '1', '2017-09-19 11:07:25', '2017-09-19 11:07:25'),
 (6, NULL, NULL, 'PS_SEARCH_INDEXATION', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (7, NULL, NULL, 'PS_CURRENCY_DEFAULT', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -4352,8 +4473,8 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (20, NULL, NULL, 'PS_PRODUCTS_ORDER_WAY', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (21, NULL, NULL, 'PS_PRODUCTS_ORDER_BY', '4', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (22, NULL, NULL, 'PS_DISPLAY_QTIES', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(23, NULL, NULL, 'PS_SHIPPING_HANDLING', '2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(24, NULL, NULL, 'PS_SHIPPING_FREE_PRICE', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(23, NULL, NULL, 'PS_SHIPPING_HANDLING', '0', '0000-00-00 00:00:00', '2017-09-20 13:11:09'),
+(24, NULL, NULL, 'PS_SHIPPING_FREE_PRICE', '999', '0000-00-00 00:00:00', '2017-09-20 13:11:01'),
 (25, NULL, NULL, 'PS_SHIPPING_FREE_WEIGHT', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (26, NULL, NULL, 'PS_SHIPPING_METHOD', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (27, NULL, NULL, 'PS_TAX', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -4472,11 +4593,11 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (140, NULL, NULL, 'PS_VIRTUAL_PROD_FEATURE_ACTIVE', '1', '0000-00-00 00:00:00', '2017-09-19 15:24:46'),
 (141, NULL, NULL, 'PS_CUSTOMIZATION_FEATURE_ACTIVE', '1', '0000-00-00 00:00:00', '2017-09-19 15:25:59'),
 (142, NULL, NULL, 'PS_CART_RULE_FEATURE_ACTIVE', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(143, NULL, NULL, 'PS_PACK_FEATURE_ACTIVE', NULL, '0000-00-00 00:00:00', '2017-09-20 09:44:27'),
+(143, NULL, NULL, 'PS_PACK_FEATURE_ACTIVE', NULL, '0000-00-00 00:00:00', '2017-09-20 14:57:36'),
 (144, NULL, NULL, 'PS_ALIAS_FEATURE_ACTIVE', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (145, NULL, NULL, 'PS_TAX_ADDRESS_TYPE', 'id_address_delivery', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (146, NULL, NULL, 'PS_SHOP_DEFAULT', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(147, NULL, NULL, 'PS_CARRIER_DEFAULT_SORT', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(147, NULL, NULL, 'PS_CARRIER_DEFAULT_SORT', '1', '0000-00-00 00:00:00', '2017-09-20 13:12:14'),
 (148, NULL, NULL, 'PS_STOCK_MVT_INC_REASON_DEFAULT', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (149, NULL, NULL, 'PS_STOCK_MVT_DEC_REASON_DEFAULT', '2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (150, NULL, NULL, 'PS_ADVANCED_STOCK_MANAGEMENT', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -4535,7 +4656,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (203, NULL, NULL, 'BLOCKADVERT_LINK', 'http://www.prestashop.com', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (204, NULL, NULL, 'BLOCKSTORE_IMG', 'store.jpg', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (205, NULL, NULL, 'BLOCKADVERT_IMG_EXT', 'jpg', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(206, NULL, NULL, 'MOD_BLOCKTOPMENU_ITEMS', 'CAT3,CAT26', '0000-00-00 00:00:00', '2017-09-19 11:09:56'),
+(206, NULL, NULL, 'MOD_BLOCKTOPMENU_ITEMS', 'CAT3,CAT12,LNK1', '0000-00-00 00:00:00', '2017-09-20 12:53:07'),
 (207, NULL, NULL, 'MOD_BLOCKTOPMENU_SEARCH', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (208, NULL, NULL, 'BLOCKSOCIAL_FACEBOOK', NULL, '0000-00-00 00:00:00', '2017-09-19 11:09:58'),
 (209, NULL, NULL, 'BLOCKSOCIAL_TWITTER', NULL, '0000-00-00 00:00:00', '2017-09-19 11:09:58'),
@@ -4616,7 +4737,7 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (285, NULL, NULL, 'DASHPRODUCT_NBR_SHOW_BEST_SELLER', '10', '2017-09-19 11:09:32', '2017-09-19 11:09:32'),
 (286, NULL, NULL, 'DASHPRODUCT_NBR_SHOW_MOST_VIEWED', '10', '2017-09-19 11:09:32', '2017-09-19 11:09:32'),
 (287, NULL, NULL, 'DASHPRODUCT_NBR_SHOW_TOP_SEARCH', '10', '2017-09-19 11:09:32', '2017-09-19 11:09:32'),
-(291, NULL, NULL, 'BLOCK_CATEG_ROOT_CATEGORY', '1', '2017-09-19 11:09:35', '2017-09-19 11:09:35'),
+(291, NULL, NULL, 'BLOCK_CATEG_ROOT_CATEGORY', '0', '2017-09-19 11:09:35', '2017-09-20 12:56:42'),
 (292, NULL, NULL, 'CONF_PS_CHECKPAYMENT_FIXED', '0.2', '2017-09-19 11:09:36', '2017-09-19 11:09:36'),
 (293, NULL, NULL, 'CONF_PS_CHECKPAYMENT_VAR', '2', '2017-09-19 11:09:36', '2017-09-19 11:09:36'),
 (294, NULL, NULL, 'CONF_PS_CHECKPAYMENT_FIXED_FOREIGN', '0.2', '2017-09-19 11:09:36', '2017-09-19 11:09:36'),
@@ -4646,11 +4767,11 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (320, NULL, NULL, 'CONF_PS_WIREPAYMENT_VAR_FOREIGN', '2', '2017-09-19 11:10:00', '2017-09-19 11:10:00'),
 (321, NULL, NULL, 'GF_INSTALL_CALC', '1', '2017-09-19 11:10:23', '2017-09-19 11:13:42'),
 (322, NULL, NULL, 'GF_CURRENT_LEVEL', '1', '2017-09-19 11:10:23', '2017-09-19 11:10:23'),
-(323, NULL, NULL, 'GF_CURRENT_LEVEL_PERCENT', '45', '2017-09-19 11:10:24', '2017-09-19 14:04:47'),
-(324, NULL, NULL, 'GF_NOTIFICATION', '6', '2017-09-19 11:10:24', '2017-09-19 14:04:47'),
+(323, NULL, NULL, 'GF_CURRENT_LEVEL_PERCENT', '55', '2017-09-19 11:10:24', '2017-09-20 14:49:12'),
+(324, NULL, NULL, 'GF_NOTIFICATION', '8', '2017-09-19 11:10:24', '2017-09-20 14:49:12'),
 (325, NULL, NULL, 'BLOCKREASSURANCE_NBBLOCKS', '5', '2017-09-19 11:10:31', '2017-09-19 11:10:31'),
 (326, NULL, NULL, 'ONBOARDINGV2_SHUT_DOWN', '1', '2017-09-19 11:12:43', '2017-09-19 11:12:43'),
-(327, NULL, NULL, 'GF_NOT_VIEWED_BADGE', '174', '2017-09-19 11:13:39', '2017-09-19 14:04:47'),
+(327, NULL, NULL, 'GF_NOT_VIEWED_BADGE', '215', '2017-09-19 11:13:39', '2017-09-20 14:49:12'),
 (328, NULL, NULL, 'PS_CSS_THEME_CACHE', '0', '2017-09-19 11:29:31', '2017-09-19 11:29:31'),
 (329, NULL, NULL, 'PS_JS_THEME_CACHE', '0', '2017-09-19 11:29:31', '2017-09-19 11:29:31'),
 (330, NULL, NULL, 'PS_HTACCESS_CACHE_CONTROL', '0', '2017-09-19 11:29:31', '2017-09-19 11:29:31'),
@@ -4666,7 +4787,11 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (340, NULL, NULL, 'HOMESLIDER_WRAP', '1', '2017-09-19 16:31:25', '2017-09-19 16:31:25'),
 (341, NULL, NULL, 'BANNER_IMG', NULL, '2017-09-20 08:24:41', '2017-09-20 08:24:41'),
 (342, NULL, NULL, 'BANNER_LINK', NULL, '2017-09-20 08:24:42', '2017-09-20 08:24:42'),
-(343, NULL, NULL, 'BANNER_DESC', NULL, '2017-09-20 08:24:42', '2017-09-20 08:24:42');
+(343, NULL, NULL, 'BANNER_DESC', NULL, '2017-09-20 08:24:42', '2017-09-20 08:24:42'),
+(344, NULL, NULL, 'PS_CCCJS_VERSION', '1', '2017-09-20 11:01:28', '2017-09-20 11:01:28'),
+(345, NULL, NULL, 'PS_CCCCSS_VERSION', '1', '2017-09-20 11:01:28', '2017-09-20 11:01:28'),
+(346, NULL, NULL, 'BLOCK_CATEG_SORT_WAY', '0', '2017-09-20 12:56:42', '2017-09-20 12:56:42'),
+(347, NULL, NULL, 'BLOCK_CATEG_SORT', '0', '2017-09-20 12:56:42', '2017-09-20 12:56:42');
 
 -- --------------------------------------------------------
 
@@ -4774,7 +4899,9 @@ CREATE TABLE IF NOT EXISTS `ps_configuration_kpi_lang` (
 
 INSERT INTO `ps_configuration_kpi_lang` (`id_configuration_kpi`, `id_lang`, `value`, `date_upd`) VALUES
 (39, 1, 'No orders', '2017-09-19 13:51:20'),
+(39, 2, 'Inga ordrar', '2017-09-20 13:06:49'),
 (40, 1, '1505908280', '2017-09-19 13:51:20'),
+(40, 2, '1505992009', '2017-09-20 13:06:49'),
 (41, 1, '48 years', '2017-09-19 14:05:05'),
 (42, 1, '1505909105', '2017-09-19 14:05:05'),
 (49, 1, 'No customers', '2017-09-19 15:27:45'),
@@ -4845,7 +4972,7 @@ CREATE TABLE IF NOT EXISTS `ps_connections` (
   KEY `id_guest` (`id_guest`),
   KEY `date_add` (`date_add`),
   KEY `id_page` (`id_page`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_connections`
@@ -4863,7 +4990,14 @@ INSERT INTO `ps_connections` (`id_connections`, `id_shop_group`, `id_shop`, `id_
 (9, 1, 1, 2, 2, 0, '2017-09-19 16:40:26', ''),
 (10, 1, 1, 2, 2, 0, '2017-09-20 08:13:11', ''),
 (11, 1, 1, 2, 2, 0, '2017-09-20 08:45:22', ''),
-(12, 1, 1, 2, 2, 0, '2017-09-20 09:52:03', '');
+(12, 1, 1, 2, 2, 0, '2017-09-20 09:52:03', ''),
+(13, 1, 1, 2, 2, 0, '2017-09-20 10:24:03', ''),
+(14, 1, 1, 4, 1, 0, '2017-09-20 10:44:23', ''),
+(15, 1, 1, 2, 2, 0, '2017-09-20 10:58:50', ''),
+(16, 1, 1, 2, 1, 0, '2017-09-20 12:34:29', ''),
+(17, 1, 1, 2, 2, 0, '2017-09-20 13:07:12', ''),
+(18, 1, 1, 2, 2, 0, '2017-09-20 13:38:42', ''),
+(19, 1, 1, 2, 2, 0, '2017-09-20 14:59:15', '');
 
 -- --------------------------------------------------------
 
@@ -6119,7 +6253,7 @@ CREATE TABLE IF NOT EXISTS `ps_customer` (
 
 INSERT INTO `ps_customer` (`id_customer`, `id_shop_group`, `id_shop`, `id_gender`, `id_default_group`, `id_lang`, `id_risk`, `company`, `siret`, `ape`, `firstname`, `lastname`, `email`, `passwd`, `last_passwd_gen`, `birthday`, `newsletter`, `ip_registration_newsletter`, `newsletter_date_add`, `optin`, `website`, `outstanding_allow_amount`, `show_public_prices`, `max_payment_days`, `secure_key`, `note`, `active`, `is_guest`, `deleted`, `date_add`, `date_upd`, `reset_password_token`, `reset_password_validity`) VALUES
 (1, 1, 1, 1, 3, 1, 0, '', '', '', 'John', 'DOE', 'pub@prestashop.com', 'b1bc1fe8b54af6a695247a23a3518277', '2017-09-19 03:07:49', '1970-01-15', 1, '', '2013-12-13 08:19:15', 1, '', '0.000000', 0, 0, '76ffbf3a9ec9e3bb8119ad5f00f43e81', '', 1, 0, 0, '2017-09-19 11:07:49', '2017-09-19 11:07:49', '', '0000-00-00 00:00:00'),
-(2, 1, 1, 0, 3, 2, 0, '', '', '', 'Niklas', 'Liljendahl', 'niklas.liljendahl@yabs.se', '$2y$10$YoGoVNe93mlc90xsNOT1W./qFhUC8tsAPCciHhPi9RalJy3quPUg.', '2017-09-19 05:49:10', '0000-00-00', 1, '', '2017-09-19 13:49:10', 0, '', '0.000000', 0, 0, 'c141cfb187ef1f767ea020b482e317ef', '', 1, 0, 0, '2017-09-19 13:49:10', '2017-09-19 13:49:10', '', '0000-00-00 00:00:00');
+(2, 1, 1, 0, 3, 2, 0, NULL, NULL, NULL, 'Niklas', 'Liljendahl', 'niklas.liljendahl@yabs.se', '$2y$10$YoGoVNe93mlc90xsNOT1W./qFhUC8tsAPCciHhPi9RalJy3quPUg.', '2017-09-19 05:49:10', '0000-00-00', 1, NULL, '2017-09-19 13:49:10', 0, NULL, '0.000000', 0, 0, 'c141cfb187ef1f767ea020b482e317ef', NULL, 1, 0, 0, '2017-09-19 13:49:10', '2017-09-20 14:27:44', NULL, '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -6316,7 +6450,7 @@ CREATE TABLE IF NOT EXISTS `ps_delivery` (
   KEY `id_carrier` (`id_carrier`,`id_zone`),
   KEY `id_range_price` (`id_range_price`),
   KEY `id_range_weight` (`id_range_weight`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_delivery`
@@ -6326,7 +6460,15 @@ INSERT INTO `ps_delivery` (`id_delivery`, `id_shop`, `id_shop_group`, `id_carrie
 (1, NULL, NULL, 2, 0, 1, 1, '5.000000'),
 (2, NULL, NULL, 2, 0, 1, 2, '5.000000'),
 (3, NULL, NULL, 2, 1, 0, 1, '5.000000'),
-(4, NULL, NULL, 2, 1, 0, 2, '5.000000');
+(4, NULL, NULL, 2, 1, 0, 2, '5.000000'),
+(5, NULL, NULL, 3, NULL, 1, 1, '23.200000'),
+(6, NULL, NULL, 3, NULL, 1, 2, '23.200000'),
+(7, NULL, NULL, 6, NULL, 1, 1, '23.200000'),
+(8, NULL, NULL, 6, NULL, 1, 2, '23.200000'),
+(9, NULL, NULL, 7, NULL, 1, 1, '23.200000'),
+(10, NULL, NULL, 7, NULL, 1, 2, '23.200000'),
+(11, NULL, NULL, 8, NULL, 1, 1, '23.200000'),
+(12, NULL, NULL, 8, NULL, 1, 2, '23.200000');
 
 -- --------------------------------------------------------
 
@@ -6817,7 +6959,7 @@ CREATE TABLE IF NOT EXISTS `ps_guest` (
   KEY `id_customer` (`id_customer`),
   KEY `id_operating_system` (`id_operating_system`),
   KEY `id_web_browser` (`id_web_browser`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_guest`
@@ -6825,7 +6967,8 @@ CREATE TABLE IF NOT EXISTS `ps_guest` (
 
 INSERT INTO `ps_guest` (`id_guest`, `id_operating_system`, `id_web_browser`, `id_customer`, `javascript`, `screen_resolution_x`, `screen_resolution_y`, `screen_color`, `sun_java`, `adobe_flash`, `adobe_director`, `apple_quicktime`, `real_player`, `windows_media`, `accept_language`, `mobile_theme`) VALUES
 (1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0),
-(2, 6, 11, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0);
+(2, 6, 11, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0),
+(4, 6, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'sv', 0);
 
 -- --------------------------------------------------------
 
@@ -7447,7 +7590,7 @@ CREATE TABLE IF NOT EXISTS `ps_image` (
   UNIQUE KEY `id_product_cover` (`id_product`,`cover`),
   UNIQUE KEY `idx_product_image` (`id_image`,`id_product`,`cover`),
   KEY `image_product` (`id_product`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_image`
@@ -7455,7 +7598,9 @@ CREATE TABLE IF NOT EXISTS `ps_image` (
 
 INSERT INTO `ps_image` (`id_image`, `id_product`, `position`, `cover`) VALUES
 (25, 7, 1, 1),
-(26, 7, 2, NULL);
+(26, 7, 2, NULL),
+(27, 8, 2, NULL),
+(28, 8, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -7480,7 +7625,11 @@ INSERT INTO `ps_image_lang` (`id_image`, `id_lang`, `legend`) VALUES
 (25, 1, ''),
 (25, 2, ''),
 (26, 1, ''),
-(26, 2, '');
+(26, 2, ''),
+(27, 1, ''),
+(27, 2, ''),
+(28, 1, ''),
+(28, 2, '');
 
 -- --------------------------------------------------------
 
@@ -7505,7 +7654,9 @@ CREATE TABLE IF NOT EXISTS `ps_image_shop` (
 
 INSERT INTO `ps_image_shop` (`id_product`, `id_image`, `id_shop`, `cover`) VALUES
 (7, 26, 1, NULL),
-(7, 25, 1, 1);
+(7, 25, 1, 1),
+(8, 27, 1, NULL),
+(8, 28, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -7815,6 +7966,28 @@ CREATE TABLE IF NOT EXISTS `ps_layered_indexable_attribute_lang_value` (
   PRIMARY KEY (`id_attribute`,`id_lang`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data for table `ps_layered_indexable_attribute_lang_value`
+--
+
+INSERT INTO `ps_layered_indexable_attribute_lang_value` (`id_attribute`, `id_lang`, `url_name`, `meta_title`) VALUES
+(25, 1, '8-gb', ''),
+(25, 2, '8-gb', ''),
+(26, 1, '16-gb', ''),
+(26, 2, '16-gb', ''),
+(27, 1, '32-gb', ''),
+(27, 2, '32-gb', ''),
+(28, 1, '64-gb', ''),
+(28, 2, '64-gb', ''),
+(29, 1, '128-gb', ''),
+(29, 2, '128-gb', ''),
+(30, 1, '256-gb', ''),
+(30, 2, '256-gb', ''),
+(31, 1, '512-gb', ''),
+(31, 2, '512-gb', ''),
+(32, 1, '1024-gb', ''),
+(32, 2, '1024-gb', '');
+
 -- --------------------------------------------------------
 
 --
@@ -7901,7 +8074,8 @@ INSERT INTO `ps_layered_price_index` (`id_product`, `id_currency`, `id_shop`, `p
 (4, 1, 1, 50, 64),
 (5, 1, 1, 28, 36),
 (6, 1, 1, 30, 38),
-(7, 1, 1, 239, 299);
+(7, 1, 1, 239, 299),
+(8, 1, 1, 159, 199);
 
 -- --------------------------------------------------------
 
@@ -7945,6 +8119,14 @@ INSERT INTO `ps_layered_product_attribute` (`id_attribute`, `id_product`, `id_at
 (3, 5, 1, 1),
 (3, 6, 1, 1),
 (3, 7, 1, 1),
+(25, 8, 1, 1),
+(26, 8, 1, 1),
+(27, 8, 1, 1),
+(28, 8, 1, 1),
+(29, 8, 1, 1),
+(30, 8, 1, 1),
+(31, 8, 1, 1),
+(32, 8, 1, 1),
 (7, 4, 3, 1),
 (8, 2, 3, 1),
 (8, 6, 3, 1),
@@ -7954,6 +8136,7 @@ INSERT INTO `ps_layered_product_attribute` (`id_attribute`, `id_product`, `id_at
 (13, 3, 3, 1),
 (13, 5, 3, 1),
 (13, 7, 3, 1),
+(13, 8, 3, 1),
 (14, 1, 3, 1),
 (14, 5, 3, 1),
 (14, 7, 3, 1),
@@ -7974,7 +8157,14 @@ CREATE TABLE IF NOT EXISTS `ps_linksmenutop` (
   `new_window` tinyint(1) NOT NULL,
   PRIMARY KEY (`id_linksmenutop`),
   KEY `id_shop` (`id_shop`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `ps_linksmenutop`
+--
+
+INSERT INTO `ps_linksmenutop` (`id_linksmenutop`, `id_shop`, `new_window`) VALUES
+(1, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -7991,6 +8181,14 @@ CREATE TABLE IF NOT EXISTS `ps_linksmenutop_lang` (
   `link` varchar(128) NOT NULL,
   KEY `id_linksmenutop` (`id_linksmenutop`,`id_lang`,`id_shop`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `ps_linksmenutop_lang`
+--
+
+INSERT INTO `ps_linksmenutop_lang` (`id_linksmenutop`, `id_lang`, `id_shop`, `label`, `link`) VALUES
+(1, 1, 1, 'Back to YABS.se', 'https://yabs.se'),
+(1, 2, 1, 'Tillbaka till YABS.se', 'https://yabs.se');
 
 -- --------------------------------------------------------
 
@@ -8071,7 +8269,7 @@ CREATE TABLE IF NOT EXISTS `ps_log` (
   `date_add` datetime NOT NULL,
   `date_upd` datetime NOT NULL,
   PRIMARY KEY (`id_log`)
-) ENGINE=InnoDB AUTO_INCREMENT=72 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_log`
@@ -8148,7 +8346,35 @@ INSERT INTO `ps_log` (`id_log`, `severity`, `error_code`, `message`, `object_typ
 (68, 1, 0, 'Product modification', 'Product', 7, 1, '2017-09-20 09:43:03', '2017-09-20 09:43:03'),
 (69, 1, 0, 'Product modification', 'Product', 7, 1, '2017-09-20 09:43:47', '2017-09-20 09:43:47'),
 (70, 1, 0, 'Product modification', 'Product', 7, 1, '2017-09-20 09:44:12', '2017-09-20 09:44:12'),
-(71, 1, 0, 'Product modification', 'Product', 7, 1, '2017-09-20 09:44:27', '2017-09-20 09:44:27');
+(71, 1, 0, 'Product modification', 'Product', 7, 1, '2017-09-20 09:44:27', '2017-09-20 09:44:27'),
+(72, 1, 0, 'Category tillägg', 'Category', 12, 1, '2017-09-20 12:49:11', '2017-09-20 12:49:11'),
+(73, 1, 0, 'Category ändring', 'Category', 2, 1, '2017-09-20 12:51:17', '2017-09-20 12:51:17'),
+(74, 1, 0, 'Frontcontroller::init - Cart cannot be loaded or an order has already been placed using this cart', 'Cart', 8, 0, '2017-09-20 13:36:21', '2017-09-20 13:36:21'),
+(75, 1, 0, 'Language ändring', 'Language', 2, 1, '2017-09-20 13:51:06', '2017-09-20 13:51:06'),
+(76, 1, 0, 'Language ändring', 'Language', 1, 1, '2017-09-20 13:51:29', '2017-09-20 13:51:29'),
+(77, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:48:37', '2017-09-20 14:48:37'),
+(78, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:49:04', '2017-09-20 14:49:04'),
+(79, 1, 0, 'Attribute tillägg', 'Attribute', 25, 1, '2017-09-20 14:50:29', '2017-09-20 14:50:29'),
+(80, 1, 0, 'Attribute tillägg', 'Attribute', 26, 1, '2017-09-20 14:50:48', '2017-09-20 14:50:48'),
+(81, 1, 0, 'Attribute tillägg', 'Attribute', 27, 1, '2017-09-20 14:51:05', '2017-09-20 14:51:05'),
+(82, 1, 0, 'Attribute tillägg', 'Attribute', 28, 1, '2017-09-20 14:51:24', '2017-09-20 14:51:24'),
+(83, 1, 0, 'Attribute tillägg', 'Attribute', 29, 1, '2017-09-20 14:51:43', '2017-09-20 14:51:43'),
+(84, 1, 0, 'Attribute tillägg', 'Attribute', 30, 1, '2017-09-20 14:51:58', '2017-09-20 14:51:58'),
+(85, 1, 0, 'Attribute tillägg', 'Attribute', 31, 1, '2017-09-20 14:52:23', '2017-09-20 14:52:23'),
+(86, 1, 0, 'Attribute tillägg', 'Attribute', 32, 1, '2017-09-20 14:52:42', '2017-09-20 14:52:42'),
+(87, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:53:34', '2017-09-20 14:53:34'),
+(88, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:53:51', '2017-09-20 14:53:51'),
+(89, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:54:02', '2017-09-20 14:54:02'),
+(90, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:54:08', '2017-09-20 14:54:08'),
+(91, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:54:22', '2017-09-20 14:54:22'),
+(92, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:54:33', '2017-09-20 14:54:33'),
+(93, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:54:49', '2017-09-20 14:54:49'),
+(94, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:55:04', '2017-09-20 14:55:04'),
+(95, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:55:18', '2017-09-20 14:55:18'),
+(96, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:55:35', '2017-09-20 14:55:35'),
+(97, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:56:11', '2017-09-20 14:56:11'),
+(98, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:56:46', '2017-09-20 14:56:46'),
+(99, 1, 0, 'Product modification', 'Product', 8, 1, '2017-09-20 14:57:36', '2017-09-20 14:57:36');
 
 -- --------------------------------------------------------
 
@@ -8999,7 +9225,7 @@ CREATE TABLE IF NOT EXISTS `ps_module_history` (
   `date_add` datetime NOT NULL,
   `date_upd` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `ps_module_history`
@@ -9008,7 +9234,9 @@ CREATE TABLE IF NOT EXISTS `ps_module_history` (
 INSERT INTO `ps_module_history` (`id`, `id_employee`, `id_module`, `date_add`, `date_upd`) VALUES
 (1, 1, 53, '2017-09-19 16:41:10', '2017-09-19 16:54:50'),
 (2, 1, 54, '2017-09-20 08:41:15', '2017-09-20 08:41:15'),
-(3, 1, 55, '2017-09-20 08:44:28', '2017-09-20 08:44:28');
+(3, 1, 55, '2017-09-20 08:44:28', '2017-09-20 08:44:28'),
+(4, 1, 21, '2017-09-20 12:51:26', '2017-09-20 14:26:32'),
+(5, 1, 8, '2017-09-20 12:55:47', '2017-09-20 12:55:47');
 
 -- --------------------------------------------------------
 
@@ -9054,7 +9282,6 @@ INSERT INTO `ps_module_shop` (`id_module`, `id_shop`, `enable_device`) VALUES
 (5, 1, 7),
 (6, 1, 7),
 (8, 1, 7),
-(9, 1, 7),
 (10, 1, 7),
 (11, 1, 7),
 (12, 1, 7),
@@ -9196,7 +9423,7 @@ CREATE TABLE IF NOT EXISTS `ps_orders` (
   KEY `current_state` (`current_state`),
   KEY `id_shop` (`id_shop`),
   KEY `date_add` (`date_add`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_orders`
@@ -9208,7 +9435,8 @@ INSERT INTO `ps_orders` (`id_order`, `reference`, `id_shop_group`, `id_shop`, `i
 (3, 'UOYEVOLI', 1, 1, 2, 1, 1, 3, 1, 4, 4, 8, 'b44a6d9efd7a0076a0fbce6b15eaf3b1', 'Payment by check', '1.000000', 'ps_checkpayment', 0, 0, '', 0, '', '0.000000', '0.000000', '0.000000', '76.010000', '76.010000', '76.010000', '0.000000', '74.010000', '74.010000', '2.000000', '2.000000', '2.000000', '0.000', '0.000000', '0.000000', '0.000000', 0, 0, 0, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0, '2017-09-19 11:08:39', '2017-09-19 11:08:42'),
 (4, 'FFATNOMMJ', 1, 1, 2, 1, 1, 4, 1, 4, 4, 1, 'b44a6d9efd7a0076a0fbce6b15eaf3b1', 'Payment by check', '1.000000', 'ps_checkpayment', 0, 0, '', 0, '', '0.000000', '0.000000', '0.000000', '89.890000', '89.890000', '89.890000', '0.000000', '87.890000', '87.890000', '2.000000', '2.000000', '2.000000', '0.000', '0.000000', '0.000000', '0.000000', 0, 0, 0, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0, '2017-09-19 11:08:39', '2017-09-19 11:08:41'),
 (5, 'KHWLILZLL', 1, 1, 2, 1, 1, 5, 1, 4, 4, 10, 'b44a6d9efd7a0076a0fbce6b15eaf3b1', 'Bank wire', '1.000000', 'ps_wirepayment', 0, 0, '', 0, '', '0.000000', '0.000000', '0.000000', '71.510000', '71.510000', '71.510000', '0.000000', '69.510000', '69.510000', '2.000000', '2.000000', '2.000000', '0.000', '0.000000', '0.000000', '0.000000', 0, 0, 0, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0, '2017-09-19 11:08:39', '2017-09-19 11:08:42'),
-(6, 'BGBZISSFB', 1, 1, 1, 2, 2, 6, 1, 5, 5, 10, 'c141cfb187ef1f767ea020b482e317ef', 'Banköverföring', '1.000000', 'ps_wirepayment', 0, 0, '', 0, '', '0.000000', '0.000000', '0.000000', '32.490000', '32.490000', '25.990000', '0.000000', '25.990000', '32.490000', '0.000000', '0.000000', '0.000000', '25.000', '0.000000', '0.000000', '0.000000', 2, 2, 0, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0, '2017-09-19 13:50:29', '2017-09-19 13:50:31');
+(6, 'BGBZISSFB', 1, 1, 1, 2, 2, 6, 1, 5, 5, 10, 'c141cfb187ef1f767ea020b482e317ef', 'Banköverföring', '1.000000', 'ps_wirepayment', 0, 0, '', 0, '', '0.000000', '0.000000', '0.000000', '32.490000', '32.490000', '25.990000', '0.000000', '25.990000', '32.490000', '0.000000', '0.000000', '0.000000', '25.000', '0.000000', '0.000000', '0.000000', 2, 2, 0, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0, '2017-09-19 13:50:29', '2017-09-19 13:50:31'),
+(7, 'GVVCXNSFU', 1, 1, 5, 2, 2, 8, 1, 5, 5, 10, 'c141cfb187ef1f767ea020b482e317ef', 'Banköverföring', '1.000000', 'ps_wirepayment', 0, 0, '', 0, '', '0.000000', '0.000000', '0.000000', '299.000000', '299.000000', '239.200000', '0.000000', '239.200000', '299.000000', '0.000000', '0.000000', '0.000000', '25.000', '0.000000', '0.000000', '0.000000', 2, 2, 0, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0, '2017-09-20 13:36:13', '2017-09-20 13:36:15');
 
 -- --------------------------------------------------------
 
@@ -9231,7 +9459,7 @@ CREATE TABLE IF NOT EXISTS `ps_order_carrier` (
   KEY `id_order` (`id_order`),
   KEY `id_carrier` (`id_carrier`),
   KEY `id_order_invoice` (`id_order_invoice`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_order_carrier`
@@ -9243,7 +9471,8 @@ INSERT INTO `ps_order_carrier` (`id_order_carrier`, `id_order`, `id_carrier`, `i
 (3, 3, 2, 0, '0.000000', '2.000000', '2.000000', '', '2017-09-19 11:08:39'),
 (4, 4, 2, 0, '0.000000', '2.000000', '2.000000', '', '2017-09-19 11:08:40'),
 (5, 5, 2, 0, '0.000000', '2.000000', '2.000000', '', '2017-09-19 11:08:40'),
-(6, 6, 1, 0, '0.000000', '0.000000', '0.000000', '', '2017-09-19 13:50:30');
+(6, 6, 1, 0, '0.000000', '0.000000', '0.000000', '', '2017-09-19 13:50:30'),
+(7, 7, 5, 0, '0.000000', '0.000000', '0.000000', '', '2017-09-20 13:36:14');
 
 -- --------------------------------------------------------
 
@@ -9326,7 +9555,7 @@ CREATE TABLE IF NOT EXISTS `ps_order_detail` (
   KEY `product_attribute_id` (`product_attribute_id`),
   KEY `id_tax_rules_group` (`id_tax_rules_group`),
   KEY `id_order_id_order_detail` (`id_order`,`id_order_detail`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_order_detail`
@@ -9348,7 +9577,8 @@ INSERT INTO `ps_order_detail` (`id_order_detail`, `id_order`, `id_order_invoice`
 (13, 5, 0, 0, 1, 1, 1, 0, 'Faded Short Sleeve T-shirts - Color : Orange, Size : S', 1, 1, 0, 0, 0, '16.510000', '0.00', '0.000000', '0.000000', '0.000000', '0.00', '0.000000', '', '', '', 'demo_1', '', '0.000000', 0, 0, '', '0.000', '0.000000', '0.000', 0, '', 0, '0000-00-00 00:00:00', '16.510000', '16.510000', '16.510000', '16.510000', '0.000000', '0.000000', '0.000000', '16.510000', '4.950000'),
 (14, 5, 0, 0, 1, 2, 7, 0, 'Blouse - Color : Black, Size : S', 1, 1, 0, 0, 0, '26.999852', '0.00', '0.000000', '0.000000', '0.000000', '0.00', '0.000000', '', '', '', 'demo_2', '', '0.000000', 0, 0, '', '0.000', '0.000000', '0.000', 0, '', 0, '0000-00-00 00:00:00', '27.000000', '27.000000', '27.000000', '27.000000', '0.000000', '0.000000', '0.000000', '26.999852', '8.100000'),
 (15, 5, 0, 0, 1, 3, 13, 0, 'Printed Dress - Color : Orange, Size : S', 1, 1, 0, 0, 0, '25.999852', '0.00', '0.000000', '0.000000', '0.000000', '0.00', '0.000000', '', '', '', 'demo_3', '', '0.000000', 0, 0, '', '0.000', '0.000000', '0.000', 0, '', 0, '0000-00-00 00:00:00', '26.000000', '26.000000', '26.000000', '26.000000', '0.000000', '0.000000', '0.000000', '25.999852', '7.800000'),
-(16, 6, 0, 0, 1, 3, 13, 0, 'Printed Dress - Storlek : S- Färg : Orange', 1, 1, 0, 0, 0, '25.990000', '0.00', '0.000000', '0.000000', '0.000000', '0.00', '0.000000', '', '', '', 'demo_3', '', '0.000000', 1, 0, '', '0.000', '0.000000', '0.000', 0, '', 0, '0000-00-00 00:00:00', '32.490000', '25.990000', '32.487500', '25.990000', '0.000000', '0.000000', '7.800000', '25.990000', '7.800000');
+(16, 6, 0, 0, 1, 3, 13, 0, 'Printed Dress - Storlek : S- Färg : Orange', 1, 1, 0, 0, 0, '25.990000', '0.00', '0.000000', '0.000000', '0.000000', '0.00', '0.000000', '', '', '', 'demo_3', '', '0.000000', 1, 0, '', '0.000', '0.000000', '0.000', 0, '', 0, '0000-00-00 00:00:00', '32.490000', '25.990000', '32.487500', '25.990000', '0.000000', '0.000000', '7.800000', '25.990000', '7.800000'),
+(17, 7, 0, 0, 1, 7, 51, 0, 'YABS Hoodie - Storlek : M- Färg : Blå', 1, 1, 0, 0, 0, '239.200000', '0.00', '0.000000', '0.000000', '0.000000', '0.00', '0.000000', '', '', '', 'demo_7', '', '0.000000', 1, 0, '', '0.000', '0.000000', '0.000', 0, '', 0, '0000-00-00 00:00:00', '299.000000', '239.200000', '299.000000', '239.200000', '0.000000', '0.000000', '0.000000', '239.200000', '0.000000');
 
 -- --------------------------------------------------------
 
@@ -9371,7 +9601,8 @@ CREATE TABLE IF NOT EXISTS `ps_order_detail_tax` (
 --
 
 INSERT INTO `ps_order_detail_tax` (`id_order_detail`, `id_tax`, `unit_amount`, `total_amount`) VALUES
-(16, 1, '6.497500', '6.500000');
+(16, 1, '6.497500', '6.500000'),
+(17, 1, '59.800000', '59.800000');
 
 -- --------------------------------------------------------
 
@@ -9390,7 +9621,7 @@ CREATE TABLE IF NOT EXISTS `ps_order_history` (
   KEY `order_history_order` (`id_order`),
   KEY `id_employee` (`id_employee`),
   KEY `id_order_state` (`id_order_state`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_order_history`
@@ -9404,7 +9635,8 @@ INSERT INTO `ps_order_history` (`id_order_history`, `id_employee`, `id_order`, `
 (5, 0, 5, 10, '2017-09-19 11:08:42'),
 (6, 1, 1, 6, '2017-09-19 11:08:42'),
 (7, 1, 3, 8, '2017-09-19 11:08:42'),
-(8, 0, 6, 10, '2017-09-19 13:50:31');
+(8, 0, 6, 10, '2017-09-19 13:50:31'),
+(9, 0, 7, 10, '2017-09-20 13:36:15');
 
 -- --------------------------------------------------------
 
@@ -9941,14 +10173,15 @@ CREATE TABLE IF NOT EXISTS `ps_product` (
   KEY `indexed` (`indexed`),
   KEY `date_add` (`date_add`),
   KEY `state` (`state`,`date_upd`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_product`
 --
 
 INSERT INTO `ps_product` (`id_product`, `id_supplier`, `id_manufacturer`, `id_category_default`, `id_shop_default`, `id_tax_rules_group`, `on_sale`, `online_only`, `ean13`, `isbn`, `upc`, `ecotax`, `quantity`, `minimal_quantity`, `price`, `wholesale_price`, `unity`, `unit_price_ratio`, `additional_shipping_cost`, `reference`, `supplier_reference`, `location`, `width`, `height`, `depth`, `weight`, `out_of_stock`, `quantity_discount`, `customizable`, `uploadable_files`, `text_fields`, `active`, `redirect_type`, `id_type_redirected`, `available_for_order`, `available_date`, `show_condition`, `condition`, `show_price`, `indexed`, `visibility`, `cache_is_pack`, `cache_has_attachments`, `is_virtual`, `cache_default_attribute`, `date_add`, `date_upd`, `advanced_stock_management`, `pack_stock_type`, `state`) VALUES
-(7, 1, 1, 2, 1, 1, 0, 0, '', '', '', '0.000000', 0, 1, '239.200000', '0.000000', '', '0.000000', '0.00', 'demo_7', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 0, 'new', 1, 1, 'both', 0, 0, 0, 47, '2017-09-19 11:08:08', '2017-09-20 09:44:26', 0, 3, 1);
+(7, 1, 1, 2, 1, 1, 0, 0, '', '', '', '0.000000', 0, 1, '239.200000', '0.000000', '', '0.000000', '0.00', 'demo_7', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 0, 'new', 1, 1, 'both', 0, 0, 0, 47, '2017-09-19 11:08:08', '2017-09-20 09:44:26', 0, 3, 1),
+(8, 0, 0, 2, 1, 1, 0, 0, '', '', '', '0.000000', 0, 1, '159.200000', '0.000000', '', '0.000000', '0.00', 'yabs2017-usb', '', '', '0.000000', '0.000000', '0.000000', '0.000000', 2, 0, 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 0, 'new', 1, 1, 'both', 0, 0, 0, 57, '2017-09-20 14:46:13', '2017-09-20 14:57:35', 0, 3, 1);
 
 -- --------------------------------------------------------
 
@@ -9994,7 +10227,7 @@ CREATE TABLE IF NOT EXISTS `ps_product_attribute` (
   KEY `reference` (`reference`),
   KEY `supplier_reference` (`supplier_reference`),
   KEY `id_product_id_product_attribute` (`id_product_attribute`,`id_product`)
-) ENGINE=InnoDB AUTO_INCREMENT=53 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_product_attribute`
@@ -10007,7 +10240,15 @@ INSERT INTO `ps_product_attribute` (`id_product_attribute`, `id_product`, `refer
 (49, 7, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
 (50, 7, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
 (51, 7, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
-(52, 7, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00');
+(52, 7, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(53, 8, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(54, 8, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(55, 8, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(56, 8, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(57, 8, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', 1, 1, '0000-00-00'),
+(58, 8, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(59, 8, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(60, 8, '', '', '', '', '', '', '0.000000', '0.000000', '0.000000', 0, '0.000000', '0.000000', NULL, 1, '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -10039,7 +10280,23 @@ INSERT INTO `ps_product_attribute_combination` (`id_attribute`, `id_product_attr
 (2, 51),
 (14, 51),
 (3, 52),
-(14, 52);
+(14, 52),
+(13, 53),
+(25, 53),
+(13, 54),
+(26, 54),
+(13, 55),
+(27, 55),
+(13, 56),
+(28, 56),
+(13, 57),
+(29, 57),
+(13, 58),
+(30, 58),
+(13, 59),
+(31, 59),
+(13, 60),
+(32, 60);
 
 -- --------------------------------------------------------
 
@@ -10107,7 +10364,15 @@ INSERT INTO `ps_product_attribute_shop` (`id_product`, `id_product_attribute`, `
 (7, 49, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
 (7, 50, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
 (7, 51, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
-(7, 52, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00');
+(7, 52, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(8, 53, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(8, 54, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(8, 55, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(8, 56, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(8, 57, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 1, 1, '0000-00-00'),
+(8, 58, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(8, 59, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00'),
+(8, 60, 1, '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', NULL, 1, '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -10205,7 +10470,9 @@ CREATE TABLE IF NOT EXISTS `ps_product_lang` (
 
 INSERT INTO `ps_product_lang` (`id_product`, `id_shop`, `id_lang`, `description`, `description_short`, `link_rewrite`, `meta_description`, `meta_keywords`, `meta_title`, `name`, `available_now`, `available_later`) VALUES
 (7, 1, 1, '<p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman\'s wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>', '<p>Nice hoodie from YABS with logo print.</p>', 'yabs-hoodie', '', '', '', 'YABS Hoodie', 'In stock', ''),
-(7, 1, 2, '<p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman\'s wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>', '<p>Snygg hoodie med YABS tryck! Bekväm och enkel, finns i storlekarna S/M/L.</p>', 'yabs-hoodie', '', '', '', 'YABS Hoodie', 'I lager', '');
+(7, 1, 2, '<p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman\'s wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>', '<p>Snygg hoodie med YABS tryck! Bekväm och enkel, finns i storlekarna S/M/L.</p>', 'yabs-hoodie', '', '', '', 'YABS Hoodie', 'I lager', ''),
+(8, 1, 1, '', '', 'yabs-usb-stick', '', '', '', 'YABS USB-stick', '', ''),
+(8, 1, 2, '<p>USB-minne från YABS som hjälper dig att hålla koll på dina filer. För att cloud-lösningar är överskattade.</p>', '<p>USB-minne ifrån YABS med logo print. </p>', 'yabs-usb-minne', '', '', '', 'YABS USB-minne', '', '');
 
 -- --------------------------------------------------------
 
@@ -10273,7 +10540,8 @@ CREATE TABLE IF NOT EXISTS `ps_product_shop` (
 --
 
 INSERT INTO `ps_product_shop` (`id_product`, `id_shop`, `id_category_default`, `id_tax_rules_group`, `on_sale`, `online_only`, `ecotax`, `minimal_quantity`, `price`, `wholesale_price`, `unity`, `unit_price_ratio`, `additional_shipping_cost`, `customizable`, `uploadable_files`, `text_fields`, `active`, `redirect_type`, `id_type_redirected`, `available_for_order`, `available_date`, `show_condition`, `condition`, `show_price`, `indexed`, `visibility`, `cache_default_attribute`, `advanced_stock_management`, `date_add`, `date_upd`, `pack_stock_type`) VALUES
-(7, 1, 2, 1, 0, 0, '0.000000', 1, '239.200000', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 0, 'new', 1, 1, 'both', 47, 0, '2017-09-19 11:08:08', '2017-09-20 09:44:26', 3);
+(7, 1, 2, 1, 0, 0, '0.000000', 1, '239.200000', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 0, 'new', 1, 1, 'both', 47, 0, '2017-09-19 11:08:08', '2017-09-20 09:44:26', 3),
+(8, 1, 2, 1, 0, 0, '0.000000', 1, '159.200000', '0.000000', '', '0.000000', '0.00', 0, 0, 0, 1, '404', 0, 1, '0000-00-00', 0, 'new', 1, 1, 'both', 57, 0, '2017-09-20 14:46:13', '2017-09-20 14:57:35', 3);
 
 -- --------------------------------------------------------
 
@@ -10473,7 +10741,7 @@ CREATE TABLE IF NOT EXISTS `ps_range_weight` (
 --
 
 INSERT INTO `ps_range_weight` (`id_range_weight`, `id_carrier`, `delimiter1`, `delimiter2`) VALUES
-(1, 2, '0.000000', '10000.000000');
+(1, 8, '0.000000', '10000.000000');
 
 -- --------------------------------------------------------
 
@@ -11354,151 +11622,188 @@ INSERT INTO `ps_search_index` (`id_product`, `id_word`, `weight`) VALUES
 (5, 80, 10),
 (5, 282, 10),
 (5, 354, 10),
-(7, 1059, 1),
-(7, 1060, 1),
-(7, 1064, 1),
-(7, 1065, 1),
-(7, 1066, 1),
-(7, 1067, 1),
-(7, 1068, 1),
-(7, 1810, 1),
-(7, 1811, 1),
-(7, 1812, 1),
-(7, 1887, 1),
-(7, 1888, 1),
-(7, 1889, 1),
-(7, 4404, 1),
-(7, 4405, 1),
-(7, 4406, 1),
-(7, 4407, 1),
-(7, 4409, 1),
-(7, 4410, 1),
-(7, 4411, 1),
-(7, 4412, 1),
-(7, 4413, 1),
-(7, 4414, 1),
-(7, 4415, 1),
-(7, 4416, 1),
-(7, 4417, 1),
-(7, 4418, 1),
-(7, 4419, 1),
-(7, 4420, 1),
-(7, 4421, 1),
-(7, 4422, 1),
-(7, 4423, 1),
-(7, 4424, 1),
-(7, 4425, 1),
-(7, 4426, 1),
-(7, 4427, 1),
-(7, 4428, 1),
-(7, 4429, 1),
-(7, 4430, 1),
-(7, 4431, 1),
-(7, 4432, 1),
-(7, 4433, 1),
-(7, 4434, 1),
-(7, 4435, 1),
-(7, 4436, 1),
-(7, 4437, 1),
-(7, 4438, 1),
-(7, 4439, 1),
-(7, 4440, 1),
-(7, 4441, 1),
-(7, 4442, 1),
-(7, 4443, 1),
-(7, 4444, 1),
-(7, 4445, 1),
-(7, 4446, 1),
-(7, 4447, 1),
-(7, 4448, 1),
-(7, 4449, 1),
-(7, 4450, 1),
-(7, 4451, 1),
-(7, 4452, 1),
-(7, 4453, 1),
-(7, 4454, 1),
-(7, 4473, 1),
-(7, 4474, 1),
-(7, 4475, 1),
-(7, 4476, 1),
-(7, 4478, 1),
-(7, 4479, 1),
-(7, 4480, 1),
-(7, 4481, 1),
-(7, 4482, 1),
-(7, 4483, 1),
-(7, 4484, 1),
-(7, 4485, 1),
-(7, 4486, 1),
-(7, 4487, 1),
-(7, 4488, 1),
-(7, 4489, 1),
-(7, 4490, 1),
-(7, 4491, 1),
-(7, 4492, 1),
-(7, 4493, 1),
-(7, 4494, 1),
-(7, 4495, 1),
-(7, 4496, 1),
-(7, 4497, 1),
-(7, 4498, 1),
-(7, 4499, 1),
-(7, 4500, 1),
-(7, 4501, 1),
-(7, 4502, 1),
-(7, 4503, 1),
-(7, 4504, 1),
-(7, 4505, 1),
-(7, 4506, 1),
-(7, 4507, 1),
-(7, 4508, 1),
-(7, 4509, 1),
-(7, 4510, 1),
-(7, 4511, 1),
-(7, 4512, 1),
-(7, 4513, 1),
-(7, 4514, 1),
-(7, 4515, 1),
-(7, 4516, 1),
-(7, 4517, 1),
-(7, 4518, 1),
-(7, 4519, 1),
-(7, 4520, 1),
-(7, 4521, 1),
-(7, 4522, 1),
-(7, 4523, 1),
-(7, 5960, 1),
-(7, 5961, 1),
-(7, 5962, 1),
-(7, 5963, 1),
-(7, 854, 2),
-(7, 923, 2),
-(7, 1058, 2),
-(7, 1063, 2),
-(7, 1072, 2),
-(7, 2613, 2),
-(7, 4397, 2),
-(7, 4403, 2),
-(7, 4408, 2),
-(7, 4457, 2),
-(7, 4472, 2),
-(7, 4477, 2),
-(7, 4525, 2),
-(7, 1439, 3),
-(7, 1508, 3),
-(7, 2680, 3),
-(7, 1061, 4),
-(7, 1062, 4),
-(7, 3564, 6),
-(7, 4455, 6),
-(7, 4456, 6),
-(7, 4524, 6),
-(7, 1809, 7),
-(7, 1886, 7),
-(7, 1808, 10),
-(7, 1885, 10),
-(7, 4398, 10),
-(7, 4467, 10);
+(7, 6478, 1),
+(7, 6479, 1),
+(7, 6480, 1),
+(7, 6482, 1),
+(7, 6483, 1),
+(7, 6484, 1),
+(7, 6485, 1),
+(7, 6487, 1),
+(7, 6488, 1),
+(7, 6489, 1),
+(7, 6490, 1),
+(7, 6491, 1),
+(7, 6492, 1),
+(7, 6493, 1),
+(7, 6494, 1),
+(7, 6495, 1),
+(7, 6496, 1),
+(7, 6497, 1),
+(7, 6498, 1),
+(7, 6499, 1),
+(7, 6500, 1),
+(7, 6501, 1),
+(7, 6502, 1),
+(7, 6503, 1),
+(7, 6504, 1),
+(7, 6505, 1),
+(7, 6506, 1),
+(7, 6507, 1),
+(7, 6508, 1),
+(7, 6509, 1),
+(7, 6510, 1),
+(7, 6511, 1),
+(7, 6512, 1),
+(7, 6513, 1),
+(7, 6514, 1),
+(7, 6515, 1),
+(7, 6516, 1),
+(7, 6517, 1),
+(7, 6518, 1),
+(7, 6519, 1),
+(7, 6520, 1),
+(7, 6521, 1),
+(7, 6522, 1),
+(7, 6523, 1),
+(7, 6524, 1),
+(7, 6525, 1),
+(7, 6526, 1),
+(7, 6527, 1),
+(7, 6528, 1),
+(7, 6529, 1),
+(7, 6530, 1),
+(7, 6531, 1),
+(7, 6532, 1),
+(7, 6543, 1),
+(7, 6544, 1),
+(7, 6545, 1),
+(7, 6546, 1),
+(7, 6547, 1),
+(7, 6549, 1),
+(7, 6550, 1),
+(7, 6552, 1),
+(7, 6553, 1),
+(7, 6554, 1),
+(7, 6555, 1),
+(7, 6556, 1),
+(7, 6557, 1),
+(7, 6559, 1),
+(7, 6561, 1),
+(7, 6562, 1),
+(7, 6563, 1),
+(7, 6564, 1),
+(7, 6565, 1),
+(7, 6566, 1),
+(7, 6567, 1),
+(7, 6569, 1),
+(7, 6570, 1),
+(7, 6572, 1),
+(7, 6573, 1),
+(7, 6574, 1),
+(7, 6575, 1),
+(7, 6576, 1),
+(7, 6577, 1),
+(7, 6578, 1),
+(7, 6579, 1),
+(7, 6580, 1),
+(7, 6581, 1),
+(7, 6582, 1),
+(7, 6583, 1),
+(7, 6584, 1),
+(7, 6585, 1),
+(7, 6586, 1),
+(7, 6587, 1),
+(7, 6588, 1),
+(7, 6589, 1),
+(7, 6591, 1),
+(7, 6592, 1),
+(7, 6593, 1),
+(7, 6594, 1),
+(7, 6595, 1),
+(7, 6596, 1),
+(7, 6597, 1),
+(7, 6598, 1),
+(7, 6599, 1),
+(7, 6600, 1),
+(7, 6601, 1),
+(7, 6602, 1),
+(7, 6603, 1),
+(7, 6604, 1),
+(7, 6605, 1),
+(7, 6606, 1),
+(7, 6607, 1),
+(7, 6608, 1),
+(7, 6609, 1),
+(7, 6610, 1),
+(7, 6611, 1),
+(7, 6612, 1),
+(7, 6613, 1),
+(7, 6481, 2),
+(7, 6486, 2),
+(7, 6536, 2),
+(7, 6537, 2),
+(7, 6538, 2),
+(7, 6539, 2),
+(7, 6551, 2),
+(7, 6558, 2),
+(7, 6571, 2),
+(7, 6590, 2),
+(7, 6617, 2),
+(7, 6618, 2),
+(7, 6619, 2),
+(7, 6533, 3),
+(7, 6548, 3),
+(7, 6614, 3),
+(7, 6560, 4),
+(7, 6568, 4),
+(7, 6534, 6),
+(7, 6535, 6),
+(7, 6615, 6),
+(7, 6616, 6),
+(7, 6476, 7),
+(7, 6541, 7),
+(7, 6475, 10),
+(7, 6477, 10),
+(7, 6540, 10),
+(7, 6542, 10),
+(8, 6544, 1),
+(8, 6632, 1),
+(8, 6633, 1),
+(8, 6634, 1),
+(8, 6635, 1),
+(8, 6636, 1),
+(8, 6637, 1),
+(8, 6638, 1),
+(8, 6640, 1),
+(8, 6641, 1),
+(8, 6642, 1),
+(8, 6643, 1),
+(8, 6644, 1),
+(8, 6645, 1),
+(8, 6646, 1),
+(8, 6647, 1),
+(8, 6622, 2),
+(8, 6623, 2),
+(8, 6624, 2),
+(8, 6625, 2),
+(8, 6639, 2),
+(8, 6648, 2),
+(8, 6649, 2),
+(8, 6650, 2),
+(8, 6651, 2),
+(8, 6533, 3),
+(8, 6614, 3),
+(8, 6475, 6),
+(8, 6621, 6),
+(8, 6540, 8),
+(8, 6631, 8),
+(8, 2028, 10),
+(8, 2094, 10),
+(8, 6534, 16),
+(8, 6615, 16),
+(8, 6620, 16),
+(8, 6630, 18);
 
 -- --------------------------------------------------------
 
@@ -11514,183 +11819,211 @@ CREATE TABLE IF NOT EXISTS `ps_search_word` (
   `word` varchar(15) NOT NULL,
   PRIMARY KEY (`id_word`),
   UNIQUE KEY `id_lang` (`id_lang`,`id_shop`,`word`)
-) ENGINE=InnoDB AUTO_INCREMENT=6475 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6731 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_search_word`
 --
 
 INSERT INTO `ps_search_word` (`id_word`, `id_shop`, `id_lang`, `word`) VALUES
-(4409, 1, 1, '2010'),
-(4450, 1, 1, 'accessories'),
-(4446, 1, 1, 'attention'),
-(2613, 1, 1, 'basic'),
-(4440, 1, 1, 'beautiful'),
-(4454, 1, 1, 'belts'),
-(4456, 1, 1, 'blue'),
-(4410, 1, 1, 'brand'),
-(4433, 1, 1, 'chic'),
+(6624, 1, 1, '1024'),
+(6625, 1, 1, '128'),
+(6487, 1, 1, '2010'),
+(6622, 1, 1, '256'),
+(6623, 1, 1, '512'),
+(6528, 1, 1, 'accessories'),
+(6524, 1, 1, 'attention'),
+(6537, 1, 1, 'basic'),
+(6518, 1, 1, 'beautiful'),
+(6532, 1, 1, 'belts'),
+(6535, 1, 1, 'blue'),
+(6488, 1, 1, 'brand'),
+(6511, 1, 1, 'chic'),
 (4396, 1, 1, 'chiffon'),
-(4423, 1, 1, 'collection'),
-(4407, 1, 1, 'collections'),
-(4431, 1, 1, 'cool'),
-(4404, 1, 1, 'creating'),
+(6501, 1, 1, 'collection'),
+(6485, 1, 1, 'collections'),
+(6509, 1, 1, 'cool'),
+(6482, 1, 1, 'creating'),
 (852, 1, 1, 'deep'),
-(4414, 1, 1, 'delivering'),
-(4398, 1, 1, 'demo'),
-(4406, 1, 1, 'designed'),
-(4413, 1, 1, 'designs'),
-(4397, 1, 1, 'dress'),
-(4418, 1, 1, 'dresses'),
-(4432, 1, 1, 'easy'),
-(4436, 1, 1, 'elegance'),
-(4424, 1, 1, 'every'),
-(4419, 1, 1, 'evolved'),
-(4448, 1, 1, 'extends'),
-(4403, 1, 1, 'fashion'),
-(4412, 1, 1, 'feminine'),
-(4420, 1, 1, 'full'),
-(4445, 1, 1, 'greatest'),
+(6492, 1, 1, 'delivering'),
+(6477, 1, 1, 'demo'),
+(6484, 1, 1, 'designed'),
+(6491, 1, 1, 'designs'),
+(6539, 1, 1, 'dress'),
+(6496, 1, 1, 'dresses'),
+(6510, 1, 1, 'easy'),
+(6514, 1, 1, 'elegance'),
+(6502, 1, 1, 'every'),
+(6497, 1, 1, 'evolved'),
+(6526, 1, 1, 'extends'),
+(6481, 1, 1, 'fashion'),
+(6490, 1, 1, 'feminine'),
+(6498, 1, 1, 'full'),
+(6523, 1, 1, 'greatest'),
 (853, 1, 1, 'green'),
-(4453, 1, 1, 'hats'),
-(1439, 1, 1, 'home'),
-(1886, 1, 1, 'hoodie'),
-(4451, 1, 1, 'including'),
-(4443, 1, 1, 'italy'),
-(4425, 1, 1, 'item'),
+(6531, 1, 1, 'hats'),
+(6533, 1, 1, 'home'),
+(6476, 1, 1, 'hoodie'),
+(6529, 1, 1, 'including'),
+(6521, 1, 1, 'italy'),
+(6503, 1, 1, 'item'),
 (4399, 1, 1, 'knee'),
 (4400, 1, 1, 'length'),
-(1888, 1, 1, 'logo'),
-(4434, 1, 1, 'looks'),
-(4442, 1, 1, 'made'),
-(4444, 1, 1, 'manufactured'),
-(854, 1, 1, 'midi'),
+(6479, 1, 1, 'logo'),
+(6512, 1, 1, 'looks'),
+(6520, 1, 1, 'made'),
+(6522, 1, 1, 'manufactured'),
+(6538, 1, 1, 'midi'),
 (4402, 1, 1, 'neckline'),
-(1887, 1, 1, 'nice'),
-(4447, 1, 1, 'now'),
-(4411, 1, 1, 'offers'),
-(4455, 1, 1, 'orange'),
-(4427, 1, 1, 'part'),
-(4441, 1, 1, 'pieces'),
-(4457, 1, 1, 'polyester'),
-(1889, 1, 1, 'print'),
+(6478, 1, 1, 'nice'),
+(6525, 1, 1, 'now'),
+(6489, 1, 1, 'offers'),
+(6534, 1, 1, 'orange'),
+(6505, 1, 1, 'part'),
+(6519, 1, 1, 'pieces'),
+(6536, 1, 1, 'polyester'),
+(6480, 1, 1, 'print'),
 (4395, 1, 1, 'printed'),
-(4449, 1, 1, 'range'),
-(4421, 1, 1, 'ready'),
-(4430, 1, 1, 'result'),
-(4416, 1, 1, 'separates'),
-(4452, 1, 1, 'shoes'),
-(4438, 1, 1, 'signature'),
-(4408, 1, 1, 'since'),
-(4417, 1, 1, 'statement'),
+(6527, 1, 1, 'range'),
+(6499, 1, 1, 'ready'),
+(6508, 1, 1, 'result'),
+(6494, 1, 1, 'separates'),
+(6530, 1, 1, 'shoes'),
+(6516, 1, 1, 'signature'),
+(6486, 1, 1, 'since'),
+(6495, 1, 1, 'statement'),
+(6621, 1, 1, 'stick'),
 (4401, 1, 1, 'straps'),
-(4439, 1, 1, 'style'),
-(4415, 1, 1, 'stylish'),
+(6517, 1, 1, 'style'),
+(6493, 1, 1, 'stylish'),
 (851, 1, 1, 'tank'),
-(4437, 1, 1, 'unmistakable'),
-(4426, 1, 1, 'vital'),
-(4429, 1, 1, 'wardrobe'),
-(4422, 1, 1, 'wear'),
-(4405, 1, 1, 'well'),
-(4428, 1, 1, 'woman'),
-(1885, 1, 1, 'yabs'),
+(6515, 1, 1, 'unmistakable'),
+(6620, 1, 1, 'usb'),
+(6504, 1, 1, 'vital'),
+(6507, 1, 1, 'wardrobe'),
+(6500, 1, 1, 'wear'),
+(6483, 1, 1, 'well'),
+(6506, 1, 1, 'woman'),
+(6475, 1, 1, 'yabs'),
 (2028, 1, 1, 'yabs2017'),
-(4435, 1, 1, 'youthful'),
-(4478, 1, 2, '2010'),
-(4519, 1, 2, 'accessories'),
-(1066, 1, 2, 'all'),
-(1062, 1, 2, 'and'),
-(1067, 1, 2, 'are'),
-(4515, 1, 2, 'attention'),
-(4509, 1, 2, 'beautiful'),
-(1060, 1, 2, 'been'),
-(5960, 1, 2, 'bekvam'),
-(4523, 1, 2, 'belts'),
-(3564, 1, 2, 'bla'),
-(4479, 1, 2, 'brand'),
-(4502, 1, 2, 'chic'),
+(6513, 1, 1, 'youthful'),
+(6650, 1, 2, '1024'),
+(6651, 1, 2, '128'),
+(6559, 1, 2, '2010'),
+(6648, 1, 2, '256'),
+(6649, 1, 2, '512'),
+(6608, 1, 2, 'accessories'),
+(6596, 1, 2, 'all'),
+(6568, 1, 2, 'and'),
+(6599, 1, 2, 'are'),
+(6639, 1, 2, 'att'),
+(6604, 1, 2, 'attention'),
+(6597, 1, 2, 'beautiful'),
+(6553, 1, 2, 'been'),
+(6546, 1, 2, 'bekvam'),
+(6612, 1, 2, 'belts'),
+(6616, 1, 2, 'bla'),
+(6561, 1, 2, 'brand'),
+(6588, 1, 2, 'chic'),
 (4465, 1, 2, 'chiffon'),
-(4492, 1, 2, 'collection'),
-(4476, 1, 2, 'collections'),
-(4500, 1, 2, 'cool'),
-(4473, 1, 2, 'creating'),
+(6645, 1, 2, 'cloud'),
+(6578, 1, 2, 'collection'),
+(6557, 1, 2, 'collections'),
+(6586, 1, 2, 'cool'),
+(6554, 1, 2, 'creating'),
 (921, 1, 2, 'deep'),
-(4483, 1, 2, 'delivering'),
-(4467, 1, 2, 'demo'),
-(4475, 1, 2, 'designed'),
-(4482, 1, 2, 'designs'),
+(6565, 1, 2, 'delivering'),
+(6542, 1, 2, 'demo'),
+(6556, 1, 2, 'designed'),
+(6564, 1, 2, 'designs'),
+(6638, 1, 2, 'dig'),
+(6642, 1, 2, 'dina'),
 (4466, 1, 2, 'dress'),
-(4487, 1, 2, 'dresses'),
-(4501, 1, 2, 'easy'),
-(4505, 1, 2, 'elegance'),
-(2680, 1, 2, 'enkel'),
-(4493, 1, 2, 'every'),
-(4488, 1, 2, 'evolved'),
-(4517, 1, 2, 'extends'),
-(4472, 1, 2, 'fashion'),
-(4481, 1, 2, 'feminine'),
-(5962, 1, 2, 'finns'),
+(6570, 1, 2, 'dresses'),
+(6587, 1, 2, 'easy'),
+(6592, 1, 2, 'elegance'),
+(6548, 1, 2, 'enkel'),
+(6579, 1, 2, 'every'),
+(6573, 1, 2, 'evolved'),
+(6606, 1, 2, 'extends'),
+(6551, 1, 2, 'fashion'),
+(6563, 1, 2, 'feminine'),
+(6643, 1, 2, 'filer'),
+(6549, 1, 2, 'finns'),
 (1071, 1, 2, 'flickig'),
-(4489, 1, 2, 'full'),
-(4514, 1, 2, 'greatest'),
+(6644, 1, 2, 'for'),
+(6635, 1, 2, 'fran'),
+(6575, 1, 2, 'full'),
+(6603, 1, 2, 'greatest'),
 (922, 1, 2, 'green'),
 (1070, 1, 2, 'gron'),
 (1069, 1, 2, 'gul'),
-(1059, 1, 2, 'has'),
-(4522, 1, 2, 'hats'),
-(1064, 1, 2, 'have'),
-(1508, 1, 2, 'hem'),
-(1809, 1, 2, 'hoodie'),
-(4520, 1, 2, 'including'),
-(1065, 1, 2, 'into'),
-(4512, 1, 2, 'italy'),
-(4494, 1, 2, 'item'),
-(1072, 1, 2, 'klanning'),
+(6640, 1, 2, 'halla'),
+(6552, 1, 2, 'has'),
+(6611, 1, 2, 'hats'),
+(6572, 1, 2, 'have'),
+(6614, 1, 2, 'hem'),
+(6637, 1, 2, 'hjalper'),
+(6541, 1, 2, 'hoodie'),
+(6632, 1, 2, 'ifran'),
+(6609, 1, 2, 'including'),
+(6574, 1, 2, 'into'),
+(6601, 1, 2, 'italy'),
+(6580, 1, 2, 'item'),
+(6619, 1, 2, 'klanning'),
 (4468, 1, 2, 'knee'),
+(6641, 1, 2, 'koll'),
 (2095, 1, 2, 'ledig'),
 (4469, 1, 2, 'length'),
-(4503, 1, 2, 'looks'),
-(4511, 1, 2, 'made'),
-(4513, 1, 2, 'manufactured'),
-(1811, 1, 2, 'med'),
-(923, 1, 2, 'midi'),
-(1068, 1, 2, 'more'),
+(6633, 1, 2, 'logo'),
+(6589, 1, 2, 'looks'),
+(6646, 1, 2, 'losningar'),
+(6600, 1, 2, 'made'),
+(6602, 1, 2, 'manufactured'),
+(6544, 1, 2, 'med'),
+(6618, 1, 2, 'midi'),
+(6631, 1, 2, 'minne'),
+(6613, 1, 2, 'more'),
 (4471, 1, 2, 'neckline'),
-(4516, 1, 2, 'now'),
-(5961, 1, 2, 'och'),
-(4480, 1, 2, 'offers'),
-(4524, 1, 2, 'orange'),
-(4496, 1, 2, 'part'),
-(4510, 1, 2, 'pieces'),
-(4525, 1, 2, 'polyester'),
+(6605, 1, 2, 'now'),
+(6547, 1, 2, 'och'),
+(6562, 1, 2, 'offers'),
+(6615, 1, 2, 'orange'),
+(6647, 1, 2, 'overskattade'),
+(6582, 1, 2, 'part'),
+(6598, 1, 2, 'pieces'),
+(6617, 1, 2, 'polyester'),
+(6634, 1, 2, 'print'),
 (4464, 1, 2, 'printed'),
-(4518, 1, 2, 'range'),
-(4490, 1, 2, 'ready'),
-(4499, 1, 2, 'result'),
-(4485, 1, 2, 'separates'),
-(4521, 1, 2, 'shoes'),
-(4507, 1, 2, 'signature'),
-(4477, 1, 2, 'since'),
-(1810, 1, 2, 'snygg'),
-(4486, 1, 2, 'statement'),
-(5963, 1, 2, 'storlekarna'),
+(6607, 1, 2, 'range'),
+(6576, 1, 2, 'ready'),
+(6585, 1, 2, 'result'),
+(6567, 1, 2, 'separates'),
+(6610, 1, 2, 'shoes'),
+(6594, 1, 2, 'signature'),
+(6558, 1, 2, 'since'),
+(6543, 1, 2, 'snygg'),
+(6636, 1, 2, 'som'),
+(6569, 1, 2, 'statement'),
+(6550, 1, 2, 'storlekarna'),
 (4470, 1, 2, 'straps'),
-(4508, 1, 2, 'style'),
-(4484, 1, 2, 'stylish'),
+(6595, 1, 2, 'style'),
+(6566, 1, 2, 'stylish'),
 (920, 1, 2, 'tank'),
-(1061, 1, 2, 'the'),
-(1812, 1, 2, 'tryck'),
-(4506, 1, 2, 'unmistakable'),
-(4495, 1, 2, 'vital'),
-(4498, 1, 2, 'wardrobe'),
-(4491, 1, 2, 'wear'),
-(4474, 1, 2, 'well'),
-(1063, 1, 2, 'which'),
-(1058, 1, 2, 'with'),
-(4497, 1, 2, 'woman'),
-(1808, 1, 2, 'yabs'),
+(6560, 1, 2, 'the'),
+(6545, 1, 2, 'tryck'),
+(6593, 1, 2, 'unmistakable'),
+(6630, 1, 2, 'usb'),
+(6581, 1, 2, 'vital'),
+(6584, 1, 2, 'wardrobe'),
+(6577, 1, 2, 'wear'),
+(6555, 1, 2, 'well'),
+(6571, 1, 2, 'which'),
+(6590, 1, 2, 'with'),
+(6583, 1, 2, 'woman'),
+(6540, 1, 2, 'yabs'),
 (2094, 1, 2, 'yabs2017'),
-(4504, 1, 2, 'youthful');
+(6591, 1, 2, 'youthful');
 
 -- --------------------------------------------------------
 
@@ -12361,28 +12694,37 @@ CREATE TABLE IF NOT EXISTS `ps_stock_available` (
   KEY `id_shop_group` (`id_shop_group`),
   KEY `id_product` (`id_product`),
   KEY `id_product_attribute` (`id_product_attribute`)
-) ENGINE=InnoDB AUTO_INCREMENT=67 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ps_stock_available`
 --
 
 INSERT INTO `ps_stock_available` (`id_stock_available`, `id_product`, `id_product_attribute`, `id_shop`, `id_shop_group`, `quantity`, `physical_quantity`, `reserved_quantity`, `depends_on_stock`, `out_of_stock`) VALUES
-(7, 7, 0, 1, 0, 900, 1800, 0, 0, 2),
+(7, 7, 0, 1, 0, 899, 899, 0, 0, 2),
 (53, 0, 46, 1, 0, 0, 0, 0, 0, 0),
-(54, 7, 34, 1, 0, 300, 0, 0, 0, 2),
-(55, 7, 47, 1, 0, 100, 0, 0, 0, 2),
-(56, 7, 48, 1, 0, 100, 0, 0, 0, 2),
-(57, 7, 49, 1, 0, 100, 0, 0, 0, 2),
-(58, 7, 50, 1, 0, 100, 0, 0, 0, 2),
-(59, 7, 51, 1, 0, 100, 0, 0, 0, 2),
-(60, 7, 52, 1, 0, 100, 0, 0, 0, 2),
+(54, 7, 34, 1, 0, 300, 302, 2, 0, 2),
+(55, 7, 47, 1, 0, 100, 100, 0, 0, 2),
+(56, 7, 48, 1, 0, 100, 100, 0, 0, 2),
+(57, 7, 49, 1, 0, 100, 100, 0, 0, 2),
+(58, 7, 50, 1, 0, 100, 100, 0, 0, 2),
+(59, 7, 51, 1, 0, 99, 100, 1, 0, 2),
+(60, 7, 52, 1, 0, 100, 100, 0, 0, 2),
 (61, 6, 0, 1, 0, 0, 0, 0, 0, 0),
 (62, 5, 0, 1, 0, 0, 0, 0, 0, 0),
 (63, 4, 0, 1, 0, 0, 0, 0, 0, 0),
 (64, 3, 0, 1, 0, 0, 0, 0, 0, 0),
 (65, 2, 0, 1, 0, 0, 0, 0, 0, 0),
-(66, 1, 0, 1, 0, 0, 0, 0, 0, 0);
+(66, 1, 0, 1, 0, 0, 0, 0, 0, 0),
+(67, 8, 0, 1, 0, 800, 0, 0, 0, 2),
+(68, 8, 53, 1, 0, 100, 0, 0, 0, 2),
+(69, 8, 54, 1, 0, 100, 0, 0, 0, 2),
+(70, 8, 55, 1, 0, 100, 0, 0, 0, 2),
+(71, 8, 56, 1, 0, 100, 0, 0, 0, 2),
+(72, 8, 57, 1, 0, 100, 0, 0, 0, 2),
+(73, 8, 58, 1, 0, 100, 0, 0, 0, 2),
+(74, 8, 59, 1, 0, 100, 0, 0, 0, 2),
+(75, 8, 60, 1, 0, 100, 0, 0, 0, 2);
 
 -- --------------------------------------------------------
 
@@ -12410,7 +12752,7 @@ CREATE TABLE IF NOT EXISTS `ps_stock_mvt` (
   PRIMARY KEY (`id_stock_mvt`),
   KEY `id_stock` (`id_stock`),
   KEY `id_stock_mvt_reason` (`id_stock_mvt_reason`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `ps_stock_mvt`
@@ -12423,7 +12765,15 @@ INSERT INTO `ps_stock_mvt` (`id_stock_mvt`, `id_stock`, `id_order`, `id_supply_o
 (4, 57, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 09:31:22', 1, '0.000000', '0.000000', '0.000000', NULL),
 (5, 58, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 09:31:23', 1, '0.000000', '0.000000', '0.000000', NULL),
 (6, 59, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 09:31:23', 1, '0.000000', '0.000000', '0.000000', NULL),
-(7, 60, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 09:31:24', 1, '0.000000', '0.000000', '0.000000', NULL);
+(7, 60, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 09:31:24', 1, '0.000000', '0.000000', '0.000000', NULL),
+(8, 68, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 14:57:37', 1, '0.000000', '0.000000', '0.000000', NULL),
+(9, 69, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 14:57:38', 1, '0.000000', '0.000000', '0.000000', NULL),
+(10, 70, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 14:57:38', 1, '0.000000', '0.000000', '0.000000', NULL),
+(11, 71, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 14:57:39', 1, '0.000000', '0.000000', '0.000000', NULL),
+(12, 72, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 14:57:39', 1, '0.000000', '0.000000', '0.000000', NULL),
+(13, 73, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 14:57:40', 1, '0.000000', '0.000000', '0.000000', NULL),
+(14, 74, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 14:57:40', 1, '0.000000', '0.000000', '0.000000', NULL),
+(15, 75, NULL, NULL, 11, 1, 'Liljendahl', 'Niklas', 100, '2017-09-20 14:57:40', 1, '0.000000', '0.000000', '0.000000', NULL);
 
 -- --------------------------------------------------------
 
@@ -12976,12 +13326,16 @@ CREATE TABLE IF NOT EXISTS `ps_tab_advice` (
 INSERT INTO `ps_tab_advice` (`id_tab`, `id_advice`) VALUES
 (0, 4),
 (0, 8),
+(0, 12),
 (57, 2),
 (57, 6),
+(57, 10),
 (72, 1),
 (72, 5),
+(72, 9),
 (79, 3),
-(79, 7);
+(79, 7),
+(79, 11);
 
 -- --------------------------------------------------------
 
