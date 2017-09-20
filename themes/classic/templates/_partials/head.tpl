@@ -52,10 +52,11 @@
 
 {block name='stylesheets'}
   {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
-  {if $getDevice == 4}
+{/block}
+
+  {if $getDevice == 14}
     <link rel="stylesheet" href="{$urls.shop_domain_url}/themes/classic/assets/mobile/mobile.css" type="text/css" media="all">
   {/if}
-{/block}
 
 {block name='javascript_head'}
   {include file="_partials/javascript.tpl" javascript=$javascript.head vars=$js_custom_vars}

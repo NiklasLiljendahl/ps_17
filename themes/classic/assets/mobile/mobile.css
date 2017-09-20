@@ -1,5 +1,8 @@
-<style>
-#wrapper {
-	background: #000;
+/*
+ * Custom code for mobile devices goes here.
+ * A template should always ship with an empty mobile.css
+ */
+
+body {
+
 }
-</style>
