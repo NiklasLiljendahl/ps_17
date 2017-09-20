@@ -880,9 +880,12 @@ class FrontControllerCore extends Controller
         $this->registerStylesheet('theme-main', '/assets/css/theme.css', ['media' => 'all', 'priority' => 50]);
         $this->registerStylesheet('theme-custom', '/assets/css/custom.css', ['media' => 'all', 'priority' => 1000]);
 
-        // IF mobile device (use Context class)
         if ($this->context->getDevice() == 4) {
             $this->registerStylesheet('theme-mobile', '/assets/mobile/mobile.css', ['media' => 'all', 'priority' => 999]);
+        }
+
+        if ($this->context->getDevice() == 2) {
+            $this->registerStylesheet('theme-tablet', '/assets/tablet/tablet.css', ['media' => 'all', 'priority' => 999]);
         }
 
         if ($this->context->language->is_rtl) {

@@ -85,3 +85,35 @@ body#checkout #header .header-nav .logo {
     float: right !important;
     margin-right: 1rem;
 }
+
+.top-menu .link {
+	float: none !important;
+}
+
+#header .header-top {
+	background: #151515;
+}
+
+#header .header-nav #menu-icon .material-icons {
+    color: #585858;
+}
+
+#mobile_top_menu_wrapper {
+    background: #151515;
+}
+
+#header .header-top a[data-depth="0"] {
+    color: #FFF;
+}
+
+#mobile_top_menu_wrapper .top-menu a[data-depth="0"] {
+    border-bottom: 2px solid #1b1b1b;
+}
+
+#language-selector-label {
+	font-size: .9rem;
+}
+
+.dropdown select {
+    border-radius: 3px;
+}
