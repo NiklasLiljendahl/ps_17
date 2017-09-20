@@ -106,6 +106,16 @@
     height: 740px;
 }
 
+.yabs-link {
+	display: none;
+}
+
+@media (min-width: 576px) {
+	.carousel-control .icon-next {
+    	margin-right: -12px;
+	}
+}
+
 @media (min-width: 768px) {
 	.carousel .carousel-item .caption {
 	    top: 41%;
@@ -113,4 +123,9 @@
 	    width: 20%;
 	    text-align: center;
 	}
+}
+
+#custom-text {
+    width: 50%;
+    margin-left: 25%;
 }

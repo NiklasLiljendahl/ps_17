@@ -1,0 +1,13 @@
+1505912140
+s:1398:"HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 20 Sep 2017 10:55:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1087
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+X-UA-Compatible: IE=Edge,chrome=1
+Strict-Transport-Security: max-age=0
+
+{"modules":[{"id":"24588","name":"ps_categoryproducts","displayName":"Products in the same category","categoryName":"Natif","description":"Adds a block on the product page that displays products from the same category","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/product.php?id_product=24588?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-EN&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/24588.jpg","fullDescription":"Adds a block on the product page that displays products from the same category.","additionalDescription":"","features":"","customer_benefits":"","demo_video":"","version":"1.0.2","last_update":"2017-09-20 04:57:07","compatibility":{"from":"1.7.0.0","to":"1.7.2.2"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"Made by PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias2.prestastore.com\/-pprod\/.jpg","big":"https:\/\/medias2.prestastore.com\/-pbig\/.jpg"}}]}";

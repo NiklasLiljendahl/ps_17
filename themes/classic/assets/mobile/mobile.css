@@ -3,6 +3,50 @@
  * A template should always ship with an empty mobile.css
  */
 
-body {
+#mobile_top_menu_wrapper .top-menu .sub-menu.collapse.in {
+    display: block;
+}
 
+#header .header-top {
+    background: #fdfdfd;
+}
+
+/* #mobile_top_menu_wrapper .js-top-menu-bottom a {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+} */
+
+#header .header-nav .top-logo a img {
+    margin-top: -4px;
+}
+
+#products .up {
+    text-align: center !important;
+}
+
+#custom-text {
+    width: initial;
+    margin-left: 0px;
+}
+
+.search-widget form input[type=text] {
+	min-width: 225px;
+}
+
+.product-quantity .add {
+    margin-left: .1rem;
+}
+
+.product-quantity .qty {
+    margin-bottom: 2rem;
+}
+
+.tabs {
+    padding: 0.25rem 0.875rem;
+}
+
+.card {
+	margin-top: 1rem;
 }
