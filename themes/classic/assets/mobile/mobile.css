@@ -64,3 +64,24 @@ body#checkout #header .header-nav .logo {
 	width: 70%;
     margin-top: -2%;
 }
+
+#products .product-miniature, .featured-products .product-miniature {
+    margin-bottom: 20px;
+}
+
+#products .thumbnail-container .product-description, .featured-products .thumbnail-container .product-description, .product-accessories .thumbnail-container .product-description {
+    box-shadow: none;
+}
+
+#products .product-title a, .featured-products .product-title a, .product-accessories .product-title a, .product-miniature .product-title a {
+	color: #000;
+}
+
+#products .all-product-link, .featured-products .all-product-link, .product-accessories .all-product-link, .product-miniature .all-product-link {
+    margin-top: 0.7rem;
+    margin-bottom: 0rem;
+    font-size: .9rem;
+    color: #000;
+    float: right !important;
+    margin-right: 1rem;
+}
