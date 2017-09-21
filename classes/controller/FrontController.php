@@ -885,7 +885,7 @@ class FrontControllerCore extends Controller
         }
 
         if ($this->context->getDevice() == 2) {
-            $this->registerStylesheet('theme-tablet', '/assets/tablet/tablet.css', ['media' => 'all', 'priority' => 999]);
+            $this->registerStylesheet('theme-tablet', '/assets/tablet/tablet.css', ['media' => 'all', 'priority' => 1001]);
         }
 
         if ($this->context->language->is_rtl) {

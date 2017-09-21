@@ -292,8 +292,43 @@ body#checkout #header .header-nav #contact-link {
     border-radius: 10px;
 }
 
+.search-widget form {
+    position: relative;
+    border: 1px solid #3e3d3d;
+    border-radius: 4px;
+}
+
+.search-widget form input[type=text] {
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
 @media (max-width: 767px) {
 	body#checkout section.checkout-step.-reachable.-complete h1 .step-edit {
 	    margin-top: .75rem;
 	}
+}
+
+.top-menu .sub-menu a {
+	color: #232323;
+}
+
+.product-miniature {
+-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.product-miniature:hover {
+	box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.55);
+}
+
+.top-menu .sub-menu.collapse {
+    display: none !important;
+}
+
+.category-same {
+	color: #2fb5d2 !important;
 }

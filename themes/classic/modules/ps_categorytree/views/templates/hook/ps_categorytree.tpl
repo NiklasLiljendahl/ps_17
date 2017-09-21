@@ -22,7 +22,6 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-
 {function name="categories" nodes=[] depth=0}
   {strip}
     {if $nodes|count}
@@ -30,7 +29,7 @@
         {foreach from=$nodes item=node}
           <li data-depth="{$depth}">
             {if $depth===0}
-              <a href="{$node.link}">{$node.name}</a>
+              <a href="{$node.link}"{if $urls.current_url == $node.link} class="category-same"{/if}>{$node.name}</a>
               {if $node.children}
                 <div class="navbar-toggler collapse-icons" data-toggle="collapse" data-target="#exCollapsingNavbar{$node.id}">
                   <i class="material-icons add">&#xE145;</i>
@@ -41,7 +40,7 @@
                 </div>
               {/if}
             {else}
-              <a class="category-sub-link" href="{$node.link}">{$node.name}</a>
+              <a class="category-sub-link{if $urls.current_url == $node.link} category-same{/if}" href="{$node.link}">{$node.name}</a>
               {if $node.children}
                 <span class="arrows" data-toggle="collapse" data-target="#exCollapsingNavbar{$node.id}">
                   <i class="material-icons arrow-right">&#xE315;</i>
@@ -61,7 +60,7 @@
 
 <div class="block-categories hidden-sm-down">
   <ul class="category-top-menu">
-    <li><a class="text-uppercase h6" href="{$categories.link nofilter}">{$categories.name}</a></li>
+    <li><a class="text-uppercase h6{if $urls.current_url == $categories.link} category-same{/if}" href="{$categories.link nofilter}">{$categories.name}</a></li>
     <li>{categories nodes=$categories.children}</li>
   </ul>
 </div>
