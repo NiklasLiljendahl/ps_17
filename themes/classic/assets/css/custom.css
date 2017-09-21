@@ -334,3 +334,12 @@ body#checkout #header .header-nav #contact-link {
 .category-same {
 	color: #2fb5d2 !important;
 }
+
+#header .header-nav .blockcart {
+	background: none;
+	color: #FFF;
+}
+
+#header .header-nav .cart-preview .shopping-cart {
+	color: #FFF;
+}

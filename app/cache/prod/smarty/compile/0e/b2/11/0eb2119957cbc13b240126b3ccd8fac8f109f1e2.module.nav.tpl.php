@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-21 11:51:53
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-21 15:49:06
          compiled from "module:ps_contactinfo/nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2201859c38bb94101e2-30027931%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2074759c3c352b45a47-41492645%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '2201859c38bb94101e2-30027931',
+  'nocache_hash' => '2074759c3c352b45a47-41492645',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c38bb9461738_85533154',
+  'unifunc' => 'content_59c3c352b95e69_95769023',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c38bb9461738_85533154')) {function content_59c38bb9461738_85533154($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59c3c352b95e69_95769023')) {function content_59c3c352b95e69_95769023($_smarty_tpl) {?>
 <div id="_desktop_contact_link">
   <div id="contact-link">
     <a href="https://yabs.se" class="yabs-link">
