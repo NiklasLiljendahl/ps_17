@@ -301,6 +301,8 @@ body#checkout #header .header-nav #contact-link {
 .search-widget form input[type=text] {
     border: 1px solid #000;
     border-radius: 4px;
+    background: #101010;
+	color: #FFF;
 }
 
 @media (max-width: 767px) {
