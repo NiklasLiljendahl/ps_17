@@ -211,6 +211,9 @@ class FrontControllerCore extends Controller
             new ConfigurationAdapter(),
             new Filesystem()
         );
+
+
+        // $this->context->getDevice() 2/4
     }
 
     /**
@@ -881,11 +884,11 @@ class FrontControllerCore extends Controller
         $this->registerStylesheet('theme-custom', '/assets/css/custom.css', ['media' => 'all', 'priority' => 1000]);
 
         if ($this->context->getDevice() == 4) {
-            $this->registerStylesheet('theme-mobile', '/assets/mobile/mobile.css', ['media' => 'all', 'priority' => 999]);
+            $this->registerStylesheet('theme-mobile', '/assets/mobile/mobile.css', ['media' => 'all', 'priority' => 1001]);
         }
 
         if ($this->context->getDevice() == 2) {
-            $this->registerStylesheet('theme-tablet', '/assets/tablet/tablet.css', ['media' => 'all', 'priority' => 1001]);
+            $this->registerStylesheet('theme-tablet', '/assets/tablet/tablet.css', ['media' => 'all', 'priority' => 1002]);
         }
 
         if ($this->context->language->is_rtl) {

@@ -117,3 +117,35 @@ body#checkout #header .header-nav .logo {
 .dropdown select {
     border-radius: 3px;
 }
+
+#header .header-top {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px;
+}
+
+#header .header-nav {
+	border-bottom: 0px;
+}
+
+#header .header-nav .blockcart {
+    padding: .79rem;
+    height: initial;
+}
+
+#wrapper {
+	margin-top: 50px;
+}
+
+#mobile_top_menu_wrapper {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0.625rem;
+}
+
+#mobile_top_menu_wrapper .top-menu .sub-menu li>a {
+	font-weight: 400;
+	background: #060606;
+}

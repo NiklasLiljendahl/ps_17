@@ -63,14 +63,24 @@
             <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
           </a>
         </div>
+        {if $getDevice != 4}
         <div class="col-md-10 col-sm-12 position-static">
           <div class="row">
             {hook h='displayTop'}
             <div class="clearfix"></div>
           </div>
         </div>
+        {/if}
       </div>
       <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
+        {if $getDevice == 4}
+        <div class="col-md-10 col-sm-12 position-static">
+          <div class="row">
+            {hook h='displayTop'}
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        {/if}
         <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
         <div class="js-top-menu-bottom">
           <div id="_mobile_currency_selector"></div>
