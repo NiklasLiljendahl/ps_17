@@ -87,6 +87,12 @@
     background: #f9f9f9;
 }
 
+.fixed_scroll {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
 #header .header-nav {
     background: #FFF;
     margin-bottom: 0px;
@@ -95,7 +101,9 @@
 #header .header-top {
 	padding-bottom: .5rem;
     padding-top: .5rem;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #0c0c0c;
+    background: #151515;
+    border-top: 1px solid #1b1a1a;
 }
 
 #header .header-nav .top-logo a img {
@@ -256,7 +264,7 @@ body#checkout #header .header-nav #contact-link {
 
 #header .header-nav {
     background: #151515;
-    border-bottom: 2px solid #1b1b1b;
+	border-bottom: 1px solid #101010;
 }
 
 #header {
@@ -367,6 +375,7 @@ body#checkout #header .header-nav #contact-link {
     border: 1px solid #2b2b2b;
     border-top: 1px solid #151515;
     background: #080808;
+    background: #151515;
 }
 
 #lang_selector_img {
