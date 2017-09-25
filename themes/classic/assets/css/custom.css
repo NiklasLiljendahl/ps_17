@@ -376,3 +376,12 @@ body#checkout #header .header-nav #contact-link {
 #lang_selector_img a {
     color: #ffffff;
 }
+
+body#checkout #header .header-nav {
+    max-height: none;
+    padding: initial;
+}
+
+body#checkout #header .header-nav #contact-link {
+    margin-top: 0.9rem;
+}
