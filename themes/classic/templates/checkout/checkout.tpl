@@ -76,7 +76,7 @@
 
     <footer id="footer">
       {block name='footer'}
-        {include file='checkout/_partials/footer.tpl'}
+        {include file='_partials/footer.tpl'}
       {/block}
     </footer>
 

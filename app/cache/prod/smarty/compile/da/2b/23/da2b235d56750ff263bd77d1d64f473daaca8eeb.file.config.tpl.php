@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-22 14:12:25
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-26 14:12:47
          compiled from "C:\wamp64\www\modules\dashgoals\views\templates\hook\config.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:400159c4fe29468422-24927184%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:420559ca443fb2e1a8-95902990%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '400159c4fe29468422-24927184',
+  'nocache_hash' => '420559ca443fb2e1a8-95902990',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59c4fe295179e1_98578711',
+  'unifunc' => 'content_59ca443fbe0ce5_34390153',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59c4fe295179e1_98578711')) {function content_59c4fe295179e1_98578711($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59ca443fbe0ce5_34390153')) {function content_59ca443fbe0ce5_34390153($_smarty_tpl) {?>
 <section id="dashgoals_config" class="dash_config hide">
 	<header><i class="icon-wrench"></i> <?php echo smartyTranslate(array('s'=>'Configuration','d'=>'Admin.Global'),$_smarty_tpl);?>
 </header>
