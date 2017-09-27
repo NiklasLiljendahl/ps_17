@@ -104,6 +104,7 @@
     border-bottom: 1px solid #0c0c0c;
     background: #151515;
     border-top: 1px solid #1b1a1a;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.33);
 }
 
 #header .header-nav .top-logo a img {
@@ -393,4 +394,28 @@ body#checkout #header .header-nav {
 
 body#checkout #header .header-nav #contact-link {
     margin-top: 0.9rem;
+}
+
+@media (max-width: 767px)
+{
+	.header-top .search-widget form input[type=text] {
+		min-width: inherit;
+		background: #080808;
+	}
+}
+
+@media (min-width: 992px) {
+    #wrapper {
+        margin-top: 112px;
+    }
+}
+
+@media (max-width: 767px) {
+    #wrapper {
+        margin-top: 112px;
+    }
+}
+
+#wrapper {
+    padding-top: 1.7rem;
 }

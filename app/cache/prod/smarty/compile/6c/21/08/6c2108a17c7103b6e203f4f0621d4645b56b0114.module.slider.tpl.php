@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-26 13:51:07
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-27 13:18:15
          compiled from "module:ps_imageslider/views/templates/hook/slider.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2840459ca3f2b4203e7-71410320%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2942459cb88f7da7733-62217654%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6c2108a17c7103b6e203f4f0621d4645b56b0114' => 
     array (
       0 => 'module:ps_imageslider/views/templates/hook/slider.tpl',
-      1 => 1505895070,
+      1 => 1506510930,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '2840459ca3f2b4203e7-71410320',
+  'nocache_hash' => '2942459cb88f7da7733-62217654',
   'function' => 
   array (
   ),
@@ -23,10 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59ca3f2b588ae1_78962532',
+  'unifunc' => 'content_59cb88f7e953e3_96958594',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59ca3f2b588ae1_78962532')) {function content_59ca3f2b588ae1_78962532($_smarty_tpl) {?>
-
+<?php if ($_valid && !is_callable('content_59cb88f7e953e3_96958594')) {function content_59cb88f7e953e3_96958594($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['page']->value['page_name']=="index") {?>
 	<?php if ($_smarty_tpl->tpl_vars['homeslider']->value['slides']) {?>
 	  <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['homeslider']->value['speed'], ENT_QUOTES, 'UTF-8');?>
@@ -44,12 +43,16 @@ $_smarty_tpl->tpl_vars['slide']->_loop = true;
  $_smarty_tpl->tpl_vars['smarty']->value['foreach']['homeslider']['first'] = $_smarty_tpl->tpl_vars['slide']->first;
 ?>
 	        <li class="carousel-item <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['homeslider']['first']) {?>active<?php }?>" role="option" aria-hidden="<?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['homeslider']['first']) {?>false<?php } else { ?>true<?php }?>">
+	          <?php if ($_smarty_tpl->tpl_vars['slide']->value['url']!="http://#") {?>
 	          <a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['slide']->value['url'], ENT_QUOTES, 'UTF-8');?>
 ">
+	          <?php }?>
 	            <figure>
-	              <img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['slide']->value['image_url'], ENT_QUOTES, 'UTF-8');?>
+	              <!--<img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['slide']->value['image_url'], ENT_QUOTES, 'UTF-8');?>
 " alt="<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['slide']->value['legend']), ENT_QUOTES, 'UTF-8');?>
-">
+">-->
+	              <div style="background-image: url(<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['slide']->value['image_url'], ENT_QUOTES, 'UTF-8');?>
+);position: relative;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;background-position: center;padding: 430px 0;margin-bottom: 0px;display: block;"></div>
 	              <?php if ($_smarty_tpl->tpl_vars['slide']->value['title']||$_smarty_tpl->tpl_vars['slide']->value['description']) {?>
 	                <figcaption class="caption">
 	                  <h2 class="display-1 text-uppercase"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['slide']->value['title'], ENT_QUOTES, 'UTF-8');?>
@@ -59,7 +62,9 @@ $_smarty_tpl->tpl_vars['slide']->_loop = true;
 	                </figcaption>
 	              <?php }?>
 	            </figure>
+	          <?php if ($_smarty_tpl->tpl_vars['slide']->value['url']!="http://#") {?>
 	          </a>
+	          <?php }?>
 	        </li>
 	      <?php } ?>
 	    </ul>

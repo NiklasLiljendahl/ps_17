@@ -149,3 +149,10 @@ body#checkout #header .header-nav .logo {
 	font-weight: 400;
 	background: #060606;
 }
+
+.dropdown select {
+    background: #101010;
+    color: #FFF;
+    border: 1px solid #060606;
+    padding: 5px;
+}
