@@ -23,9 +23,9 @@ When uploading to server
 2. Import SQL-dump
 3. Edit parameters.php (dbhost, dbname, dbuser, dbpass)
 4. Change shop domain 
-4a) If you can access /admin-yabs/: 
+<br />4a) If you can access /admin-yabs/: 
 Go to "Butiksparametrar" -> Trafik & SEO (SEO & URLs) -> edit "Butikens domännamn (localhost/IP/domain) and "Standard URL" (if files are located on a subfolder (ex. domain.com/sub-folder) otherwise leave blank.
-4b) If you can't access the /admin-yabs/: 
+<br />4b) If you can't access the /admin-yabs/: 
 Go to database and edit ps_shop_domain
 5) Check if the website works (clear cache)
 6) If it doesn't work and you've done all the earlier steps: Go to the place where you uploaded all the files. Go to app/cache/ and rename /prod/ to /prod_/ or /prod.backup/
