@@ -13,10 +13,10 @@ Edit parameters.php:<br />
     'database_password' => '',<br />
     'database_prefix' => 'ps_',<br />
 
-Back office login:
-URL: localhost/admin_yabs/
-Login:                niklas.liljendahl@yabs.se
-Password (temporary): asd12345 
+Back office login:<br />
+URL: localhost/admin_yabs/<br />
+Login:                niklas.liljendahl@yabs.se<br />
+Password (temporary): asd12345 <br />
 
 When uploading to server
 1. Upload files through FTP
