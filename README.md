@@ -18,7 +18,7 @@ URL: localhost/admin_yabs/<br />
 Login:                niklas.liljendahl@yabs.se<br />
 Password (temporary): asd12345 <br />
 
-When uploading to server
+When uploading to server:
 1. Upload files through FTP
 2. Import SQL-dump
 3. Edit parameters.php (dbhost, dbname, dbuser, dbpass)
