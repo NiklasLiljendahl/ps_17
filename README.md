@@ -6,12 +6,12 @@ New fresh installation of Prestashop 1.7
 Works with WAMP (64 bit)
 
 Edit parameters.php:<br />
-    <br />'database_host' => '127.0.0.1',<br />
-    <br />'database_port' => '',<br />
-    <br />'database_name' => 'presta',<br />
-    <br />'database_user' => 'root',<br />
-    <br />'database_password' => '',<br />
-    <br />'database_prefix' => 'ps_',<br />
+    'database_host' => '127.0.0.1',<br />
+    'database_port' => '',<br />
+    'database_name' => 'presta',<br />
+    'database_user' => 'root',<br />
+    'database_password' => '',<br />
+    'database_prefix' => 'ps_',<br />
 
 Back office login:
 URL: localhost/admin_yabs/
