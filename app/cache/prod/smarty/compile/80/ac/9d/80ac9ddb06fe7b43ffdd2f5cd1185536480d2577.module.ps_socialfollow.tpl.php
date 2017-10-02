@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-27 13:18:16
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-29 00:34:23
          compiled from "module:ps_socialfollow/ps_socialfollow.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1999659cb88f8313d71-92771953%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:110011573359cd78ef3203a6-34837208%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '80ac9ddb06fe7b43ffdd2f5cd1185536480d2577' => 
     array (
       0 => 'module:ps_socialfollow/ps_socialfollow.tpl',
-      1 => 1503921076,
+      1 => 1506607488,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '1999659cb88f8313d71-92771953',
+  'nocache_hash' => '110011573359cd78ef3203a6-34837208',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59cb88f8345b74_21874374',
+  'unifunc' => 'content_59cd78ef325b21_26546432',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59cb88f8345b74_21874374')) {function content_59cb88f8345b74_21874374($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59cd78ef325b21_26546432')) {function content_59cd78ef325b21_26546432($_smarty_tpl) {?>
 
 
   <div class="block-social col-lg-4 col-md-12 col-sm-12">
@@ -34,9 +34,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 foreach ($_from as $_smarty_tpl->tpl_vars['social_link']->key => $_smarty_tpl->tpl_vars['social_link']->value) {
 $_smarty_tpl->tpl_vars['social_link']->_loop = true;
 ?>
-        <li class="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['social_link']->value['class'], ENT_QUOTES, 'UTF-8');?>
-"><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['social_link']->value['url'], ENT_QUOTES, 'UTF-8');?>
-" target="_blank"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['social_link']->value['label'], ENT_QUOTES, 'UTF-8');?>
+        <li class="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['social_link']->value['class'], ENT_QUOTES, 'ISO-8859-1');?>
+"><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['social_link']->value['url'], ENT_QUOTES, 'ISO-8859-1');?>
+" target="_blank"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['social_link']->value['label'], ENT_QUOTES, 'ISO-8859-1');?>
 </a></li>
       <?php } ?>
     </ul>

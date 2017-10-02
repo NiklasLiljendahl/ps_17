@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-27 13:18:15
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-29 00:34:23
          compiled from "module:ps_languageselector/ps_languageselector.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1653559cb88f76ec522-20174907%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:80117073059cd78ef075855-00702874%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1c00f78dace25d509ec3a1f54176b7ae2000accf' => 
     array (
       0 => 'module:ps_languageselector/ps_languageselector.tpl',
-      1 => 1505909083,
+      1 => 1506607488,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '1653559cb88f76ec522-20174907',
+  'nocache_hash' => '80117073059cd78ef075855-00702874',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59cb88f778d367_66786782',
+  'unifunc' => 'content_59cd78ef0fad03_36840179',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59cb88f778d367_66786782')) {function content_59cb88f778d367_66786782($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59cd78ef0fad03_36840179')) {function content_59cd78ef0fad03_36840179($_smarty_tpl) {?>
 
 <div id="_desktop_language_selector">
   <div class="language-selector-wrapper">
@@ -35,10 +35,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <div class="language-selector dropdown js-dropdown">
       <button data-toggle="dropdown" class="hidden-sm-down btn-unstyle" aria-haspopup="true" aria-expanded="false" aria-label="<?php echo smartyTranslate(array('s'=>'Language dropdown','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 ">
-        <img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['base_url'], ENT_QUOTES, 'UTF-8');?>
-/img/l/<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['current_language']->value['id_lang'], ENT_QUOTES, 'UTF-8');?>
+        <img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['base_url'], ENT_QUOTES, 'ISO-8859-1');?>
+/img/l/<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['current_language']->value['id_lang'], ENT_QUOTES, 'ISO-8859-1');?>
 .jpg" class="country_img">
-        <span class="expand-more"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['current_language']->value['name_simple'], ENT_QUOTES, 'UTF-8');?>
+        <span class="expand-more"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['current_language']->value['name_simple'], ENT_QUOTES, 'ISO-8859-1');?>
 </span>
         <i class="material-icons expand-more">&#xE5C5;</i>
       </button>
@@ -49,11 +49,11 @@ foreach ($_from as $_smarty_tpl->tpl_vars['language']->key => $_smarty_tpl->tpl_
 $_smarty_tpl->tpl_vars['language']->_loop = true;
 ?>
           <li <?php if ($_smarty_tpl->tpl_vars['language']->value['id_lang']==$_smarty_tpl->tpl_vars['current_language']->value['id_lang']) {?> class="current" <?php }?> id="lang_selector_img">
-            <img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['base_url'], ENT_QUOTES, 'UTF-8');?>
-/img/l/<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['id_lang'], ENT_QUOTES, 'UTF-8');?>
+            <img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['base_url'], ENT_QUOTES, 'ISO-8859-1');?>
+/img/l/<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['id_lang'], ENT_QUOTES, 'ISO-8859-1');?>
 .jpg" class="country_list_img">
             <a href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->getUrlSmarty(array('entity'=>'language','id'=>$_smarty_tpl->tpl_vars['language']->value['id_lang']),$_smarty_tpl);?>
-" class="dropdown-item dropdown-item-fix"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['name_simple'], ENT_QUOTES, 'UTF-8');?>
+" class="dropdown-item dropdown-item-fix"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['name_simple'], ENT_QUOTES, 'ISO-8859-1');?>
 </a>
           </li>
         <?php } ?>
@@ -65,7 +65,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['language']->key => $_smarty_tpl->tpl_
 $_smarty_tpl->tpl_vars['language']->_loop = true;
 ?>
           <option value="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->getUrlSmarty(array('entity'=>'language','id'=>$_smarty_tpl->tpl_vars['language']->value['id_lang']),$_smarty_tpl);?>
-"<?php if ($_smarty_tpl->tpl_vars['language']->value['id_lang']==$_smarty_tpl->tpl_vars['current_language']->value['id_lang']) {?> selected="selected"<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['name_simple'], ENT_QUOTES, 'UTF-8');?>
+"<?php if ($_smarty_tpl->tpl_vars['language']->value['id_lang']==$_smarty_tpl->tpl_vars['current_language']->value['id_lang']) {?> selected="selected"<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['name_simple'], ENT_QUOTES, 'ISO-8859-1');?>
 </option>
         <?php } ?>
       </select>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-27 13:18:16
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-29 00:34:23
          compiled from "module:ps_customeraccountlinks/ps_customeraccountlinks.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3071459cb88f86af6f9-59068812%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:74340253459cd78ef35c553-92686505%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '42f9461127ce7396a601c2484841253ea5ba658f' => 
     array (
       0 => 'module:ps_customeraccountlinks/ps_customeraccountlinks.tpl',
-      1 => 1503921076,
+      1 => 1506607488,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '3071459cb88f86af6f9-59068812',
+  'nocache_hash' => '74340253459cd78ef35c553-92686505',
   'function' => 
   array (
   ),
@@ -23,13 +23,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59cb88f86f6d38_09449523',
+  'unifunc' => 'content_59cd78ef363e22_98701649',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59cb88f86f6d38_09449523')) {function content_59cb88f86f6d38_09449523($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59cd78ef363e22_98701649')) {function content_59cd78ef363e22_98701649($_smarty_tpl) {?>
 
 <div id="block_myaccount_infos" class="col-md-2 links wrapper">
   <h3 class="myaccount-title hidden-sm-down">
-    <a class="text-uppercase" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['my_account'], ENT_QUOTES, 'UTF-8');?>
+    <a class="text-uppercase" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['my_account'], ENT_QUOTES, 'ISO-8859-1');?>
 " rel="nofollow">
       <?php echo smartyTranslate(array('s'=>'Your account','d'=>'Shop.Theme.Customeraccount'),$_smarty_tpl);?>
 
@@ -52,10 +52,10 @@ foreach ($_from as $_smarty_tpl->tpl_vars['my_account_url']->key => $_smarty_tpl
 $_smarty_tpl->tpl_vars['my_account_url']->_loop = true;
 ?>
         <li>
-          <a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value['url'], ENT_QUOTES, 'UTF-8');?>
-" title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value['title'], ENT_QUOTES, 'UTF-8');?>
+          <a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value['url'], ENT_QUOTES, 'ISO-8859-1');?>
+" title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value['title'], ENT_QUOTES, 'ISO-8859-1');?>
 " rel="nofollow">
-            <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value['title'], ENT_QUOTES, 'UTF-8');?>
+            <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value['title'], ENT_QUOTES, 'ISO-8859-1');?>
 
           </a>
         </li>

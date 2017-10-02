@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-27 13:18:14
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-29 00:39:58
          compiled from "module:ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2877459cb88f6798287-99093206%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:87145081259cd7a3ee97d79-70885375%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fa6cc378d2942c8857b89d6bca728048c0caeedd' => 
     array (
       0 => 'module:ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl',
-      1 => 1503921076,
+      1 => 1506607488,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '2877459cb88f6798287-99093206',
+  'nocache_hash' => '87145081259cd7a3ee97d79-70885375',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59cb88f6803537_19350478',
+  'unifunc' => 'content_59cd7a3eeac229_75935731',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59cb88f6803537_19350478')) {function content_59cb88f6803537_19350478($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59cd7a3eeac229_75935731')) {function content_59cd7a3eeac229_75935731($_smarty_tpl) {?>
 <section class="featured-products clearfix">
   <h1 class="h1 products-section-title text-uppercase">
     <?php echo smartyTranslate(array('s'=>'Popular Products','d'=>'Shop.Theme.Catalog'),$_smarty_tpl);?>
@@ -41,7 +41,7 @@ $_smarty_tpl->tpl_vars["product"]->_loop = true;
 
     <?php } ?>
   </div>
-  <a class="all-product-link float-xs-left float-md-right h4" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['allProductsLink']->value, ENT_QUOTES, 'UTF-8');?>
+  <a class="all-product-link float-xs-left float-md-right h4" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['allProductsLink']->value, ENT_QUOTES, 'ISO-8859-1');?>
 ">
     <?php echo smartyTranslate(array('s'=>'All products','d'=>'Shop.Theme.Catalog'),$_smarty_tpl);?>
 <i class="material-icons">&#xE315;</i>

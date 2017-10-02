@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-27 13:18:15
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-29 00:34:23
          compiled from "module:ps_contactinfo/nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1615059cb88f7630776-53561679%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:63157600359cd78ef04fe48-92511560%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0eb2119957cbc13b240126b3ccd8fac8f109f1e2' => 
     array (
       0 => 'module:ps_contactinfo/nav.tpl',
-      1 => 1505821185,
+      1 => 1506607488,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '1615059cb88f7630776-53561679',
+  'nocache_hash' => '63157600359cd78ef04fe48-92511560',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59cb88f7681e47_97541420',
+  'unifunc' => 'content_59cd78ef06ffb5_26820659',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59cb88f7681e47_97541420')) {function content_59cb88f7681e47_97541420($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59cd78ef06ffb5_26820659')) {function content_59cd78ef06ffb5_26820659($_smarty_tpl) {?>
 <div id="_desktop_contact_link">
   <div id="contact-link">
     <a href="https://yabs.se" class="yabs-link">
@@ -36,7 +36,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <?php echo smartyTranslate(array('s'=>'Call us: [1]%phone%[/1]','sprintf'=>array('[1]'=>'<span>','[/1]'=>'</span>','%phone%'=>$_smarty_tpl->tpl_vars['contact_infos']->value['phone']),'d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 
     <?php } else { ?>
-      <a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['contact'], ENT_QUOTES, 'UTF-8');?>
+      <a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['contact'], ENT_QUOTES, 'ISO-8859-1');?>
 "><?php echo smartyTranslate(array('s'=>'Contact us','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </a>
     <?php }?>

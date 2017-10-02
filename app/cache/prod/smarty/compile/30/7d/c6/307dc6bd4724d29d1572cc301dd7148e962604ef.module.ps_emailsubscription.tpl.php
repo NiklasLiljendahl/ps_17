@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-27 13:18:16
+<?php /* Smarty version Smarty-3.1.19, created on 2017-09-29 00:34:23
          compiled from "module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1115159cb88f821fec2-03847122%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:33307304559cd78ef311f95-83633190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl',
-      1 => 1505824971,
+      1 => 1506607488,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '1115159cb88f821fec2-03847122',
+  'nocache_hash' => '33307304559cd78ef311f95-83633190',
   'function' => 
   array (
   ),
@@ -25,16 +25,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59cb88f827f256_59412469',
+  'unifunc' => 'content_59cd78ef31cf62_72162641',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59cb88f827f256_59412469')) {function content_59cb88f827f256_59412469($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59cd78ef31cf62_72162641')) {function content_59cd78ef31cf62_72162641($_smarty_tpl) {?>
 
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12">
   <div class="row">
     <p id="block-newsletter-label" class="col-md-5 col-xs-12"><?php echo smartyTranslate(array('s'=>'Get our latest news and special sales','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </p>
     <div class="col-md-7 col-xs-12">
-      <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['index'], ENT_QUOTES, 'UTF-8');?>
+      <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['index'], ENT_QUOTES, 'ISO-8859-1');?>
 #footer" method="post">
         <div class="row">
           <div class="col-xs-12">
@@ -56,7 +56,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               <input
                 name="email"
                 type="text"
-                value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>
+                value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'ISO-8859-1');?>
 "
                 placeholder="<?php echo smartyTranslate(array('s'=>'Your email address','d'=>'Shop.Forms.Labels'),$_smarty_tpl);?>
 "
@@ -68,12 +68,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           </div>
           <div class="col-xs-12">
               <!-- <?php if ($_smarty_tpl->tpl_vars['conditions']->value) {?>
-                <p><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['conditions']->value, ENT_QUOTES, 'UTF-8');?>
+                <p><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['conditions']->value, ENT_QUOTES, 'ISO-8859-1');?>
 </p>
               <?php }?> -->
               <?php if ($_smarty_tpl->tpl_vars['msg']->value) {?>
                 <p class="alert <?php if ($_smarty_tpl->tpl_vars['nw_error']->value) {?>alert-danger<?php } else { ?>alert-success<?php }?>">
-                  <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['msg']->value, ENT_QUOTES, 'UTF-8');?>
+                  <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['msg']->value, ENT_QUOTES, 'ISO-8859-1');?>
 
                 </p>
               <?php }?>
