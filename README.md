@@ -22,7 +22,7 @@ When uploading to server
 1. Upload files through FTP
 2. Import SQL-dump
 3. Edit parameters.php (dbhost, dbname, dbuser, dbpass)
-4. Change shop domain 
+4. Change shop domain <br />
 <br />4a) If you can access /admin-yabs/: 
 Go to "Butiksparametrar" -> Trafik & SEO (SEO & URLs) -> edit "Butikens domännamn (localhost/IP/domain) and "Standard URL" (if files are located on a subfolder (ex. domain.com/sub-folder) otherwise leave blank.<br />
 <br />4b) If you can't access the /admin-yabs/: 
